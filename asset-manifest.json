@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ShopOnlineForFreshGrocries/static/css/main.25e15d70.chunk.css",
+    "main.js": "/ShopOnlineForFreshGrocries/static/js/main.982dc4d7.chunk.js",
+    "main.js.map": "/ShopOnlineForFreshGrocries/static/js/main.982dc4d7.chunk.js.map",
+    "runtime-main.js": "/ShopOnlineForFreshGrocries/static/js/runtime-main.3d792e6a.js",
+    "runtime-main.js.map": "/ShopOnlineForFreshGrocries/static/js/runtime-main.3d792e6a.js.map",
+    "static/css/2.5cc265e8.chunk.css": "/ShopOnlineForFreshGrocries/static/css/2.5cc265e8.chunk.css",
+    "static/js/2.14d35fba.chunk.js": "/ShopOnlineForFreshGrocries/static/js/2.14d35fba.chunk.js",
+    "static/js/2.14d35fba.chunk.js.map": "/ShopOnlineForFreshGrocries/static/js/2.14d35fba.chunk.js.map",
+    "index.html": "/ShopOnlineForFreshGrocries/index.html",
+    "precache-manifest.a7990c64e83e7f5cbf0dc501fed84648.js": "/ShopOnlineForFreshGrocries/precache-manifest.a7990c64e83e7f5cbf0dc501fed84648.js",
+    "service-worker.js": "/ShopOnlineForFreshGrocries/service-worker.js",
+    "static/css/2.5cc265e8.chunk.css.map": "/ShopOnlineForFreshGrocries/static/css/2.5cc265e8.chunk.css.map",
+    "static/css/main.25e15d70.chunk.css.map": "/ShopOnlineForFreshGrocries/static/css/main.25e15d70.chunk.css.map",
+    "static/js/2.14d35fba.chunk.js.LICENSE.txt": "/ShopOnlineForFreshGrocries/static/js/2.14d35fba.chunk.js.LICENSE.txt",
+    "static/media/Layer.png": "/ShopOnlineForFreshGrocries/static/media/Layer.e0ed080b.png",
+    "static/media/styles.module.scss": "/ShopOnlineForFreshGrocries/static/media/supermarket-paper-bag-full-healthy-food.4546b271.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d792e6a.js",
+    "static/css/2.5cc265e8.chunk.css",
+    "static/js/2.14d35fba.chunk.js",
+    "static/css/main.25e15d70.chunk.css",
+    "static/js/main.982dc4d7.chunk.js"
+  ]
+}
