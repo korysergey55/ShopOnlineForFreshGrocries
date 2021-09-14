@@ -1,0 +1,54 @@
+.container {
+  display: block;
+  max-width: 1112px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.welcome {
+  padding-top: 238px;
+  color: #9fcb22;
+  font-family: Jost;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 85px;
+}
+.heroTitle {
+  width: 517px;
+  margin-top: 27px;
+  font-family: 'Jost - Semi Bold';
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 75px;
+  text-align: left;
+}
+.titleText {
+  width: 506px;
+  margin-top: 37px;
+  color: #252932;
+  font-family: Barlow;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37px;
+}
+.shopNow {
+  width: 175px;
+  height: 53px;
+  margin-right: 15px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: #9fcb22;
+  border: none;
+}
+.readMore {
+  width: 175px;
+  height: 53px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: #14462e;
+  border: none;
+}

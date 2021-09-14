@@ -1,0 +1,58 @@
+.container {
+  display: block;
+  max-width: 1112px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header {
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.navList {
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+
+  .navItem {
+    margin-right: 49px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 73px;
+
+    .navLink {
+      color: black;
+
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+}
+.sotialList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+
+  .sotialLink {
+    width: 42px;
+    height: 42px;
+    margin-right: 12px;
+    background-color: #ffffff;
+    border-radius: 50%;
+
+    .sotiaIconSvg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
