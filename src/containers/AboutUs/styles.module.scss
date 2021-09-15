@@ -1,0 +1,76 @@
+.aboutUsBackground {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  height: 787px;
+  background-image: url(../../sources/images/aboutUs/bgUboutUs.png);
+  background-repeat: no-repeat;
+  background-color: #f6fafb;
+  overflow: hidden;
+
+  .aboutUsBackgroundRigthSide {
+    position: absolute;
+    left: 85%;
+    top: -9%;
+    width: 499px;
+    height: 643px;
+    background-image: url(../../sources/images/aboutUs/aboutUsRigthSide.png);
+    background-repeat: no-repeat;
+  }
+}
+
+.container {
+  display: block;
+  width: 100%;
+  max-width: 1112px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.aboutUs {
+  width: 610px;
+  height: 647px;
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 139px;
+  padding: 91px 66px 89px 65px;
+  background-color: #ffffff;
+  border-top: 3px solid #9fcb22;
+
+  &_subtitle {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    color: #9fcb22;
+  }
+  &_title {
+    width: 411px;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 51px;
+    color: #252932;
+  }
+  &_text {
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-weight: 300px;
+    line-height: 32px;
+    text-align: left;
+    color: #6c6c6c;
+  }
+  &_button {
+    width: 175px;
+    height: 53px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none;
+    background-color: #9fcb22;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}

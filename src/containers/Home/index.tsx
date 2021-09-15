@@ -4,6 +4,7 @@ import Header from '../Header/index'
 import Hero from '../Hero/index'
 import Products from '../Products/index'
 import TrendingProducts from '../TrendingProducts/index'
+import AboutUs from '../AboutUs/index'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       </div>
       <Products />
       <TrendingProducts/>
+      <AboutUs/>
     </>
   )
 }
