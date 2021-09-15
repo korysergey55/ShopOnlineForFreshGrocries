@@ -1,4 +1,5 @@
 .container {
+  position: relative;
   display: block;
   width: 100%;
   max-width: 1112px;
@@ -21,6 +22,19 @@
   line-height: 75px;
   text-align: center;
   color: #252932;
+}
+.hot {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 5;
+  width: 49px;
+  height: 28px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background-color: #d9485b;
 }
 
 .trendingProducts {
@@ -107,6 +121,10 @@
       margin-right: 7px;
       list-style: none;
       background-color: #9fcb22;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
   &_text {
