@@ -1,0 +1,201 @@
+.container {
+  display: block;
+  width: 100%;
+  max-width: 1112px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.subtitle {
+  margin-bottom: 23px;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: #9fcb22;
+}
+.title {
+  margin-bottom: 49px;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 75px;
+  text-align: center;
+  color: #252932;
+}
+
+.trendingProducts {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 140px;
+  padding-left: 0;
+
+  &_Item {
+    position: relative;
+    width: 350px;
+    height: 481px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    background-color: #f6fafb;
+    list-style: none;
+
+    &:hover {
+      cursor: pointer;
+      border: 1px solid #9fcb22;
+    }
+  }
+  &_like {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 292px;
+    width: 42px;
+    height: 42px;
+    background-color: #ffffff;
+    border-radius: 50%;
+
+    &:hover {
+      background-color: #9fcb22;
+    }
+  }
+  &_Img {
+    position: absolute;
+    top: 15%;
+    left: 16%;
+    width: 251px;
+    height: 150px;
+  }
+  &_Img2 {
+    position: absolute;
+    top: 9%;
+    left: 5%;
+    width: 317px;
+    height: 250px;
+  }
+  &_Img3 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 280px;
+    height: 229px;
+  }
+  &_Img4 {
+    position: absolute;
+    top: 12%;
+    left: 30%;
+  }
+  &_Img5 {
+    position: absolute;
+    top: 7%;
+    left: 30%;
+  }
+  &_Img6 {
+    position: absolute;
+    top: 9%;
+    left: 9%;
+  }
+  &_starsList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-top: 190px;
+    padding-left: 0;
+
+    &_item {
+      width: 15px;
+      height: 15px;
+      margin-right: 7px;
+      list-style: none;
+      background-color: #9fcb22;
+    }
+  }
+  &_text {
+    margin-bottom: 10px;
+    color: #252932;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+  }
+  &_price {
+    color: #b2b3b4;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+  }
+  &_oldPrice {
+    color: #9fcb22;
+    text-decoration: none;
+    text-decoration: line-through;
+  }
+  &_button {
+    width: 120px;
+    height: 40px;
+    margin-left: 115px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #14462e;
+    border: none;
+
+    &:hover {
+      background-color: #9fcb22;
+    }
+  }
+}
+
+.trendingProductsBaner {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 1110px;
+  height: 222px;
+  background-color: #9fcb22;
+  background-image: linear-gradient(-84deg, #9fcb22 0%, #b0e223 100%);
+
+  &_leftSide {
+    margin-left: 74px;
+
+    &_text {
+      margin-bottom: 0;
+      font-size: 60px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #fffc01;
+    }
+    &_span {
+      font-family: Jost;
+      font-size: 60px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    &_button {
+      text-transform: uppercase;
+      font-size: 21px;
+      font-weight: 400;
+      color: #ffffff;
+      background-color: transparent;
+      border: none;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  &_title {
+    width: 381px;
+    margin-left: 50px;
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 57px;
+    color: #ffffff;
+  }
+  &_img {
+    position: absolute;
+    top: 0%;
+    left: 72.6%;
+    width: 305px;
+    height: 221px;
+  }
+}

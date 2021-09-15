@@ -1,13 +1,15 @@
 import * as React from 'react'
 import styles from './styles.module.scss'
+import Logo from '../../sources/images/Logo.png'
+import Sotial from '../../sources/images/sotial/sotial1.svg'
+
 const Header = () => {
   return (
     <>
       <div className={styles.container}>
         <div className={styles.header}>
           <a className={styles.logo} href="">
-            Logo
-            <img src="../../sources/images/Vector_Smart_Object.png"></img>
+            <img className={styles.logoIcon} src={Logo}></img>
             {/* <svg className="logoIconSvg" width="154" height="59">
           <use href="../icons/Vector_Smart_Object.png"></use>
         </svg> */}
@@ -48,7 +50,7 @@ const Header = () => {
             <li className="sotialItem">
               <a className={styles.sotialLink}>
                 <svg className={styles.sotiaIconSvg}>
-                  <use href=""></use>
+                  <use href={Sotial}></use>
                 </svg>
               </a>
             </li>

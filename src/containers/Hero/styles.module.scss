@@ -41,6 +41,10 @@
   text-transform: uppercase;
   background-color: #9fcb22;
   border: none;
+
+  &:hover{
+    cursor: pointer;
+  }
 }
 .readMore {
   width: 175px;
@@ -51,4 +55,8 @@
   text-transform: uppercase;
   background-color: #14462e;
   border: none;
+
+  &:hover{
+    cursor: pointer;
+  }
 }

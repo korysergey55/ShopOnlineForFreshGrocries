@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://korysergey55.github.io/Web.App-Template-typescript",
+  "homepage": "https://korysergey55.github.io/ShopOnlineForFreshGrocries",
   "dependencies": {
     "antd": "^4.16.13",
     "axios": "^0.19.2",
