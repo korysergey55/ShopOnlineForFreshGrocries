@@ -6,6 +6,7 @@ import Products from '../Products/index'
 import TrendingProducts from '../TrendingProducts/index'
 import AboutUs from '../AboutUs/index'
 import Features from '../Features/index'
+import BestSeller from '../BestSeller/index'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <TrendingProducts/>
       <AboutUs/>
       <Features/>
+      <BestSeller/>
     </>
   )
 }

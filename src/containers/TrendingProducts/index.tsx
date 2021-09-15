@@ -14,7 +14,7 @@ const TrendingProducts = () => {
       <div className={styles.container}>
         <h3 className={styles.subtitle}>Most Popular</h3>
         <h2 className={styles.title}>Trending Products</h2>
-               <ul className={styles.trendingProducts}>
+        <ul className={styles.trendingProducts}>
           <li className={styles.trendingProducts_Item}>
           <p className={styles.hot}>Hot</p>
             <a className={styles.trendingProducts_like}>
