@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1a6e04524fd9418ac3a94ad74b25a47",
+    "revision": "eaf12eb4f45162149fc0de446e7bbabb",
     "url": "/ShopOnlineForFreshGrocries/index.html"
   },
   {
-    "revision": "025f0b7e0fe6880c51f4",
+    "revision": "60fe55873dbcf5b0c37e",
     "url": "/ShopOnlineForFreshGrocries/static/css/2.5cc265e8.chunk.css"
   },
   {
-    "revision": "c04d8f5691f8261e6180",
-    "url": "/ShopOnlineForFreshGrocries/static/css/main.70a440c5.chunk.css"
+    "revision": "13b5acd0c2b5d0f644ad",
+    "url": "/ShopOnlineForFreshGrocries/static/css/main.dfb3208e.chunk.css"
   },
   {
-    "revision": "025f0b7e0fe6880c51f4",
-    "url": "/ShopOnlineForFreshGrocries/static/js/2.8073af2e.chunk.js"
+    "revision": "60fe55873dbcf5b0c37e",
+    "url": "/ShopOnlineForFreshGrocries/static/js/2.f35c358a.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/ShopOnlineForFreshGrocries/static/js/2.8073af2e.chunk.js.LICENSE.txt"
+    "url": "/ShopOnlineForFreshGrocries/static/js/2.f35c358a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c04d8f5691f8261e6180",
-    "url": "/ShopOnlineForFreshGrocries/static/js/main.bde09dee.chunk.js"
+    "revision": "13b5acd0c2b5d0f644ad",
+    "url": "/ShopOnlineForFreshGrocries/static/js/main.6ab1c45f.chunk.js"
   },
   {
     "revision": "fc8b0953485731db77dc",
@@ -52,12 +52,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ShopOnlineForFreshGrocries/static/media/bgUboutUs.0799291b.png"
   },
   {
+    "revision": "8e14420786566ee8faaa5b20af116881",
+    "url": "/ShopOnlineForFreshGrocries/static/media/bodyLotion.8e144207.png"
+  },
+  {
+    "revision": "42c54e4927ad06880ddc5ea2b3987975",
+    "url": "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png"
+  },
+  {
     "revision": "9d852398054bd41a8a410cea010a39fa",
     "url": "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png"
   },
   {
     "revision": "866dec9abb51de1b43e892676cbe8d02",
     "url": "/ShopOnlineForFreshGrocries/static/media/bunner.866dec9a.png"
+  },
+  {
+    "revision": "a373113890cb69265e6ad1ae90ae876a",
+    "url": "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png"
   },
   {
     "revision": "a2bd240446f2d9b6f8523fdea24d325a",
@@ -68,12 +80,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png"
   },
   {
+    "revision": "50c7f36c6fe453af759b336ca0348afe",
+    "url": "/ShopOnlineForFreshGrocries/static/media/leftBg.50c7f36c.png"
+  },
+  {
     "revision": "44a157463ec0fd82f69a53b065d3b72d",
     "url": "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
   },
   {
     "revision": "66febc5166d94e5870c66420b93b8473",
     "url": "/ShopOnlineForFreshGrocries/static/media/milk.66febc51.png"
+  },
+  {
+    "revision": "1c5b53a5298e75144cb0ed7adad0c8d1",
+    "url": "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+  },
+  {
+    "revision": "6fe3e690cfd43f0a4d77da3ecca97f8e",
+    "url": "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png"
+  },
+  {
+    "revision": "405aee6d4f3ce1184c5c95f1e41373d9",
+    "url": "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png"
   },
   {
     "revision": "7f0f082a4daeaf7536e8fff4ca447bbf",
