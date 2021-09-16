@@ -4,6 +4,7 @@ import customerLogo from '../../sources/images/customersSaying/customerLogo.png'
 import customerLogo2 from '../../sources/images/customersSaying/customerLogo2.png'
 import customerLogo3 from '../../sources/images/customersSaying/customerLogo3.png'
 import customerLogo4 from '../../sources/images/customersSaying/customerLogo4.png'
+import before from '../../sources/images/customersSaying/before.png'
 
 const CustomersSaying = () => {
   return (
@@ -16,6 +17,7 @@ const CustomersSaying = () => {
           </h2>
           <ul className={styles.customersSaying_list}>
             <li className={styles.customersSaying_list_item}>
+              <img className={styles.customersSaying_list_item_img} src={before} alt=""/> 
               <p className={styles.customersSaying_list_item_text}>
                 ”Quisquam est, qui dolorem ipsum quia dolor sit consectetur
                 adipisci velit sed quia non numqua eius modi tempora incidunt ut
@@ -48,6 +50,7 @@ const CustomersSaying = () => {
             </li>
 
             <li className={styles.customersSaying_list_item}>
+            <img className={styles.customersSaying_list_item_img} src={before} alt=""/> 
               <p className={styles.customersSaying_list_item_text}>
                 ”Exercitationem ullam corporis suscipit laborio nisi ut aliquid
                 ex ea commodi consequatur uis autem vel eum iure reprehenderit

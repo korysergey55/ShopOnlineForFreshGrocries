@@ -84,10 +84,17 @@ const Footer = () => {
             </ul>
           </div>
           <form className={styles.footer_form}>
-            <h2 className={styles.footer_form_title}>Subscribe To Newsletter</h2>
-            <input className={styles.footer_form_input} placeholder='Enter Your Email Address'></input>
-            <button className={styles.footer_form_button} type='submit'>Subscribe Now</button>
-            <img className={styles.footer_form_img} src={formBanner} alt=''/>
+            <h2 className={styles.footer_form_title}>
+              Subscribe To Newsletter
+            </h2>
+            <input
+              className={styles.footer_form_input}
+              placeholder="Enter Your Email Address"
+            ></input>
+            <button className={styles.footer_form_button} type="submit">
+              Subscribe Now
+            </button>
+            <img className={styles.footer_form_img} src={formBanner} alt="" />
           </form>
         </div>
       </footer>
