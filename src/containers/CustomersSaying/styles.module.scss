@@ -1,0 +1,102 @@
+.container {
+  display: block;
+  width: 100%;
+  max-width: 1112px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.customersSaying {
+  padding-bottom: 215px;
+  padding-top: 139px;
+
+  &_subtitle {
+    margin-bottom: 27px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: #9fcb22;
+  }
+  &_title {
+    margin-bottom: 48px;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+    color: #252932;
+  }
+  &_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+    &_item {
+      width: 540px;
+      height: 426px;
+      padding: 43px 58px;
+      border-top: 3px solid #9fcb22;
+      background-color: #f6fafb;
+
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+
+      &_text {
+        font-size: 23px;
+        font-style: italic;
+        text-align: left;
+        color: #6c6c6c;
+      }
+      &_userName {
+        display: inline-block;
+        margin-right: 12px;
+        font-size: 22px;
+        font-weight: 500;
+        color: #14462e;
+      }
+      &_userCompany {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 500;
+        color: #9fcb22;
+      }
+    }
+  }
+  &_starsList {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 0;
+
+    &_item {
+      width: 15px;
+      height: 15px;
+      margin-right: 7px;
+      list-style: none;
+      background-color: #9fcb22;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &_logoList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 139px;
+    padding-left: 332px;
+    list-style: none;
+
+    &_item {
+      display: inline-block;
+      margin-right: 10px;
+
+      &:not(:last-child) {
+        margin-right: 56px;
+      }
+    }
+  }
+}

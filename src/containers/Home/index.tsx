@@ -7,6 +7,7 @@ import TrendingProducts from '../TrendingProducts/index'
 import AboutUs from '../AboutUs/index'
 import Features from '../Features/index'
 import BestSeller from '../BestSeller/index'
+import CustomersSaying from '../CustomersSaying/index'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <AboutUs/>
       <Features/>
       <BestSeller/>
+      <CustomersSaying/>
     </>
   )
 }
