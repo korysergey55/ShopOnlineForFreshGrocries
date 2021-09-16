@@ -9,7 +9,6 @@ import Features from '../Features/index'
 import BestSeller from '../BestSeller/index'
 import CustomersSaying from '../CustomersSaying/index'
 import Footer from '../Footer/index'
-import Form from '../Form/index'
 
 const Main = () => {
   return (
@@ -19,12 +18,12 @@ const Main = () => {
         <Hero />
       </div>
       <Products />
-      <TrendingProducts/>
-      <AboutUs/>
-      <Features/>
-      <BestSeller/>
-      <CustomersSaying/>
-      <Footer/>
+      <TrendingProducts />
+      <AboutUs />
+      <Features />
+      <BestSeller />
+      <CustomersSaying />
+      <Footer />
     </>
   )
 }

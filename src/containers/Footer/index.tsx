@@ -1,5 +1,6 @@
 import * as React from 'react'
 import styles from './styles.module.scss'
+import formBanner from '../../sources/images/footer/Left_Image.png'
 
 const Footer = () => {
   return (
@@ -82,6 +83,12 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          <form className={styles.footer_form}>
+            <h2 className={styles.footer_form_title}>Subscribe To Newsletter</h2>
+            <input className={styles.footer_form_input} placeholder='Enter Your Email Address'></input>
+            <button className={styles.footer_form_button} type='submit'>Subscribe Now</button>
+            <img className={styles.footer_form_img} src={formBanner} alt=''/>
+          </form>
         </div>
       </footer>
     </>
