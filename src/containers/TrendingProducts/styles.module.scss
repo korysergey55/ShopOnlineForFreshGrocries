@@ -72,47 +72,19 @@
     }
   }
   &_Img {
-    position: absolute;
-    top: 15%;
-    left: 16%;
-    width: 251px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    width: 180px;
     height: 150px;
+    background-size: contain;
   }
-  &_Img2 {
-    position: absolute;
-    top: 9%;
-    left: 5%;
-    width: 317px;
-    height: 250px;
-  }
-  &_Img3 {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 280px;
-    height: 229px;
-  }
-  &_Img4 {
-    position: absolute;
-    top: 12%;
-    left: 30%;
-  }
-  &_Img5 {
-    position: absolute;
-    top: 7%;
-    left: 30%;
-  }
-  &_Img6 {
-    position: absolute;
-    top: 9%;
-    left: 9%;
-  }
+
   &_starsList {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
-    padding-top: 190px;
     padding-left: 0;
 
     &_item {
@@ -146,9 +118,11 @@
     text-decoration: line-through;
   }
   &_button {
+    display: block;
     width: 120px;
     height: 40px;
-    margin-left: 115px;
+    margin: 0 auto;
+    margin-bottom: 55px;
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;

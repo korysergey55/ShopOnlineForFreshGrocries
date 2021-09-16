@@ -1,5 +1,16 @@
 import * as React from 'react'
 import styles from './styles.module.scss'
+import bread from '../../sources/images/bestSellers/bread.png'
+import pepper from '../../sources/images/bestSellers/peper.png'
+import orange from '../../sources/images/bestSellers/orange.png'
+import eggs from '../../sources/images/bestSellers/eggs.png'
+import oil from '../../sources/images/bestSellers/oil.png'
+import bodyLotion from '../../sources/images/bestSellers/bodyLotion.png'
+
+
+
+
+
 const BestSeller = () => {
   return (
     <>
@@ -32,7 +43,7 @@ const BestSeller = () => {
           <li className={styles.bestSeller_productsList_item}>
           <p className={styles.hot}>Hot</p>
             <a className={styles.bestSeller_productsList_like}></a>
-            <img className={styles.bestSeller_productsList_img} src=''></img>
+            <img className={styles.bestSeller_productsList_img} src={bread}></img>
             <ul className={styles.bestSeller_productsList_starsList}>
               <li className={styles.bestSeller_productsList_starsList_item}>
                 <a className={styles.bestSeller_productsList_starsList_item_link}></a>
@@ -57,7 +68,7 @@ const BestSeller = () => {
 
           <li className={styles.bestSeller_productsList_item}>
             <a className={styles.bestSeller_productsList_like}></a>
-            <img className={styles.bestSeller_productsList_img2} src=''></img>
+            <img className={styles.bestSeller_productsList_img} src={pepper}></img>
             <ul className={styles.bestSeller_productsList_starsList}>
               <li className={styles.bestSeller_productsList_starsList_item}>
                 <a className={styles.bestSeller_productsList_starsList_item_link}></a>
@@ -83,7 +94,7 @@ const BestSeller = () => {
           <li className={styles.bestSeller_productsList_item}>
           <p className={styles.hot}>Hot</p>
             <a className={styles.bestSeller_productsList_like}></a>
-            <img className={styles.bestSeller_productsList_img3} src=''></img>
+            <img className={styles.bestSeller_productsList_img} src={orange}></img>
             <ul className={styles.bestSeller_productsList_starsList}>
               <li className={styles.bestSeller_productsList_starsList_item}>
                 <a className={styles.bestSeller_productsList_starsList_item_link}></a>
@@ -108,7 +119,7 @@ const BestSeller = () => {
 
           <li className={styles.bestSeller_productsList_item}>
            <a className={styles.bestSeller_productsList_like}></a>
-            <img className={styles.bestSeller_productsList_img4} src=''></img>
+            <img className={styles.bestSeller_productsList_img} src={eggs}></img>
             <ul className={styles.bestSeller_productsList_starsList}>
               <li className={styles.bestSeller_productsList_starsList_item}>
                 <a className={styles.bestSeller_productsList_starsList_item_link}></a>
@@ -134,7 +145,7 @@ const BestSeller = () => {
           <li className={styles.bestSeller_productsList_item}>
           <p className={styles.hot}>Hot</p>
             <a className={styles.bestSeller_productsList_like}></a>
-            <img className={styles.bestSeller_productsList_img5} src=''></img>
+            <img className={styles.bestSeller_productsList_img} src={oil}></img>
             <ul className={styles.bestSeller_productsList_starsList}>
               <li className={styles.bestSeller_productsList_starsList_item}>
                 <a className={styles.bestSeller_productsList_starsList_item_link}></a>
@@ -159,7 +170,7 @@ const BestSeller = () => {
 
           <li className={styles.bestSeller_productsList_item}>
            <a className={styles.bestSeller_productsList_like}></a>
-            <img className={styles.bestSeller_productsList_img6} src=''></img>
+            <img className={styles.bestSeller_productsList_img} src={bodyLotion}></img>
             <ul className={styles.bestSeller_productsList_starsList}>
               <li className={styles.bestSeller_productsList_starsList_item}>
                 <a className={styles.bestSeller_productsList_starsList_item_link}></a>

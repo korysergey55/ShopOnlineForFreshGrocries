@@ -15,6 +15,7 @@ const TrendingProducts = () => {
         <h3 className={styles.subtitle}>Most Popular</h3>
         <h2 className={styles.title}>Trending Products</h2>
         <ul className={styles.trendingProducts}>
+
           <li className={styles.trendingProducts_Item}>
           <p className={styles.hot}>Hot</p>
             <a className={styles.trendingProducts_like}>
@@ -71,7 +72,7 @@ const TrendingProducts = () => {
                 <use href=""></use>
               </svg> */}
             </a>
-            <img className={styles.trendingProducts_Img2} src={brocali}></img>
+            <img className={styles.trendingProducts_Img} src={brocali}></img>
             <ul className={styles.trendingProducts_starsList}>
               <li className={styles.trendingProducts_starsList_item}>
                 {/* <a className={styles.trendingProducts_starsList_item_link}>
@@ -120,7 +121,7 @@ const TrendingProducts = () => {
                 <use href=""></use>
               </svg> */}
             </a>
-            <img className={styles.trendingProducts_Img3} src={strawberries}></img>
+            <img className={styles.trendingProducts_Img} src={strawberries}></img>
             <ul className={styles.trendingProducts_starsList}>
               <li className={styles.trendingProducts_starsList_item}>
                 {/* <a className={styles.trendingProducts_starsList_item_link}>
@@ -169,7 +170,7 @@ const TrendingProducts = () => {
                 <use href=""></use>
               </svg> */}
             </a>
-            <img className={styles.trendingProducts_Img4} src={honey}></img>
+            <img className={styles.trendingProducts_Img} src={honey}></img>
             <ul className={styles.trendingProducts_starsList}>
               <li className={styles.trendingProducts_starsList_item}>
                 {/* <a className={styles.trendingProducts_starsList_item_link}>
@@ -218,7 +219,7 @@ const TrendingProducts = () => {
                 <use href=""></use>
               </svg> */}
             </a>
-            <img className={styles.trendingProducts_Img5} src={milk}></img>
+            <img className={styles.trendingProducts_Img} src={milk}></img>
             <ul className={styles.trendingProducts_starsList}>
               <li className={styles.trendingProducts_starsList_item}>
                 {/* <a className={styles.trendingProducts_starsList_item_link}>
@@ -267,7 +268,7 @@ const TrendingProducts = () => {
                 <use href=""></use>
               </svg> */}
             </a>
-            <img className={styles.trendingProducts_Img6} src={mango}></img>
+            <img className={styles.trendingProducts_Img} src={mango}></img>
             <ul className={styles.trendingProducts_starsList}>
               <li className={styles.trendingProducts_starsList_item}>
                 {/* <a className={styles.trendingProducts_starsList_item_link}>

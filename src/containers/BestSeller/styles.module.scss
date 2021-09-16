@@ -45,6 +45,7 @@
     justify-content: center;
     align-items: center;
     list-style: none;
+    margin-bottom: 61px;
   }
   &_item {
     margin-right: 20px;
@@ -74,8 +75,8 @@
       width: 350px;
       height: 481px;
       margin-right: 10px;
-      margin-bottom: 0;
-      background-color: #f6fafb;
+      margin-bottom: 30px;
+      background-color:  #ffffff;
       list-style: none;
 
       &:hover {
@@ -96,47 +97,18 @@
       }
     }
     &_img {
-      position: absolute;
-      top: 15%;
-      left: 16%;
-      width: 251px;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 24px;
+      width: 180px;
       height: 150px;
-    }
-    &_img2 {
-      position: absolute;
-      top: 9%;
-      left: 5%;
-      width: 317px;
-      height: 250px;
-    }
-    &_img3 {
-      position: absolute;
-      top: 5%;
-      left: 5%;
-      width: 280px;
-      height: 229px;
-    }
-    &_img4 {
-      position: absolute;
-      top: 12%;
-      left: 30%;
-    }
-    &_img5 {
-      position: absolute;
-      top: 7%;
-      left: 30%;
-    }
-    &_img6 {
-      position: absolute;
-      top: 9%;
-      left: 9%;
+      background-size: contain;
     }
     &_starsList {
       display: flex;
       justify-content: center;
       align-items: center;
       margin-bottom: 15px;
-      padding-top: 190px;
       padding-left: 0;
 
       &_item {
@@ -170,9 +142,10 @@
       text-decoration: line-through;
     }
     &_button {
+      display: block;
       width: 120px;
       height: 40px;
-      margin-left: 115px;
+      margin: 0 auto;
       text-align: center;
       text-transform: uppercase;
       color: #ffffff;
@@ -189,7 +162,8 @@
   &_leftBg {
     width: 499px;
     height: 643px;
-    // background-image: url(../../sources/images);
+    background-image: url(../../sources/images/bestSellers/leftBg.png);
     background-repeat: no-repeat;
+    border: 1px solid black;
   }
 }
