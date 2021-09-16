@@ -2,6 +2,8 @@ import * as React from 'react'
 import styles from './styles.module.scss'
 import Logo from '../../sources/images/Logo.png'
 import Sotial from '../../sources/images/sotial/sotial1.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faSearch , faStar, faUser,faShoppingCart} from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
   return (
@@ -10,9 +12,6 @@ const Header = () => {
         <div className={styles.header}>
           <a className={styles.logo} href="">
             <img className={styles.logoIcon} src={Logo}></img>
-            {/* <svg className="logoIconSvg" width="154" height="59">
-          <use href="../icons/Vector_Smart_Object.png"></use>
-        </svg> */}
           </a>
           <ul className={styles.navList}>
             <li className={styles.navItem}>
@@ -27,7 +26,7 @@ const Header = () => {
             </li>
             <li className={styles.navItem}>
               <a className={styles.navLink} href="">
-              Shop 
+                Shop
               </a>
             </li>
             <li className={styles.navItem}>
@@ -49,30 +48,38 @@ const Header = () => {
           <ul className={styles.sotialList}>
             <li className="sotialItem">
               <a className={styles.sotialLink}>
-                <svg className={styles.sotiaIconSvg}>
-                  <use href={Sotial}></use>
-                </svg>
+                <FontAwesomeIcon
+                  icon={faSearch}
+                  color="#9fcb22"
+                  className="sotialItem_icon"
+                />
               </a>
             </li>
             <li className="sotialItem">
               <a className={styles.sotialLink}>
-                <svg className={styles.sotiaIconSvg}>
-                  <use href=""></use>
-                </svg>
+                <FontAwesomeIcon
+                  icon={faUser}
+                  color="#9fcb22"
+                  className="sotialItem_icon"
+                />
               </a>
             </li>
             <li className="sotialItem">
               <a className={styles.sotialLink}>
-                <svg className={styles.sotiaIconSvg}>
-                  <use href=""></use>
-                </svg>
+                <FontAwesomeIcon
+                  icon={faStar}
+                  color="#9fcb22"
+                  className="sotialItem_icon"
+                />
               </a>
             </li>
             <li className="sotialItem">
               <a className={styles.sotialLink}>
-                <svg className={styles.sotiaIconSvg}>
-                  <use href=""></use>
-                </svg>
+                <FontAwesomeIcon
+                  icon={faShoppingCart}
+                  color="#9fcb22"
+                  className="sotialItem_icon"
+                />
               </a>
             </li>
           </ul>
