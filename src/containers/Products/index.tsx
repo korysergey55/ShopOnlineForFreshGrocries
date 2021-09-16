@@ -1,8 +1,8 @@
 import * as React from 'react'
 import styles from './styles.module.scss'
-import LayerImg from '../../sources/images/Layer.png'
-import LayerImg2 from '../../sources/images/Layer2.png'
-import LayerImg3 from '../../sources/images/Layer3.png'
+import LayerImg from '../../sources/images/products/Layer.png'
+import LayerImg2 from '../../sources/images/products/Layer2.png'
+import LayerImg3 from '../../sources/images/products/Layer3.png'
 
 const Products = () => {
   return (

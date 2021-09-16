@@ -9,8 +9,9 @@ import Features from '../Features/index'
 import BestSeller from '../BestSeller/index'
 import CustomersSaying from '../CustomersSaying/index'
 import Footer from '../Footer/index'
+import Form from '../Form/index'
 
-const Home = () => {
+const Main = () => {
   return (
     <>
       <div className={styles.headerHeroContainer}>
@@ -28,4 +29,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Main
