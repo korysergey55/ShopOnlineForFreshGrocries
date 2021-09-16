@@ -1,0 +1,14 @@
+@mixin container($position, $padding-top, $padding-bottom) {
+  position: static;
+  display: block;
+  max-width: 1112px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+// .container {
+//   @include container(absolute);
+// }
