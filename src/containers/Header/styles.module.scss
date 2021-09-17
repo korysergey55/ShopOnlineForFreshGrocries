@@ -55,6 +55,13 @@
     background-color: #ffffff;
     border-radius: 50%;
 
+    &:hover{
+       background-color:  #9fcb22;
+    }
+    &:hover .sotialList_item_link_icon{
+      color: #ffffff;
+    }
+
     &_linkCart::before {
       position: absolute;
       top: -11%;
