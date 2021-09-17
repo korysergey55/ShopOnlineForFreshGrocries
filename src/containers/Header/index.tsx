@@ -73,7 +73,7 @@ const Header = () => {
               </a>
             </li>
             <li className={styles.sotialList_item}>
-              <a className={styles.sotialList_item_link} href="">
+              <a className={styles.sotialList_item_linkCart} href="">
                 <FontAwesomeIcon
                   icon={faShoppingCart}
                   color="#9fcb22"
