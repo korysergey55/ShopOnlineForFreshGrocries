@@ -1,6 +1,10 @@
 import * as React from 'react'
 import styles from './styles.module.scss'
 import formBanner from '../../sources/images/footer/Left_Image.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
+import {faFacebookF, faTwitter, faLinkedin, faPinterest, faInstagram,} from '@fortawesome/free-brands-svg-icons'
+
 
 const Footer = () => {
   return (
@@ -67,19 +71,44 @@ const Footer = () => {
             <p className={styles.footer_copyright_followUs}>Follow Us:</p>
             <ul className={styles.footer_copyright_list}>
               <li className={styles.footer_copyright_item}>
-                <a className={styles.footer_copyright_item_link}></a>
+                <a className={styles.footer_copyright_item_link} href="">
+                  <FontAwesomeIcon
+                    icon={faFacebookF}
+                    className={styles.footer_copyright_item_link_icon}
+                  />
+                </a>
               </li>
               <li className={styles.footer_copyright_item}>
-                <a className={styles.footer_copyright_item_link}></a>
+                <a className={styles.footer_copyright_item_link} href="">
+                  <FontAwesomeIcon
+                    icon={faTwitter}
+                    className={styles.footer_copyright_item_link_icon}
+                  />
+                </a>
               </li>
               <li className={styles.footer_copyright_item}>
-                <a className={styles.footer_copyright_item_link}></a>
+                <a className={styles.footer_copyright_item_link} href="">
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    className={styles.footer_copyright_item_link_icon}
+                  />
+                </a>
               </li>
               <li className={styles.footer_copyright_item}>
-                <a className={styles.footer_copyright_item_link}></a>
+                <a className={styles.footer_copyright_item_link} href="">
+                  <FontAwesomeIcon
+                    icon={faPinterest}
+                    className={styles.footer_copyright_item_link_icon}
+                  />
+                </a>
               </li>
               <li className={styles.footer_copyright_item}>
-                <a className={styles.footer_copyright_item_link}></a>
+                <a className={styles.footer_copyright_item_link} href="">
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className={styles.footer_copyright_item_link_icon}
+                  />
+                </a>
               </li>
             </ul>
           </div>

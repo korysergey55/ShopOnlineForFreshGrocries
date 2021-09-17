@@ -5,6 +5,8 @@ import customerLogo2 from '../../sources/images/customersSaying/customerLogo2.pn
 import customerLogo3 from '../../sources/images/customersSaying/customerLogo3.png'
 import customerLogo4 from '../../sources/images/customersSaying/customerLogo4.png'
 import before from '../../sources/images/customersSaying/before.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 const CustomersSaying = () => {
   return (
@@ -17,7 +19,11 @@ const CustomersSaying = () => {
           </h2>
           <ul className={styles.customersSaying_list}>
             <li className={styles.customersSaying_list_item}>
-              <img className={styles.customersSaying_list_item_img} src={before} alt=""/> 
+              <img
+                className={styles.customersSaying_list_item_img}
+                src={before}
+                alt=""
+              />
               <p className={styles.customersSaying_list_item_text}>
                 ”Quisquam est, qui dolorem ipsum quia dolor sit consectetur
                 adipisci velit sed quia non numqua eius modi tempora incidunt ut
@@ -26,19 +32,54 @@ const CustomersSaying = () => {
               </p>
               <ul className={styles.customersSaying_starsList}>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}></a>
+                  <a className={styles.customersSaying_starsList_item_link}>
+                    <FontAwesomeIcon
+                      icon={faStar}
+                      className={
+                        styles.customersSaying_starsList_item_link_icon
+                      }
+                    />
+                  </a>
                 </li>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}></a>
+                  <a className={styles.customersSaying_starsList_item_link}>
+                    <FontAwesomeIcon
+                      icon={faStar}
+                      className={
+                        styles.customersSaying_starsList_item_link_icon
+                      }
+                    />
+                  </a>
                 </li>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}></a>
+                  <a className={styles.customersSaying_starsList_item_link}>
+                    <FontAwesomeIcon
+                      icon={faStar}
+                      className={
+                        styles.customersSaying_starsList_item_link_icon
+                      }
+                    />
+                  </a>
                 </li>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}></a>
+                  <a className={styles.customersSaying_starsList_item_link}>
+                    <FontAwesomeIcon
+                      icon={faStar}
+                      className={
+                        styles.customersSaying_starsList_item_link_icon
+                      }
+                    />
+                  </a>
                 </li>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}></a>
+                  <a className={styles.customersSaying_starsList_item_link}>
+                    <FontAwesomeIcon
+                      icon={faStar}
+                      className={
+                        styles.customersSaying_starsList_item_link_icon
+                      }
+                    />
+                  </a>
                 </li>
               </ul>
               <p className={styles.customersSaying_list_item_userName}>
@@ -50,7 +91,11 @@ const CustomersSaying = () => {
             </li>
 
             <li className={styles.customersSaying_list_item}>
-            <img className={styles.customersSaying_list_item_img} src={before} alt=""/> 
+              <img
+                className={styles.customersSaying_list_item_img}
+                src={before}
+                alt=""
+              />
               <p className={styles.customersSaying_list_item_text}>
                 ”Exercitationem ullam corporis suscipit laborio nisi ut aliquid
                 ex ea commodi consequatur uis autem vel eum iure reprehenderit
@@ -59,38 +104,93 @@ const CustomersSaying = () => {
               </p>
               <ul className={styles.customersSaying_starsList}>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}></a>
+                  <a className={styles.customersSaying_starsList_item_link}>
+                    <FontAwesomeIcon
+                      icon={faStar}
+                      className={
+                        styles.customersSaying_starsList_item_link_icon
+                      }
+                    />
+                  </a>
                 </li>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}></a>
+                  <a className={styles.customersSaying_starsList_item_link}>
+                    <FontAwesomeIcon
+                      icon={faStar}
+                      className={
+                        styles.customersSaying_starsList_item_link_icon
+                      }
+                    />
+                  </a>
                 </li>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}></a>
+                  <a className={styles.customersSaying_starsList_item_link}>
+                    <FontAwesomeIcon
+                      icon={faStar}
+                      className={
+                        styles.customersSaying_starsList_item_link_icon
+                      }
+                    />
+                  </a>
                 </li>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}></a>
+                  <a className={styles.customersSaying_starsList_item_link}>
+                    <FontAwesomeIcon
+                      icon={faStar}
+                      className={
+                        styles.customersSaying_starsList_item_link_icon
+                      }
+                    />
+                  </a>
                 </li>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}></a>
+                  <a className={styles.customersSaying_starsList_item_link}>
+                    <FontAwesomeIcon
+                      icon={faStar}
+                      className={
+                        styles.customersSaying_starsList_item_link_icon
+                      }
+                    />
+                  </a>
                 </li>
               </ul>
-              <p className={styles.customersSaying_list_item_userName}>Kevin Andrew</p>
-              <p className={styles.customersSaying_list_item_userCompany}>Manager, Rex </p>
+              <p className={styles.customersSaying_list_item_userName}>
+                Kevin Andrew
+              </p>
+              <p className={styles.customersSaying_list_item_userCompany}>
+                Manager, Rex{' '}
+              </p>
             </li>
           </ul>
 
           <ul className={styles.customersSaying_logoList}>
             <li className={styles.customersSaying_logoList_item}>
-              <img className={styles.customersSaying_logoList_item_img} src={customerLogo} alt=''/>
+              <img
+                className={styles.customersSaying_logoList_item_img}
+                src={customerLogo}
+                alt=""
+              />
             </li>
             <li className={styles.customersSaying_logoList_item}>
-              <img className={styles.customersSaying_logoList_item_img} src={customerLogo2} alt=''/>
+              <img
+                className={styles.customersSaying_logoList_item_img}
+                src={customerLogo2}
+                alt=""
+              />
             </li>
             <li className={styles.customersSaying_logoList_item}>
-              <img className={styles.customersSaying_logoList_item_img} src={customerLogo3} alt=''/>
+              <img
+                className={styles.customersSaying_logoList_item_img}
+                src={customerLogo3}
+                alt=""
+              />
             </li>
             <li className={styles.customersSaying_logoList_item}>
-              <img className={styles.customersSaying_logoList_item_img} src={customerLogo4} alt=''/>
+              <img
+                className={styles.customersSaying_logoList_item_img}
+                src={customerLogo4}
+                alt=""
+              />
             </li>
           </ul>
         </div>

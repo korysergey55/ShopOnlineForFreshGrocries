@@ -83,17 +83,29 @@
         border: 1px solid #9fcb22;
       }
     }
-    &_like {
+    &_linkLike {
       display: inline-block;
       margin-top: 23px;
       margin-left: 292px;
       width: 42px;
       height: 42px;
-      background-color: #ffffff;
+      background-color: #f6fafb;
       border-radius: 50%;
 
       &:hover {
         background-color: #9fcb22;
+      }
+      &:hover .bestSeller_productsList_linkLike_icon {
+        color: #ffffff;
+      }
+
+      &_icon {
+        display: block;
+        margin: 0 auto;
+        margin-top: 12px;
+        width: 20px;
+        height: 20px;
+        color: #bdbdbd;
       }
     }
     &_img {
@@ -110,16 +122,22 @@
       align-items: center;
       margin-bottom: 15px;
       padding-left: 0;
-
+     
       &_item {
         width: 15px;
         height: 15px;
         margin-right: 7px;
         list-style: none;
-        background-color: #9fcb22;
-
+        
         &:hover {
           cursor: pointer;
+        }
+        &_link_icon {
+          display: block;
+          margin: 0 auto;
+          width: 15px;
+          height: 14px;
+          color: #fccc42;
         }
       }
     }

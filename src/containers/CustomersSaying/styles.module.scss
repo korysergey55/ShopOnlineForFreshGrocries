@@ -42,7 +42,7 @@
       &:not(:last-child) {
         margin-right: 30px;
       }
-      &_img{
+      &_img {
         display: block;
         margin-bottom: 35px;
       }
@@ -80,10 +80,16 @@
       height: 15px;
       margin-right: 7px;
       list-style: none;
-      background-color: #9fcb22;
-
+     
       &:hover {
         cursor: pointer;
+      }
+      &_link_icon {
+        display: block;
+        margin: 0 auto;
+        width: 16px;
+        height: 16px;
+        color: #fccc42;
       }
     }
   }

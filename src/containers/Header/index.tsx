@@ -1,7 +1,6 @@
 import * as React from 'react'
 import styles from './styles.module.scss'
 import Logo from '../../sources/images/Logo.png'
-import Sotial from '../../sources/images/sotial/sotial1.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faSearch , faStar, faUser,faShoppingCart} from '@fortawesome/free-solid-svg-icons'
 
@@ -46,39 +45,39 @@ const Header = () => {
             </li>
           </ul>
           <ul className={styles.sotialList}>
-            <li className="sotialItem">
-              <a className={styles.sotialLink}>
+            <li className={styles.sotialList_item}>
+              <a className={styles.sotialList_item_link} href="">
                 <FontAwesomeIcon
                   icon={faSearch}
                   color="#9fcb22"
-                  className="sotialItem_icon"
+                  className={styles.sotialList_item_link_icon}
                 />
               </a>
             </li>
-            <li className="sotialItem">
-              <a className={styles.sotialLink}>
+            <li className={styles.sotialList_item}>
+              <a className={styles.sotialList_item_link} href="">
                 <FontAwesomeIcon
                   icon={faUser}
                   color="#9fcb22"
-                  className="sotialItem_icon"
+                  className={styles.sotialList_item_link_icon}
                 />
               </a>
             </li>
-            <li className="sotialItem">
-              <a className={styles.sotialLink}>
+            <li className={styles.sotialList_item}>
+              <a className={styles.sotialList_item_link} href="">
                 <FontAwesomeIcon
                   icon={faStar}
                   color="#9fcb22"
-                  className="sotialItem_icon"
+                  className={styles.sotialList_item_link_icon}
                 />
               </a>
             </li>
-            <li className="sotialItem">
-              <a className={styles.sotialLink}>
+            <li className={styles.sotialList_item}>
+              <a className={styles.sotialList_item_link} href="">
                 <FontAwesomeIcon
                   icon={faShoppingCart}
                   color="#9fcb22"
-                  className="sotialItem_icon"
+                  className={styles.sotialList_item_link_icon}
                 />
               </a>
             </li>

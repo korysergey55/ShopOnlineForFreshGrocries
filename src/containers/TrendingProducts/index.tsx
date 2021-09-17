@@ -7,6 +7,8 @@ import  honey from '../../sources/images/prendingProducts/honey.png'
 import milk from '../../sources/images/prendingProducts/milk.png'
 import mango from '../../sources/images/prendingProducts/mango.png'
 import bunner from '../../sources/images/prendingProducts/bunner.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHeart,faStar} from '@fortawesome/free-solid-svg-icons'
 
 const TrendingProducts = () => {
   return (
@@ -18,46 +20,52 @@ const TrendingProducts = () => {
 
           <li className={styles.trendingProducts_Item}>
           <p className={styles.hot}>Hot</p>
-            <a className={styles.trendingProducts_like}>
-              {/* <svg className={styles.trendingProducts_like_svg}>
-                <use href=""></use>
-              </svg> */}
+            <a className={styles.trendingProducts_linkLike}>
+              <FontAwesomeIcon
+                icon={faHeart}
+                className={styles.trendingProducts_linkLike_icon}
+                />
             </a>
             <img className={styles.trendingProducts_Img} src={beef}></img>
             <ul className={styles.trendingProducts_starsList}>
               <li className={styles.trendingProducts_starsList_item}>
                 <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
                 </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
                 <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
                 </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
                 <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
                 </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
                 <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
                 </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
                 <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
                 </a>
               </li>
             </ul>
@@ -67,47 +75,53 @@ const TrendingProducts = () => {
           </li>
 
           <li className={styles.trendingProducts_Item}>
-            <a className={styles.trendingProducts_like}>
-              {/* <svg className={styles.trendingProducts_like_svg}>
-                <use href=""></use>
-              </svg> */}
+            <a className={styles.trendingProducts_linkLike}>
+              <FontAwesomeIcon
+                  icon={faHeart}
+                  className={styles.trendingProducts_linkLike_icon}
+                />
             </a>
             <img className={styles.trendingProducts_Img} src={brocali}></img>
             <ul className={styles.trendingProducts_starsList}>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+                <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+                <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+                <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+                <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+                <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
             </ul>
             <p className={styles.trendingProducts_text}>Broccoli</p>
@@ -116,47 +130,53 @@ const TrendingProducts = () => {
           </li>
 
           <li className={styles.trendingProducts_Item}>
-            <a className={styles.trendingProducts_like}>
-              {/* <svg className={styles.trendingProducts_like_svg}>
-                <use href=""></use>
-              </svg> */}
+            <a className={styles.trendingProducts_linkLike}>
+              <FontAwesomeIcon
+                  icon={faHeart}
+                  className={styles.trendingProducts_linkLike_icon}
+                />
             </a>
             <img className={styles.trendingProducts_Img} src={strawberries}></img>
             <ul className={styles.trendingProducts_starsList}>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+               <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+                <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+                <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+                <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+                <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
             </ul>
             <p className={styles.trendingProducts_text}>Strawberries</p>
@@ -165,47 +185,53 @@ const TrendingProducts = () => {
           </li>
         
           <li className={styles.trendingProducts_Item}>
-            <a className={styles.trendingProducts_like}>
-              {/* <svg className={styles.trendingProducts_like_svg}>
-                <use href=""></use>
-              </svg> */}
+            <a className={styles.trendingProducts_linkLike}>
+              <FontAwesomeIcon
+                  icon={faHeart}
+                  className={styles.trendingProducts_linkLike_icon}
+                />
             </a>
             <img className={styles.trendingProducts_Img} src={honey}></img>
             <ul className={styles.trendingProducts_starsList}>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+               <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+               <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+               <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+               <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+                <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
             </ul>
             <p className={styles.trendingProducts_text}>Fresh Honey</p>
@@ -214,47 +240,53 @@ const TrendingProducts = () => {
           </li>
         
           <li className={styles.trendingProducts_Item}>
-            <a className={styles.trendingProducts_like}>
-              {/* <svg className={styles.trendingProducts_like_svg}>
-                <use href=""></use>
-              </svg> */}
+            <a className={styles.trendingProducts_linkLike}>
+              <FontAwesomeIcon
+                  icon={faHeart}
+                  className={styles.trendingProducts_linkLike_icon}
+                />
             </a>
             <img className={styles.trendingProducts_Img} src={milk}></img>
             <ul className={styles.trendingProducts_starsList}>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+                <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+                <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+               <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+               <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+               <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
             </ul>
             <p className={styles.trendingProducts_text}>Fresh Milk</p>
@@ -263,47 +295,53 @@ const TrendingProducts = () => {
           </li>
         
           <li className={styles.trendingProducts_Item}>
-            <a className={styles.trendingProducts_like}>
-              {/* <svg className={styles.trendingProducts_like_svg}>
-                <use href=""></use>
-              </svg> */}
+            <a className={styles.trendingProducts_linkLike}>
+              <FontAwesomeIcon
+                  icon={faHeart}
+                  className={styles.trendingProducts_linkLike_icon}
+                />
             </a>
             <img className={styles.trendingProducts_Img} src={mango}></img>
             <ul className={styles.trendingProducts_starsList}>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+                <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+                <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+               <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+                <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
               <li className={styles.trendingProducts_starsList_item}>
-                {/* <a className={styles.trendingProducts_starsList_item_link}>
-                  <svg className={styles.trendingProducts_starsList_item_link_svg}>
-                    <use href=""></use>
-                  </svg>
-                </a> */}
+                <a className={styles.trendingProducts_starsList_item_link}>
+                  <FontAwesomeIcon
+                    icon={faStar}
+                    className={styles.trendingProducts_starsList_item_link_icon}
+                />
+                </a>
               </li>
             </ul>
             <p className={styles.trendingProducts_text}>Mango Beverage</p>
