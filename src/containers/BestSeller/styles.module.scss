@@ -55,6 +55,7 @@
     color: #252932;
     font-size: 23px;
     font-weight: 500;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover {
       cursor: pointer;
@@ -99,6 +100,8 @@
       height: 42px;
       background-color: #f6fafb;
       border-radius: 50%;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: color 450ms cubic-bezier(0.4, 0, 0.2, 1);
 
       &:hover {
         background-color: #9fcb22;
@@ -177,6 +180,8 @@
       color: #ffffff;
       background-color: #14462e;
       border: none;
+       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
       &:hover {
         cursor: pointer;
