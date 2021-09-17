@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ShopOnlineForFreshGrocries/precache-manifest.7dd4126ac4ca197d9bc1d7532902ed72.js"
+  "/ShopOnlineForFreshGrocries/precache-manifest.93ceb1a929c32c7bca87e314b25a2b3f.js"
 );
 
 self.addEventListener('message', (event) => {
