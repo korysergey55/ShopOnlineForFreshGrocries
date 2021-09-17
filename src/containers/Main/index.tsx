@@ -14,6 +14,7 @@ const Main = () => {
   return (
     <>
       <div className={styles.headerHeroContainer}>
+        <div className={styles.headerLeftBg}></div>
         <Header />
         <Hero />
       </div>

@@ -93,7 +93,7 @@
       width: 20px;
       height: 20px;
       margin-right: 12px;
-     
+
       &_link_icon {
         display: block;
         margin: 0 auto;
@@ -158,7 +158,8 @@
       top: -74%;
       left: -17%;
       display: block;
-      width: 542px;
+      width: 100%;
+      max-width: 542px;
       height: 486px;
     }
   }

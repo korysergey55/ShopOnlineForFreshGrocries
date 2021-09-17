@@ -1,6 +1,16 @@
 .headerHeroContainer {
+  position: relative;
   width: 100%;
   max-width: 1920px;
   height: 955px;
   background-image: url(../../sources/images/supermarket-paper-bag-full-healthy-food.jpg);
+}
+.headerLeftBg {
+  position: absolute;
+  left: -20%;
+  top: -8%;
+  width: 100%;
+  max-width: 582px;
+  height: 501px;
+  background-image: url(../../sources/images/leftBg.png);
 }
