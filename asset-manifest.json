@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ShopOnlineForFreshGrocries/static/css/main.dfc4a708.chunk.css",
-    "main.js": "/ShopOnlineForFreshGrocries/static/js/main.3c252814.chunk.js",
-    "main.js.map": "/ShopOnlineForFreshGrocries/static/js/main.3c252814.chunk.js.map",
+    "main.css": "/ShopOnlineForFreshGrocries/static/css/main.ed202c51.chunk.css",
+    "main.js": "/ShopOnlineForFreshGrocries/static/js/main.814c4a03.chunk.js",
+    "main.js.map": "/ShopOnlineForFreshGrocries/static/js/main.814c4a03.chunk.js.map",
     "runtime-main.js": "/ShopOnlineForFreshGrocries/static/js/runtime-main.3d792e6a.js",
     "runtime-main.js.map": "/ShopOnlineForFreshGrocries/static/js/runtime-main.3d792e6a.js.map",
     "static/css/2.5cc265e8.chunk.css": "/ShopOnlineForFreshGrocries/static/css/2.5cc265e8.chunk.css",
     "static/js/2.a42c979e.chunk.js": "/ShopOnlineForFreshGrocries/static/js/2.a42c979e.chunk.js",
     "static/js/2.a42c979e.chunk.js.map": "/ShopOnlineForFreshGrocries/static/js/2.a42c979e.chunk.js.map",
     "index.html": "/ShopOnlineForFreshGrocries/index.html",
-    "precache-manifest.93ceb1a929c32c7bca87e314b25a2b3f.js": "/ShopOnlineForFreshGrocries/precache-manifest.93ceb1a929c32c7bca87e314b25a2b3f.js",
+    "precache-manifest.e5d693bef072fd910c48f98b09804da5.js": "/ShopOnlineForFreshGrocries/precache-manifest.e5d693bef072fd910c48f98b09804da5.js",
     "service-worker.js": "/ShopOnlineForFreshGrocries/service-worker.js",
     "static/css/2.5cc265e8.chunk.css.map": "/ShopOnlineForFreshGrocries/static/css/2.5cc265e8.chunk.css.map",
-    "static/css/main.dfc4a708.chunk.css.map": "/ShopOnlineForFreshGrocries/static/css/main.dfc4a708.chunk.css.map",
+    "static/css/main.ed202c51.chunk.css.map": "/ShopOnlineForFreshGrocries/static/css/main.ed202c51.chunk.css.map",
     "static/js/2.a42c979e.chunk.js.LICENSE.txt": "/ShopOnlineForFreshGrocries/static/js/2.a42c979e.chunk.js.LICENSE.txt",
     "static/media/Layer.png": "/ShopOnlineForFreshGrocries/static/media/Layer.e0ed080b.png",
     "static/media/Layer2.png": "/ShopOnlineForFreshGrocries/static/media/Layer2.e6c4da22.png",
@@ -38,7 +38,7 @@
     "static/js/runtime-main.3d792e6a.js",
     "static/css/2.5cc265e8.chunk.css",
     "static/js/2.a42c979e.chunk.js",
-    "static/css/main.dfc4a708.chunk.css",
-    "static/js/main.3c252814.chunk.js"
+    "static/css/main.ed202c51.chunk.css",
+    "static/js/main.814c4a03.chunk.js"
   ]
 }
