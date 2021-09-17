@@ -16,13 +16,13 @@
 .heroTitle {
   width: 517px;
   margin-top: 27px;
-   font-size: 70px;
+  font-size: 70px;
   font-weight: 600;
   line-height: 75px;
   text-align: left;
 }
 .titleText {
-  width: 506px;
+  width: 508px;
   margin-top: 37px;
   color: #252932;
   font-family: Barlow;
@@ -36,12 +36,12 @@
   margin-right: 15px;
   color: #ffffff;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   background-color: #9fcb22;
   border: none;
 
-  &:hover{
+  &:hover {
     cursor: pointer;
   }
 }
@@ -50,12 +50,12 @@
   height: 53px;
   color: #ffffff;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   background-color: #14462e;
   border: none;
 
-  &:hover{
+  &:hover {
     cursor: pointer;
   }
 }

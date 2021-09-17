@@ -8,7 +8,7 @@ import oil from '../../sources/images/bestSellers/oil.png'
 import bodyLotion from '../../sources/images/bestSellers/bodyLotion.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart, faStar } from '@fortawesome/free-solid-svg-icons'
-
+import { faStar as faStarR } from '@fortawesome/free-regular-svg-icons'
 const BestSeller = () => {
   return (
     <>
@@ -100,7 +100,7 @@ const BestSeller = () => {
                     }
                   >
                     <FontAwesomeIcon
-                      icon={faStar}
+                      icon={faStarR}
                       className={
                         styles.bestSeller_productsList_starsList_item_link_icon
                       }
@@ -114,7 +114,7 @@ const BestSeller = () => {
                     }
                   >
                     <FontAwesomeIcon
-                      icon={faStar}
+                      icon={faStarR}
                       className={
                         styles.bestSeller_productsList_starsList_item_link_icon
                       }
@@ -198,7 +198,7 @@ const BestSeller = () => {
                     }
                   >
                     <FontAwesomeIcon
-                      icon={faStar}
+                      icon={faStarR}
                       className={
                         styles.bestSeller_productsList_starsList_item_link_icon
                       }
@@ -212,7 +212,7 @@ const BestSeller = () => {
                     }
                   >
                     <FontAwesomeIcon
-                      icon={faStar}
+                      icon={faStarR}
                       className={
                         styles.bestSeller_productsList_starsList_item_link_icon
                       }
@@ -297,7 +297,7 @@ const BestSeller = () => {
                     }
                   >
                     <FontAwesomeIcon
-                      icon={faStar}
+                      icon={faStarR}
                       className={
                         styles.bestSeller_productsList_starsList_item_link_icon
                       }
@@ -311,7 +311,7 @@ const BestSeller = () => {
                     }
                   >
                     <FontAwesomeIcon
-                      icon={faStar}
+                      icon={faStarR}
                       className={
                         styles.bestSeller_productsList_starsList_item_link_icon
                       }
@@ -397,7 +397,7 @@ const BestSeller = () => {
                     }
                   >
                     <FontAwesomeIcon
-                      icon={faStar}
+                      icon={faStarR}
                       className={
                         styles.bestSeller_productsList_starsList_item_link_icon
                       }
@@ -411,7 +411,7 @@ const BestSeller = () => {
                     }
                   >
                     <FontAwesomeIcon
-                      icon={faStar}
+                      icon={faStarR}
                       className={
                         styles.bestSeller_productsList_starsList_item_link_icon
                       }
@@ -496,7 +496,7 @@ const BestSeller = () => {
                     }
                   >
                     <FontAwesomeIcon
-                      icon={faStar}
+                      icon={faStarR}
                       className={
                         styles.bestSeller_productsList_starsList_item_link_icon
                       }
@@ -510,7 +510,7 @@ const BestSeller = () => {
                     }
                   >
                     <FontAwesomeIcon
-                      icon={faStar}
+                      icon={faStarR}
                       className={
                         styles.bestSeller_productsList_starsList_item_link_icon
                       }
@@ -594,7 +594,7 @@ const BestSeller = () => {
                     }
                   >
                     <FontAwesomeIcon
-                      icon={faStar}
+                      icon={faStarR}
                       className={
                         styles.bestSeller_productsList_starsList_item_link_icon
                       }
@@ -608,7 +608,7 @@ const BestSeller = () => {
                     }
                   >
                     <FontAwesomeIcon
-                      icon={faStar}
+                      icon={faStarR}
                       className={
                         styles.bestSeller_productsList_starsList_item_link_icon
                       }

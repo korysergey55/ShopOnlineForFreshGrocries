@@ -49,10 +49,17 @@
     position: relative;
     width: 350px;
     height: 481px;
-    margin-right: 10px;
+    margin-right: 16px;
     margin-bottom: 30px;
     background-color: #f6fafb;
     list-style: none;
+
+    &:nth-child(3n + 3) {
+      margin-right: 0;
+    }
+    &:nth-child(n + 4) {
+      margin-bottom: 0;
+    }
 
     &:hover {
       border: 1px solid #9fcb22;
@@ -103,7 +110,7 @@
       height: 15px;
       margin-right: 7px;
       list-style: none;
-     
+
       &:hover {
         cursor: pointer;
       }
@@ -121,19 +128,26 @@
     margin-bottom: 10px;
     color: #252932;
     font-size: 26px;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
   }
   &_price {
-    color: #b2b3b4;
+    display: inline-block;
+    margin-right: 9px;
+    margin-left: 128px;
+    font-family: 'Barlow';
     font-size: 23px;
     font-weight: 400;
     text-align: center;
+    text-decoration: line-through;
+    color: #b2b3b4;
   }
   &_oldPrice {
+    display: inline-block;
+    font-family: 'Barlow';
+    font-size: 23px;
+    font-weight: 500;
     color: #9fcb22;
-    text-decoration: none;
-    text-decoration: line-through;
   }
   &_button {
     display: block;
@@ -141,6 +155,8 @@
     height: 40px;
     margin: 0 auto;
     margin-bottom: 55px;
+    font-family: 'Barlow';
+    font-weight: 500;
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
@@ -184,9 +200,10 @@
       color: #ffffff;
     }
     &_button {
+      font-family: Barlow;
       text-transform: uppercase;
       font-size: 21px;
-      font-weight: 400;
+      font-weight: 500;
       color: #ffffff;
       background-color: transparent;
       border: none;

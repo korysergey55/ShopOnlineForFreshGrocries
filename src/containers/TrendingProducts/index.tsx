@@ -8,7 +8,8 @@ import milk from '../../sources/images/prendingProducts/milk.png'
 import mango from '../../sources/images/prendingProducts/mango.png'
 import bunner from '../../sources/images/prendingProducts/bunner.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHeart,faStar} from '@fortawesome/free-solid-svg-icons'
+import { faHeart, faStar } from '@fortawesome/free-solid-svg-icons'
+import {faStar as faStarR} from '@fortawesome/free-regular-svg-icons'
 
 const TrendingProducts = () => {
   return (
@@ -55,7 +56,7 @@ const TrendingProducts = () => {
               <li className={styles.trendingProducts_starsList_item}>
                 <a className={styles.trendingProducts_starsList_item_link}>
                   <FontAwesomeIcon
-                    icon={faStar}
+                    icon={faStarR}
                     className={styles.trendingProducts_starsList_item_link_icon}
                 />
                 </a>
@@ -63,14 +64,15 @@ const TrendingProducts = () => {
               <li className={styles.trendingProducts_starsList_item}>
                 <a className={styles.trendingProducts_starsList_item_link}>
                   <FontAwesomeIcon
-                    icon={faStar}
+                    icon={faStarR}
                     className={styles.trendingProducts_starsList_item_link_icon}
                 />
                 </a>
               </li>
             </ul>
             <p className={styles.trendingProducts_text}>Beef Steak</p>
-            <p className={styles.trendingProducts_price}>$15 <span className={styles.trendingProducts_oldPrice}>$12</span> </p>
+            <p className={styles.trendingProducts_price}>$15</p>
+            <p className={styles.trendingProducts_oldPrice}>$12</p> 
             <button className={styles.trendingProducts_button} type='button'>Add to cart</button>
           </li>
 
@@ -110,7 +112,7 @@ const TrendingProducts = () => {
               <li className={styles.trendingProducts_starsList_item}>
                 <a className={styles.trendingProducts_starsList_item_link}>
                   <FontAwesomeIcon
-                    icon={faStar}
+                    icon={faStarR}
                     className={styles.trendingProducts_starsList_item_link_icon}
                 />
                 </a>
@@ -118,14 +120,15 @@ const TrendingProducts = () => {
               <li className={styles.trendingProducts_starsList_item}>
                 <a className={styles.trendingProducts_starsList_item_link}>
                   <FontAwesomeIcon
-                    icon={faStar}
+                    icon={faStarR}
                     className={styles.trendingProducts_starsList_item_link_icon}
                 />
                 </a>
               </li>
             </ul>
             <p className={styles.trendingProducts_text}>Broccoli</p>
-            <p className={styles.trendingProducts_price}>$20 <span className={styles.trendingProducts_oldPrice}>$15</span> </p>
+            <p className={styles.trendingProducts_price}>$20</p>
+            <p className={styles.trendingProducts_oldPrice}>$15</p> 
             <button className={styles.trendingProducts_button} type='button'>Add to cart</button>
           </li>
 
@@ -165,7 +168,7 @@ const TrendingProducts = () => {
               <li className={styles.trendingProducts_starsList_item}>
                 <a className={styles.trendingProducts_starsList_item_link}>
                   <FontAwesomeIcon
-                    icon={faStar}
+                    icon={faStarR}
                     className={styles.trendingProducts_starsList_item_link_icon}
                 />
                 </a>
@@ -173,14 +176,15 @@ const TrendingProducts = () => {
               <li className={styles.trendingProducts_starsList_item}>
                 <a className={styles.trendingProducts_starsList_item_link}>
                   <FontAwesomeIcon
-                    icon={faStar}
+                    icon={faStarR}
                     className={styles.trendingProducts_starsList_item_link_icon}
                 />
                 </a>
               </li>
             </ul>
             <p className={styles.trendingProducts_text}>Strawberries</p>
-            <p className={styles.trendingProducts_price}>$30 <span className={styles.trendingProducts_oldPrice}>$20</span> </p>
+             <p className={styles.trendingProducts_price}>$30</p>
+            <p className={styles.trendingProducts_oldPrice}>$20</p> 
             <button className={styles.trendingProducts_button} type='button'>Add to cart</button>
           </li>
         
@@ -220,7 +224,7 @@ const TrendingProducts = () => {
               <li className={styles.trendingProducts_starsList_item}>
                <a className={styles.trendingProducts_starsList_item_link}>
                   <FontAwesomeIcon
-                    icon={faStar}
+                    icon={faStarR}
                     className={styles.trendingProducts_starsList_item_link_icon}
                 />
                 </a>
@@ -228,14 +232,15 @@ const TrendingProducts = () => {
               <li className={styles.trendingProducts_starsList_item}>
                 <a className={styles.trendingProducts_starsList_item_link}>
                   <FontAwesomeIcon
-                    icon={faStar}
+                    icon={faStarR}
                     className={styles.trendingProducts_starsList_item_link_icon}
                 />
                 </a>
               </li>
             </ul>
             <p className={styles.trendingProducts_text}>Fresh Honey</p>
-            <p className={styles.trendingProducts_price}>$50 <span className={styles.trendingProducts_oldPrice}>$40</span> </p>
+             <p className={styles.trendingProducts_price}>$50</p>
+            <p className={styles.trendingProducts_oldPrice}>$40</p> 
             <button className={styles.trendingProducts_button} type='button'>Add to cart</button>
           </li>
         
@@ -275,7 +280,7 @@ const TrendingProducts = () => {
               <li className={styles.trendingProducts_starsList_item}>
                <a className={styles.trendingProducts_starsList_item_link}>
                   <FontAwesomeIcon
-                    icon={faStar}
+                    icon={faStarR}
                     className={styles.trendingProducts_starsList_item_link_icon}
                 />
                 </a>
@@ -283,14 +288,15 @@ const TrendingProducts = () => {
               <li className={styles.trendingProducts_starsList_item}>
                <a className={styles.trendingProducts_starsList_item_link}>
                   <FontAwesomeIcon
-                    icon={faStar}
+                    icon={faStarR}
                     className={styles.trendingProducts_starsList_item_link_icon}
                 />
                 </a>
               </li>
             </ul>
             <p className={styles.trendingProducts_text}>Fresh Milk</p>
-            <p className={styles.trendingProducts_price}>$10 <span className={styles.trendingProducts_oldPrice}>$08</span> </p>
+             <p className={styles.trendingProducts_price}>$10</p>
+            <p className={styles.trendingProducts_oldPrice}>$08</p> 
             <button className={styles.trendingProducts_button} type='button'>Add to cart</button>
           </li>
         
@@ -330,7 +336,7 @@ const TrendingProducts = () => {
               <li className={styles.trendingProducts_starsList_item}>
                 <a className={styles.trendingProducts_starsList_item_link}>
                   <FontAwesomeIcon
-                    icon={faStar}
+                    icon={faStarR}
                     className={styles.trendingProducts_starsList_item_link_icon}
                 />
                 </a>
@@ -338,14 +344,15 @@ const TrendingProducts = () => {
               <li className={styles.trendingProducts_starsList_item}>
                 <a className={styles.trendingProducts_starsList_item_link}>
                   <FontAwesomeIcon
-                    icon={faStar}
+                    icon={faStarR}
                     className={styles.trendingProducts_starsList_item_link_icon}
                 />
                 </a>
               </li>
             </ul>
             <p className={styles.trendingProducts_text}>Mango Beverage</p>
-            <p className={styles.trendingProducts_price}>$22 <span className={styles.trendingProducts_oldPrice}>$18</span> </p>
+             <p className={styles.trendingProducts_price}>$22</p>
+            <p className={styles.trendingProducts_oldPrice}>$18</p> 
             <button className={styles.trendingProducts_button} type='button'>Add to cart</button>
           </li>
         </ul>
