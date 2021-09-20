@@ -1,12 +1,12 @@
 import * as React from 'react'
 import styles from './styles.module.scss'
+import IProduct from 'models/product'
+import ProductComponent from '../ProductComponent/index'
+import trendingProductsJSON from '../../../../sources/products/trendingProducts'
 import BunnerImg from '../../../../sources/images/prendingProducts/bunner.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
-import ProductComponent from '../ProductComponent/index'
-import trendingProducts from '../../../../sources/products/trendingProducts'
-import IProduct from 'models/product'
 
 const TrendingProducts = () => {
   return (
@@ -15,9 +15,9 @@ const TrendingProducts = () => {
         <h3 className={styles.subtitle}>Most Popular</h3>
         <h2 className={styles.title}>Trending Products</h2>
         <ul className={styles.trendingProducts}>
-          {trendingProducts.map((product: IProduct) => {
-            return <ProductComponent product={product} key={product.id} />
-          })}
+          {trendingProductsJSON && trendingProductsJSON.map((product: IProduct) => (
+            <ProductComponent product={product} key={product.id} />
+          ))}
         </ul>
 
         <div className={styles.trendingProductsBaner}>
@@ -51,12 +51,10 @@ const TrendingProducts = () => {
     </>
   )
 }
-
 export default TrendingProducts
 
-
-          {
-            /* <li className={styles.trendingProducts_Item}>
+{
+  /* <li className={styles.trendingProducts_Item}>
             <p className={styles.hot}>Hot</p>
             <a className={styles.trendingProducts_linkLike}>
               <FontAwesomeIcon
@@ -429,4 +427,4 @@ export default TrendingProducts
             </button>
           </li>
         */
-          }
+}

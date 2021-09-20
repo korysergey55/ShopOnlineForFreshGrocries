@@ -9,7 +9,7 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { faStar as StarIconRegular } from '@fortawesome/free-regular-svg-icons'
 
 
-const trendingProducts = [
+const trendingProductsJSON = [
   {
     "id": uuidv4(),
     "hot": "Hot",
@@ -71,4 +71,4 @@ const trendingProducts = [
     "starRegular": StarIconRegular
   }
 ];
-export default trendingProducts;
+export default trendingProductsJSON;
