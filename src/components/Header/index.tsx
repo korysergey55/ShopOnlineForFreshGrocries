@@ -1,55 +1,95 @@
-import React from 'react'
-import { Layout, Button, Avatar } from 'antd'
-import { LayoutOutlined, LoginOutlined, UserOutlined } from '@ant-design/icons'
-import { Link } from 'react-router-dom'
-
-import * as usersActions from 'actions/users'
-
-import { useStore } from 'stores'
-
+import * as React from 'react'
 import styles from './styles.module.scss'
+import LogoImg from '../../sources/images/Logo.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faSearch,
+  faStar,
+  faUser,
+  faShoppingCart,
+} from '@fortawesome/free-solid-svg-icons'
 
-export function Header(): React.ReactElement {
-  const { userStore } = useStore()
-  const { user } = userStore
-
+const Header = () => {
   return (
-    <Layout.Header>
-      <div className={styles.header}>
-        <span>
-          <Link to="/">
-            <LayoutOutlined /> Application template
-          </Link>
-        </span>
-        {user && user.id ? (
-          <div className={styles.user}>
-            <Avatar icon={<UserOutlined />} className={styles.avatar} />
-            <span>{user.name}</span>
-            {user.id === 1 && (
-              <span>
-                &nbsp;
-                <Link to="/admin">
-                  <Button type="dashed" size="small">
-                    Admin panel
-                  </Button>
-                </Link>
-              </span>
-            )}
-            ,&nbsp;
-            <span className={styles.signOut} onClick={usersActions.unsetUser}>
-              sign out
-            </span>
-            .
-          </div>
-        ) : (
-          <Link to="/login">
-            <Button type="primary" icon={<LoginOutlined />}>
-              Sign In
-            </Button>
-          </Link>
-        )}
+    <>
+      <div className={styles.container}>
+        <div className={styles.header}>
+          <a className={styles.logo} href="">
+            <img className={styles.logoIcon} src={LogoImg} alt="Logo"></img>
+          </a>
+          <ul className={styles.navList}>
+            <li className={styles.navItem}>
+              <a className={styles.navLink} href="">
+                Home{' '}
+              </a>
+            </li>
+            <li className={styles.navItem}>
+              <a className={styles.navLink} href="">
+                About
+              </a>
+            </li>
+            <li className={styles.navItem}>
+              <a className={styles.navLink} href="">
+                Shop
+              </a>
+            </li>
+            <li className={styles.navItem}>
+              <a className={styles.navLink} href="">
+                Pages{' '}
+              </a>
+            </li>
+            <li className={styles.navItem}>
+              <a className={styles.navLink} href="">
+                Blog{' '}
+              </a>
+            </li>
+            <li className={styles.navItem}>
+              <a className={styles.navLink} href="">
+                Contact{' '}
+              </a>
+            </li>
+          </ul>
+          <ul className={styles.sotialList}>
+            <li className={styles.sotialList_item}>
+              <a className={styles.sotialList_item_link} href="">
+                <FontAwesomeIcon
+                  icon={faSearch}
+                  color="#9fcb22"
+                  className={styles.sotialList_item_link_icon}
+                />
+              </a>
+            </li>
+            <li className={styles.sotialList_item}>
+              <a className={styles.sotialList_item_link} href="">
+                <FontAwesomeIcon
+                  icon={faUser}
+                  color="#9fcb22"
+                  className={styles.sotialList_item_link_icon}
+                />
+              </a>
+            </li>
+            <li className={styles.sotialList_item}>
+              <a className={styles.sotialList_item_link} href="">
+                <FontAwesomeIcon
+                  icon={faStar}
+                  color="#9fcb22"
+                  className={styles.sotialList_item_link_icon}
+                />
+              </a>
+            </li>
+            <li className={styles.sotialList_item}>
+              <a className={styles.sotialList_item_linkCart} href="">
+                <FontAwesomeIcon
+                  icon={faShoppingCart}
+                  color="#9fcb22"
+                  className={styles.sotialList_item_link_icon}
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </Layout.Header>
+    </>
   )
 }
 
