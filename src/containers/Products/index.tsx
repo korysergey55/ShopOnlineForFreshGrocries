@@ -15,11 +15,11 @@ const Products = () => {
             <h3 className={styles.productsTitle}>
               Get Every Vegetable You Need
             </h3>
-            <a className={styles.shopNow} href="">
+            <a className={styles.productsList_shopNow} href="">
               Shop now{' '}
               <FontAwesomeIcon
                 icon={faArrowRight}
-                className={styles.productsList_icon}
+                className={styles.productsList_shopNow_icon}
               />
             </a>
             <img
@@ -32,11 +32,11 @@ const Products = () => {
             <h3 className={styles.productsTitle}>
               We Have Best Beverages Collection
             </h3>
-            <a className={styles.shopNow} href="">
+            <a className={styles.productsList_shopNow} href="">
               Shop now{' '}
               <FontAwesomeIcon
                 icon={faArrowRight}
-                className={styles.productsList_icon}
+                className={styles.productsList_shopNow_icon}
               />
             </a>
             <img
@@ -47,11 +47,11 @@ const Products = () => {
           </li>
           <li className={styles.productsItem3}>
             <h3 className={styles.productsTitle}>Beauty And Health Products</h3>
-            <a className={styles.shopNow} href="">
+            <a className={styles.productsList_shopNow} href="">
               Shop now {' '}
               <FontAwesomeIcon
                 icon={faArrowRight}
-                className={styles.productsList_icon}
+                className={styles.productsList_shopNow_icon}
               />
             </a>
             <img

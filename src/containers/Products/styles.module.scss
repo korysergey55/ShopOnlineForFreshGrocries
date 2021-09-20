@@ -13,8 +13,26 @@
   align-items: center;
   list-style: none;
 
-  &_icon{
-    color: white;
+  &_shopNow {
+    margin-top: 42px;
+    padding-left: 33px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+      color: #9fcb22;
+    }
+
+    &:hover .productsList_shopNow_icon {
+      color: #9fcb22;
+    }
+    &_icon {
+      color: white;
+      padding-top: 3px;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
 }
 .productsItem1 {
@@ -78,11 +96,4 @@
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
-}
-.shopNow {
-  margin-top: 42px;
-  padding-left: 33px;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 400;
 }
