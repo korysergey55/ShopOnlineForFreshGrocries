@@ -1,19 +1,12 @@
 import * as React from 'react'
 import styles from './styles.module.scss'
-import BeefImg from '../../../../sources/images/prendingProducts/beef.png'
-import BrocaliImg from '../../../../sources/images/prendingProducts/brocali-removebg-preview.png'
-import StrawberriesImg from '../../../../sources/images/prendingProducts/strawberries-removebg-preview.png'
-import HoneyImg from '../../../../sources/images/prendingProducts/honey.png'
-import MilkImg from '../../../../sources/images/prendingProducts/milk.png'
-import MangoImg from '../../../../sources/images/prendingProducts/mango.png'
 import BunnerImg from '../../../../sources/images/prendingProducts/bunner.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faHeart,
-  faStar,
-  faArrowRight,
-} from '@fortawesome/free-solid-svg-icons'
-import { faStar as faStarR } from '@fortawesome/free-regular-svg-icons'
+import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
+
+import ProductComponent from '../ProductComponent/index'
+import trendingProducts from '../../../../sources/products/trendingProducts'
+import IProduct from 'models/product'
 
 const TrendingProducts = () => {
   return (
@@ -22,7 +15,48 @@ const TrendingProducts = () => {
         <h3 className={styles.subtitle}>Most Popular</h3>
         <h2 className={styles.title}>Trending Products</h2>
         <ul className={styles.trendingProducts}>
-          <li className={styles.trendingProducts_Item}>
+          {trendingProducts.map((product: IProduct) => {
+            return <ProductComponent product={product} key={product.id} />
+          })}
+        </ul>
+
+        <div className={styles.trendingProductsBaner}>
+          <div className={styles.trendingProductsBaner_leftSide}>
+            <p className={styles.trendingProductsBaner_leftSide_text}>
+              50%{' '}
+              <span className={styles.trendingProductsBaner_leftSide_span}>
+                OFf
+              </span>{' '}
+            </p>
+            <button className={styles.trendingProductsBaner_leftSide_button}>
+              Shop now {''}
+              <FontAwesomeIcon
+                icon={faArrowRight}
+                className={
+                  styles.trendingProductsBaner_leftSide_button_iconArrow
+                }
+              />
+            </button>
+          </div>
+          <h2 className={styles.trendingProductsBaner_title}>
+            Popular and Trending Products
+          </h2>
+          <img
+            className={styles.trendingProductsBaner_img}
+            src={BunnerImg}
+            alt="Bunner"
+          ></img>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export default TrendingProducts
+
+
+          {
+            /* <li className={styles.trendingProducts_Item}>
             <p className={styles.hot}>Hot</p>
             <a className={styles.trendingProducts_linkLike}>
               <FontAwesomeIcon
@@ -394,38 +428,5 @@ const TrendingProducts = () => {
               Add to cart
             </button>
           </li>
-        </ul>
-
-        <div className={styles.trendingProductsBaner}>
-          <div className={styles.trendingProductsBaner_leftSide}>
-            <p className={styles.trendingProductsBaner_leftSide_text}>
-              50%{' '}
-              <span className={styles.trendingProductsBaner_leftSide_span}>
-                OFf
-              </span>{' '}
-            </p>
-            <button className={styles.trendingProductsBaner_leftSide_button}>
-              Shop now {''}
-              <FontAwesomeIcon
-                icon={faArrowRight}
-                className={
-                  styles.trendingProductsBaner_leftSide_button_iconArrow
-                }
-              />
-            </button>
-          </div>
-          <h2 className={styles.trendingProductsBaner_title}>
-            Popular and Trending Products
-          </h2>
-          <img
-            className={styles.trendingProductsBaner_img}
-            src={BunnerImg}
-            alt="Bunner"
-          ></img>
-        </div>
-      </div>
-    </>
-  )
-}
-
-export default TrendingProducts
+        */
+          }

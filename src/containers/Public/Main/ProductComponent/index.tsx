@@ -1,72 +1,69 @@
-import * as React from 'react';
+import * as React from 'react'
 import styles from './styles.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faHeart, faStar,} from '@fortawesome/free-solid-svg-icons'
-import { faStar as faStarR } from '@fortawesome/free-regular-svg-icons'
-import BeefImg from '../../../../sources/images/prendingProducts/beef.png'
+import { faHeart, faStar } from '@fortawesome/free-solid-svg-icons'
+import { faStar as StarIconRegular } from '@fortawesome/free-regular-svg-icons'
+import IProduct from '../../../../models/product'
 
-const ProductComponent = () => {
+interface IProductProps {
+  product: IProduct
+}
+
+const ProductComponent: React.FC<IProductProps> = ({ product }) => {
   return (
     <>
-      <li className={styles.trendingProducts_Item}>
-        <p className={styles.hot}>Hot</p>
-        <a className={styles.trendingProducts_linkLike}>
-          <FontAwesomeIcon
-            icon={faHeart}
-            className={styles.trendingProducts_linkLike_icon}
-          />
+      <li className={styles.li}>
+        {product.hot ? <p className={styles.hot}>{product.hot}</p> : null}
+        <a className={styles.like}>
+          <FontAwesomeIcon icon={faHeart} className={styles.icon} />
         </a>
-        <img
-          className={styles.trendingProducts_Img}
-          src={BeefImg}
-          alt="Beef"
-        ></img>
-        <ul className={styles.trendingProducts_starsList}>
-          <li className={styles.trendingProducts_starsList_item}>
-            <a className={styles.trendingProducts_starsList_item_link}>
+        <img className={styles.img} src={product.img} alt=""></img>
+        <ul className={styles.starsList}>
+          <li className={styles.item}>
+            <a className={styles.link}>
               <FontAwesomeIcon
-                icon={faStar}
-                className={styles.trendingProducts_starsList_item_link_icon}
+                icon={product.star}
+                className={styles.starIcon}
               />
             </a>
           </li>
-          <li className={styles.trendingProducts_starsList_item}>
-            <a className={styles.trendingProducts_starsList_item_link}>
+          <li className={styles.item}>
+            <a className={styles.link}>
               <FontAwesomeIcon
-                icon={faStar}
-                className={styles.trendingProducts_starsList_item_link_icon}
+                icon={product.star}
+                className={styles.starIcon}
               />
             </a>
           </li>
-          <li className={styles.trendingProducts_starsList_item}>
-            <a className={styles.trendingProducts_starsList_item_link}>
+          <li className={styles.item}>
+            <a className={styles.link}>
               <FontAwesomeIcon
-                icon={faStar}
-                className={styles.trendingProducts_starsList_item_link_icon}
+                icon={product.star}
+                className={styles.starIcon}
               />
             </a>
           </li>
-          <li className={styles.trendingProducts_starsList_item}>
-            <a className={styles.trendingProducts_starsList_item_link}>
+          <li className={styles.item}>
+            <a className={styles.link}>
               <FontAwesomeIcon
-                icon={faStarR}
-                className={styles.trendingProducts_starsList_item_link_icon}
+                icon={product.starRegular}
+                className={styles.starIcon}
               />
             </a>
           </li>
-          <li className={styles.trendingProducts_starsList_item}>
-            <a className={styles.trendingProducts_starsList_item_link}>
+          <li className={styles.item}>
+            <a className={styles.link}>
               <FontAwesomeIcon
-                icon={faStarR}
-                className={styles.trendingProducts_starsList_item_link_icon}
+                icon={product.starRegular}
+                className={styles.starIcon}
               />
             </a>
           </li>
         </ul>
-        <p className={styles.trendingProducts_text}>Beef Steak</p>
-        <p className={styles.trendingProducts_price}>$15</p>
-        <p className={styles.trendingProducts_oldPrice}>$12</p>
-        <button className={styles.trendingProducts_button} type="button">
+        <p className={styles.text}>{product.text}</p>
+        <p className={styles.oldPrice}>${product.oldPrice}</p>
+        <p className={styles.price}>${product.price}</p>
+        <button className={styles.button} type="button">
           Add to cart
         </button>
       </li>
@@ -74,4 +71,4 @@ const ProductComponent = () => {
   )
 }
 
-export default ProductComponent;
+export default ProductComponent
