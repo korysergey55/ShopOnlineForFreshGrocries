@@ -1,8 +1,13 @@
 import * as React from 'react'
 import styles from './styles.module.scss'
-import Logo from '../../sources/images/Logo.png'
+import LogoImg from '../../sources/images/Logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faSearch , faStar, faUser,faShoppingCart} from '@fortawesome/free-solid-svg-icons'
+import {
+  faSearch,
+  faStar,
+  faUser,
+  faShoppingCart,
+} from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
   return (
@@ -10,7 +15,7 @@ const Header = () => {
       <div className={styles.container}>
         <div className={styles.header}>
           <a className={styles.logo} href="">
-            <img className={styles.logoIcon} src={Logo}></img>
+            <img className={styles.logoIcon} src={LogoImg} alt="Logo"></img>
           </a>
           <ul className={styles.navList}>
             <li className={styles.navItem}>

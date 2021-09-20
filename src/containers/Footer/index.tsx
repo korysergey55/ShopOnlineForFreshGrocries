@@ -1,10 +1,15 @@
 import * as React from 'react'
 import styles from './styles.module.scss'
-import formBanner from '../../sources/images/footer/Left_Image.png'
+import FormBannerImg from '../../sources/images/footer/Left_Image.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
-import {faFacebookF, faTwitter, faLinkedin, faPinterest, faInstagram,} from '@fortawesome/free-brands-svg-icons'
-
+import {
+  faFacebookF,
+  faTwitter,
+  faLinkedin,
+  faPinterest,
+  faInstagram,
+} from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
   return (
@@ -123,7 +128,11 @@ const Footer = () => {
             <button className={styles.footer_form_button} type="submit">
               Subscribe Now
             </button>
-            <img className={styles.footer_form_img} src={formBanner} alt="" />
+            <img
+              className={styles.footer_form_img}
+              src={FormBannerImg}
+              alt="FormBanner"
+            />
           </form>
         </div>
       </footer>
