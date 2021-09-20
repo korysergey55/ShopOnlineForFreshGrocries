@@ -17,7 +17,7 @@ const ProductComponent: React.FC<IProductProps> = ({ product }) => {
         <a className={styles.like}>
           <FontAwesomeIcon icon={faHeart} className={styles.icon} />
         </a>
-        <img className={styles.img} src={product.img} alt=""></img>
+        <img className={styles.img} src={product.img} alt={product.text}></img>
         <ul className={styles.starsList}>
           <li className={styles.item}>
             <a className={styles.link}>
