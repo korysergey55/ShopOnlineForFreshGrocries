@@ -7,45 +7,33 @@ import BunnerImg from '../../../../sources/images/prendingProducts/bunner.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
-
 const TrendingProducts = () => {
   return (
     <>
       <div className={styles.container}>
         <h3 className={styles.subtitle}>Most Popular</h3>
         <h2 className={styles.title}>Trending Products</h2>
-        <ul className={styles.trendingProducts}>
-          {trendingProductsJSON && trendingProductsJSON.map((product: IProduct) => (
-            <ProductComponent product={product} key={product.id} />
-          ))}
+        <ul className={styles.list}>
+          {trendingProductsJSON &&
+            trendingProductsJSON.map((product: IProduct) => (
+              <ProductComponent product={product} key={product.id} />
+            ))}
         </ul>
-
-        <div className={styles.trendingProductsBaner}>
-          <div className={styles.trendingProductsBaner_leftSide}>
-            <p className={styles.trendingProductsBaner_leftSide_text}>
-              50%{' '}
-              <span className={styles.trendingProductsBaner_leftSide_span}>
-                OFf
-              </span>{' '}
+        <div className={styles.baner}>
+          <div className={styles.leftSide}>
+            <p className={styles.text}>
+              50% <span className={styles.span}>OFf</span>{' '}
             </p>
-            <button className={styles.trendingProductsBaner_leftSide_button}>
+            <button className={styles.button}>
               Shop now {''}
               <FontAwesomeIcon
                 icon={faArrowRight}
-                className={
-                  styles.trendingProductsBaner_leftSide_button_iconArrow
-                }
+                className={styles.iconArrow}
               />
             </button>
           </div>
-          <h2 className={styles.trendingProductsBaner_title}>
-            Popular and Trending Products
-          </h2>
-          <img
-            className={styles.trendingProductsBaner_img}
-            src={BunnerImg}
-            alt="Bunner"
-          ></img>
+          <h2 className={styles.baner_title}>Popular and Trending Products</h2>
+          <img className={styles.baner_img} src={BunnerImg} alt="Bunner"></img>
         </div>
       </div>
     </>
