@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ShopOnlineForFreshGrocries/static/css/main.eabaf79b.chunk.css",
-    "main.js": "/ShopOnlineForFreshGrocries/static/js/main.8e563802.chunk.js",
-    "main.js.map": "/ShopOnlineForFreshGrocries/static/js/main.8e563802.chunk.js.map",
+    "main.css": "/ShopOnlineForFreshGrocries/static/css/main.a862d755.chunk.css",
+    "main.js": "/ShopOnlineForFreshGrocries/static/js/main.92ecda3f.chunk.js",
+    "main.js.map": "/ShopOnlineForFreshGrocries/static/js/main.92ecda3f.chunk.js.map",
     "runtime-main.js": "/ShopOnlineForFreshGrocries/static/js/runtime-main.3d792e6a.js",
     "runtime-main.js.map": "/ShopOnlineForFreshGrocries/static/js/runtime-main.3d792e6a.js.map",
     "static/css/2.5cc265e8.chunk.css": "/ShopOnlineForFreshGrocries/static/css/2.5cc265e8.chunk.css",
-    "static/js/2.4c7c5773.chunk.js": "/ShopOnlineForFreshGrocries/static/js/2.4c7c5773.chunk.js",
-    "static/js/2.4c7c5773.chunk.js.map": "/ShopOnlineForFreshGrocries/static/js/2.4c7c5773.chunk.js.map",
+    "static/js/2.5fd67c44.chunk.js": "/ShopOnlineForFreshGrocries/static/js/2.5fd67c44.chunk.js",
+    "static/js/2.5fd67c44.chunk.js.map": "/ShopOnlineForFreshGrocries/static/js/2.5fd67c44.chunk.js.map",
     "index.html": "/ShopOnlineForFreshGrocries/index.html",
-    "precache-manifest.feeefc3bdc3e918ea83dd1eae6d8c7be.js": "/ShopOnlineForFreshGrocries/precache-manifest.feeefc3bdc3e918ea83dd1eae6d8c7be.js",
+    "precache-manifest.a127658e56feb6b6367a147e875d71df.js": "/ShopOnlineForFreshGrocries/precache-manifest.a127658e56feb6b6367a147e875d71df.js",
     "service-worker.js": "/ShopOnlineForFreshGrocries/service-worker.js",
     "static/css/2.5cc265e8.chunk.css.map": "/ShopOnlineForFreshGrocries/static/css/2.5cc265e8.chunk.css.map",
-    "static/css/main.eabaf79b.chunk.css.map": "/ShopOnlineForFreshGrocries/static/css/main.eabaf79b.chunk.css.map",
-    "static/js/2.4c7c5773.chunk.js.LICENSE.txt": "/ShopOnlineForFreshGrocries/static/js/2.4c7c5773.chunk.js.LICENSE.txt",
+    "static/css/main.a862d755.chunk.css.map": "/ShopOnlineForFreshGrocries/static/css/main.a862d755.chunk.css.map",
+    "static/js/2.5fd67c44.chunk.js.LICENSE.txt": "/ShopOnlineForFreshGrocries/static/js/2.5fd67c44.chunk.js.LICENSE.txt",
     "static/media/Layer.png": "/ShopOnlineForFreshGrocries/static/media/Layer.e0ed080b.png",
     "static/media/Layer2.png": "/ShopOnlineForFreshGrocries/static/media/Layer2.e6c4da22.png",
     "static/media/Layer3.png": "/ShopOnlineForFreshGrocries/static/media/Layer3.55cf5b6a.png",
@@ -37,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.3d792e6a.js",
     "static/css/2.5cc265e8.chunk.css",
-    "static/js/2.4c7c5773.chunk.js",
-    "static/css/main.eabaf79b.chunk.css",
-    "static/js/main.8e563802.chunk.js"
+    "static/js/2.5fd67c44.chunk.js",
+    "static/css/main.a862d755.chunk.css",
+    "static/js/main.92ecda3f.chunk.js"
   ]
 }

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f434ac89161bad0140599455d5d9e5f1",
+    "revision": "ba111611be7f2bf1995cd21874b1de04",
     "url": "/ShopOnlineForFreshGrocries/index.html"
   },
   {
-    "revision": "b02467b9bc24b9d41911",
+    "revision": "13d4e041a6e2cc5f08a6",
     "url": "/ShopOnlineForFreshGrocries/static/css/2.5cc265e8.chunk.css"
   },
   {
-    "revision": "2609dd951c9f3ecd36ca",
-    "url": "/ShopOnlineForFreshGrocries/static/css/main.eabaf79b.chunk.css"
+    "revision": "12200049b8bcd69728ca",
+    "url": "/ShopOnlineForFreshGrocries/static/css/main.a862d755.chunk.css"
   },
   {
-    "revision": "b02467b9bc24b9d41911",
-    "url": "/ShopOnlineForFreshGrocries/static/js/2.4c7c5773.chunk.js"
+    "revision": "13d4e041a6e2cc5f08a6",
+    "url": "/ShopOnlineForFreshGrocries/static/js/2.5fd67c44.chunk.js"
   },
   {
     "revision": "0e1ca8a1c8beb8b68eeabf1680b82d4b",
-    "url": "/ShopOnlineForFreshGrocries/static/js/2.4c7c5773.chunk.js.LICENSE.txt"
+    "url": "/ShopOnlineForFreshGrocries/static/js/2.5fd67c44.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2609dd951c9f3ecd36ca",
-    "url": "/ShopOnlineForFreshGrocries/static/js/main.8e563802.chunk.js"
+    "revision": "12200049b8bcd69728ca",
+    "url": "/ShopOnlineForFreshGrocries/static/js/main.92ecda3f.chunk.js"
   },
   {
     "revision": "fc8b0953485731db77dc",
