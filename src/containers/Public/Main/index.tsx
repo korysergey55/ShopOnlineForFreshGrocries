@@ -9,6 +9,7 @@ import Features from './Features/index'
 import BestSeller from './BestSeller/index'
 import CustomersSaying from './CustomersSaying/index'
 import Footer from '../../../components/Footer/index'
+import ProductComponent from '../../Public/Main/ProductComponent/index'
 
 const Main = () => {
   return (
@@ -25,6 +26,7 @@ const Main = () => {
       <BestSeller />
       <CustomersSaying />
       <Footer />
+      <ProductComponent/>
     </>
   )
 }

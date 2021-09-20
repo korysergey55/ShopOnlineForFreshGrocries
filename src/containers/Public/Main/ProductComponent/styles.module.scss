@@ -1,0 +1,135 @@
+.trendingProducts {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 140px;
+  padding-left: 0;
+
+  &_Item {
+    position: relative;
+    width: 350px;
+    height: 481px;
+    margin-right: 16px;
+    margin-bottom: 30px;
+    background-color: #f6fafb;
+    list-style: none;
+
+    &:nth-child(3n + 3) {
+      margin-right: 0;
+    }
+    &:nth-child(n + 4) {
+      margin-bottom: 0;
+    }
+
+    &:hover {
+      border: 1px solid #9fcb22;
+    }
+  }
+  &_linkLike {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 292px;
+    width: 42px;
+    height: 42px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transition: background-color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+      background-color: #9fcb22;
+    }
+    &:hover .trendingProducts_linkLike_icon {
+      color: #ffffff;
+    }
+    &_icon {
+      display: block;
+      margin: 0 auto;
+      margin-top: 12px;
+      width: 20px;
+      height: 20px;
+      color: #bdbdbd;
+    }
+  }
+  &_Img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    width: 180px;
+    height: 150px;
+    background-size: contain;
+  }
+
+  &_starsList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-left: 0;
+
+    &_item {
+      width: 15px;
+      height: 15px;
+      margin-right: 7px;
+      list-style: none;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &_link_icon {
+        display: block;
+        margin: 0 auto;
+        width: 20px;
+        height: 20px;
+        color: #fccc42;
+      }
+    }
+  }
+  &_text {
+    margin-bottom: 10px;
+    color: #252932;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+  }
+  &_price {
+    display: inline-block;
+    margin-right: 9px;
+    margin-left: 128px;
+    font-family: 'Barlow';
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: line-through;
+    color: #b2b3b4;
+  }
+  &_oldPrice {
+    display: inline-block;
+    font-family: 'Barlow';
+    font-size: 23px;
+    font-weight: 500;
+    color: #9fcb22;
+  }
+  &_button {
+    display: block;
+    width: 120px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+    font-family: 'Barlow';
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #14462e;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+      cursor: pointer;
+      background-color: #9fcb22;
+    }
+  }
+}
