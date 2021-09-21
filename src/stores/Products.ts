@@ -8,11 +8,11 @@ import {
   runInAction,
   toJS,
 } from 'mobx'
+import IProduct from '../models/product'
 
 class Products {
   @observable trendingProducts: any = []
   @observable bestProducts: any = []
-  @observable productWithId: any = []
 
   constructor() {
     makeAutoObservable(this)
@@ -26,9 +26,6 @@ class Products {
   }
   @action setBestProduct(product: any) {
     this.bestProducts = product
-  }
-  @action setproductWithId(product: any) {
-    this.productWithId = product
   }
 }
 export default new Products()
