@@ -32,8 +32,8 @@ const TrendingProducts = () => {
               />
             </button>
           </div>
-          <h2 className={styles.baner_title}>Popular and Trending Products</h2>
-          <img className={styles.baner_img} src={BunnerImg} alt="Bunner"></img>
+          <h2 className={styles.title}>Popular and Trending Products</h2>
+          <img className={styles.img} src={BunnerImg} alt="Bunner"></img>
         </div>
       </div>
     </>

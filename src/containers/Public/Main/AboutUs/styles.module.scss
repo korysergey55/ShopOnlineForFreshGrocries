@@ -38,20 +38,20 @@
   background-color: #ffffff;
   border-top: 3px solid #9fcb22;
 
-  &_subtitle {
+  .subtitle {
     font-size: 22px;
     font-weight: 500;
     text-align: left;
     color: #9fcb22;
   }
-  &_title {
+  .title {
     width: 411px;
     font-size: 45px;
     font-weight: 500;
     line-height: 51px;
     color: #252932;
   }
-  &_text {
+  .text {
     margin-bottom: 35px;
     font-family: Barlow;
     font-size: 20px;
@@ -60,7 +60,7 @@
     text-align: left;
     color: #6c6c6c;
   }
-  &_button {
+  .button {
     width: 175px;
     height: 53px;
     color: #ffffff;

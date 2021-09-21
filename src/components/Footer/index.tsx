@@ -16,123 +16,102 @@ const Footer = () => {
     <>
       <footer className={styles.footer}>
         <div className={styles.container}>
-          <ul className={styles.footer_list}>
-            <li className={styles.footer_list_item}>
-              <h4 className={styles.footer_list_item_title}>Store Location</h4>
-              <p className={styles.footer_list_item_subtitle}>Address:</p>
-              <p className={styles.footer_list_item_text}>
+          <ul className={styles.list}>
+            <li className={styles.item}>
+              <h4 className={styles.title}>Store Location</h4>
+              <p className={styles.subtitle}>Address:</p>
+              <a className={styles.text}
+                href="https://www.google.com/maps/place/121+King+St,+Melbourne+VIC+3000,
+                +%D0%90%D0%B2%D1%81%D1%82%D1%80%D0%B0%D0%BB%D0%B8%D1%8F/@-37.8172467,
+                144.9535863,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad65d4dd5a05d97:0x3e64f855a564844d!8m2!3d
+                -37.817251!4d144.955775?hl=ru"
+                target="_blank"
+              >
                 121 King Street Melbourne,3000, Australia
-              </p>
-              <p className={styles.footer_list_item_subtitle}>Email:</p>
-              <p className={styles.footer_list_item_text}>
+              </a>
+              <p className={styles.subtitle}>Email:</p>
+              <a className={styles.text} href="mailto:info@groxistore.com">
                 info@groxistore.com
-              </p>
-              <p className={styles.footer_list_item_subtitle}>Phone:</p>
-              <p className={styles.footer_list_item_text}>+123456789</p>
+              </a>
+              <p className={styles.subtitle}>Phone:</p>
+              <a className={styles.text} href="tel:+380633926523">
+                +380633926523
+              </a>
             </li>
 
-            <li className={styles.footer_list_item}>
-              <h4 className={styles.footer_list_item_title}>Useful Links</h4>
-              <p className={styles.footer_list_item_text}>About us</p>
-              <p className={styles.footer_list_item_text}>Blog</p>
-              <p className={styles.footer_list_item_text}>Check out</p>
-              <p className={styles.footer_list_item_text}>Contact</p>
-              <p className={styles.footer_list_item_text}>Service</p>
-              <p className={styles.footer_list_item_text}>Shop</p>
+            <li className={styles.item}>
+              <h4 className={styles.title}>Useful Links</h4>
+              <p className={styles.text}>About us</p>
+              <p className={styles.text}>Blog</p>
+              <p className={styles.text}>Check out</p>
+              <p className={styles.text}>Contact</p>
+              <p className={styles.text}>Service</p>
+              <p className={styles.text}>Shop</p>
             </li>
 
-            <li className={styles.footer_list_item}>
-              <h4 className={styles.footer_list_item_title}>Categories</h4>
-              <p className={styles.footer_list_item_text}>
-                Fruits & Vegetables
-              </p>
-              <p className={styles.footer_list_item_text}>Dairy Products</p>
-              <p className={styles.footer_list_item_text}>Package Foods</p>
-              <p className={styles.footer_list_item_text}>Beverage</p>
-              <p className={styles.footer_list_item_text}>Health & Wellness</p>
-              <p className={styles.footer_list_item_text}>Meat Varieties</p>
+            <li className={styles.item}>
+              <h4 className={styles.title}>Categories</h4>
+              <p className={styles.text}>Fruits & Vegetables</p>
+              <p className={styles.text}>Dairy Products</p>
+              <p className={styles.text}>Package Foods</p>
+              <p className={styles.text}>Beverage</p>
+              <p className={styles.text}>Health & Wellness</p>
+              <p className={styles.text}>Meat Varieties</p>
             </li>
 
-            <li className={styles.footer_list_item}>
-              <h4 className={styles.footer_list_item_title}>Opening Hours</h4>
-              <p className={styles.footer_list_item_subtitle}>
-                Monday – Saturday
-              </p>
-              <p className={styles.footer_list_item_text}>12.00 – 14.45</p>
-              <p className={styles.footer_list_item_subtitle}>
-                Sunday – Thursday
-              </p>
-              <p className={styles.footer_list_item_text}>17.30 – 00.00</p>
-              <p className={styles.footer_list_item_subtitle}>
-                Friday – Saturday
-              </p>
-              <p className={styles.footer_list_item_text}>17.30 – 00.00</p>
+            <li className={styles.item}>
+              <h4 className={styles.title}>Opening Hours</h4>
+              <p className={styles.subtitle}>Monday – Saturday</p>
+              <p className={styles.text}>12.00 – 14.45</p>
+              <p className={styles.subtitle}>Sunday – Thursday</p>
+              <p className={styles.text}>17.30 – 00.00</p>
+              <p className={styles.subtitle}>Friday – Saturday</p>
+              <p className={styles.text}>17.30 – 00.00</p>
             </li>
           </ul>
-          <div className={styles.footer_copyright}>
-            <p className={styles.footer_copyright_text}>
+          <div className={styles.copyright}>
+            <p className={styles.text}>
               Copyright 2020, Groxi Store. All Rights Reserved.
             </p>
-            <p className={styles.footer_copyright_followUs}>Follow Us:</p>
-            <ul className={styles.footer_copyright_list}>
-              <li className={styles.footer_copyright_item}>
-                <a className={styles.footer_copyright_item_link} href="">
-                  <FontAwesomeIcon
-                    icon={faFacebookF}
-                    className={styles.footer_copyright_item_link_icon}
-                  />
+            <p className={styles.followUs}>Follow Us:</p>
+            <ul className={styles.list}>
+              <li className={styles.item}>
+                <a className={styles.link} href="">
+                  <FontAwesomeIcon icon={faFacebookF} className={styles.icon} />
                 </a>
               </li>
-              <li className={styles.footer_copyright_item}>
-                <a className={styles.footer_copyright_item_link} href="">
-                  <FontAwesomeIcon
-                    icon={faTwitter}
-                    className={styles.footer_copyright_item_link_icon}
-                  />
+              <li className={styles.item}>
+                <a className={styles.link} href="">
+                  <FontAwesomeIcon icon={faTwitter} className={styles.icon} />
                 </a>
               </li>
-              <li className={styles.footer_copyright_item}>
-                <a className={styles.footer_copyright_item_link} href="">
-                  <FontAwesomeIcon
-                    icon={faLinkedin}
-                    className={styles.footer_copyright_item_link_icon}
-                  />
+              <li className={styles.item}>
+                <a className={styles.link} href="">
+                  <FontAwesomeIcon icon={faLinkedin} className={styles.icon} />
                 </a>
               </li>
-              <li className={styles.footer_copyright_item}>
-                <a className={styles.footer_copyright_item_link} href="">
-                  <FontAwesomeIcon
-                    icon={faPinterest}
-                    className={styles.footer_copyright_item_link_icon}
-                  />
+              <li className={styles.item}>
+                <a className={styles.link} href="">
+                  <FontAwesomeIcon icon={faPinterest} className={styles.icon} />
                 </a>
               </li>
-              <li className={styles.footer_copyright_item}>
-                <a className={styles.footer_copyright_item_link} href="">
-                  <FontAwesomeIcon
-                    icon={faInstagram}
-                    className={styles.footer_copyright_item_link_icon}
-                  />
+              <li className={styles.item}>
+                <a className={styles.link} href="">
+                  <FontAwesomeIcon icon={faInstagram} className={styles.icon} />
                 </a>
               </li>
             </ul>
           </div>
-          <form className={styles.footer_form}>
-            <h2 className={styles.footer_form_title}>
-              Subscribe To Newsletter
-            </h2>
+          <form className={styles.form}>
+            <h2 className={styles.title}>Subscribe To Newsletter</h2>
             <input
-              className={styles.footer_form_input}
+              className={styles.input}
               placeholder="Enter Your Email Address"
             ></input>
-            <button className={styles.footer_form_button} type="submit">
+            <button className={styles.button} type="submit">
               Subscribe Now
             </button>
-            <img
-              className={styles.footer_form_img}
-              src={FormBannerImg}
-              alt="FormBanner"
-            />
+            <img className={styles.img} src={FormBannerImg} alt="FormBanner" />
           </form>
         </div>
       </footer>

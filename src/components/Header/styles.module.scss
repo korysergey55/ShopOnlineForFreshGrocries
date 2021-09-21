@@ -23,7 +23,7 @@
   margin-right: 50px;
   list-style: none;
 
-  .navItem {
+  .item {
     font-family: Barlow;
     font-size: 20px;
     font-weight: 400;
@@ -31,7 +31,7 @@
     &:not(:last-child) {
       margin-right: 35px;
     }
-    .navLink {
+    .link {
       color: black;
       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -48,32 +48,32 @@
   list-style: none;
   padding-left: 0;
 
-  &_item {
+  .item {
     position: relative;
     width: 42px;
     height: 42px;
     margin-right: 12px;
     background-color: #ffffff;
     border-radius: 50%;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover {
       background-color: #9fcb22;
     }
 
-    &:hover .sotialList_item_link_icon {
+    &:hover .icon {
       color: #ffffff;
     }
-    &_link_icon {
+    .icon {
       display: block;
       margin: 0 auto;
       margin-top: 11px;
       width: 20px;
       height: 20px;
       fill: #9fcb22;
-      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    &_linkCart::before {
+    .linkCart::before {
       position: absolute;
       top: -11%;
       left: 71%;

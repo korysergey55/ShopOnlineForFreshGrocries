@@ -23,29 +23,32 @@
     opacity: 0.15;
   }
 
-  &_list {
+  .list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 102px;
     list-style: none;
 
-    &_item {
-      &_title {
+    .item {
+      height: 340px;
+      .title {
         margin-bottom: 27px;
         font-family: Barlow;
         font-size: 23px;
         font-weight: 500;
         color: #ffffff;
       }
-      &_subtitle {
+      .subtitle {
         font-family: Barlow;
         font-size: 18px;
         font-weight: 500;
         text-align: left;
         color: #6ea68b;
       }
-      &_text {
+      .text {
+        display: block;
+        margin-bottom: 18px;
         font-family: Barlow;
         font-size: 18px;
         font-weight: 300;
@@ -55,20 +58,20 @@
     }
   }
 
-  &_copyright {
+  .copyright {
     display: flex;
     justify-content: left;
     align-items: center;
     padding-top: 47px;
 
-    &_text {
+    .text {
       margin-bottom: 0;
       font-family: Barlow;
       font-size: 16px;
       font-weight: 300;
       color: #6ea68b;
     }
-    &_followUs {
+    .followUs {
       margin-left: auto;
       margin-right: 19px;
       margin-bottom: 0;
@@ -76,12 +79,8 @@
       font-size: 16px;
       font-weight: 300;
       color: #6ea68b;
-
-      &:hover {
-        cursor: pointer;
-      }
     }
-    &_list {
+    .list {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -89,12 +88,16 @@
       padding-left: 0;
       list-style: none;
     }
-    &_item {
+    .item {
       width: 20px;
       height: 20px;
       margin-right: 12px;
 
-      &_link_icon {
+      :hover .icon {
+        cursor: pointer;
+        color: white;
+      }
+      .icon {
         display: block;
         margin: 0 auto;
         width: 16px;
@@ -104,7 +107,7 @@
     }
   }
 
-  &_form {
+  .form {
     position: absolute;
     top: -72%;
     left: 0%;
@@ -116,7 +119,7 @@
     background-color: #14462e;
     background-image: linear-gradient(-84deg, #9fcb22 0%, #b0e223 100%);
 
-    &_title {
+    .title {
       display: block;
       margin-bottom: 33px;
       margin-left: 380px;
@@ -124,7 +127,7 @@
       font-weight: 500;
       color: #ffffff;
     }
-    &_input {
+    .input {
       width: 461px;
       height: 53px;
       margin-left: 380px;
@@ -137,7 +140,7 @@
       color: #6c6c6c;
       background-color: #ffffff;
     }
-    &_button {
+    .button {
       width: 182px;
       height: 53px;
       margin-right: 54px;
@@ -153,7 +156,7 @@
         cursor: pointer;
       }
     }
-    &_img {
+    .img {
       position: absolute;
       top: -74%;
       left: -17%;

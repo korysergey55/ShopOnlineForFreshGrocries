@@ -15,74 +15,74 @@ const Header = () => {
       <div className={styles.container}>
         <div className={styles.header}>
           <a className={styles.logo} href="">
-            <img className={styles.logoIcon} src={LogoImg} alt="Logo"></img>
+            <img className={styles.icon} src={LogoImg} alt="Logo"></img>
           </a>
           <ul className={styles.navList}>
-            <li className={styles.navItem}>
-              <a className={styles.navLink} href="">
+            <li className={styles.item}>
+              <a className={styles.link} href="">
                 Home{' '}
               </a>
             </li>
-            <li className={styles.navItem}>
-              <a className={styles.navLink} href="">
+            <li className={styles.item}>
+              <a className={styles.link} href="">
                 About
               </a>
             </li>
-            <li className={styles.navItem}>
-              <a className={styles.navLink} href="">
+            <li className={styles.item}>
+              <a className={styles.link} href="">
                 Shop
               </a>
             </li>
-            <li className={styles.navItem}>
-              <a className={styles.navLink} href="">
+            <li className={styles.item}>
+              <a className={styles.link} href="">
                 Pages{' '}
               </a>
             </li>
-            <li className={styles.navItem}>
-              <a className={styles.navLink} href="">
+            <li className={styles.item}>
+              <a className={styles.link} href="">
                 Blog{' '}
               </a>
             </li>
-            <li className={styles.navItem}>
-              <a className={styles.navLink} href="">
+            <li className={styles.item}>
+              <a className={styles.link} href="">
                 Contact{' '}
               </a>
             </li>
           </ul>
           <ul className={styles.sotialList}>
-            <li className={styles.sotialList_item}>
-              <a className={styles.sotialList_item_link} href="">
+            <li className={styles.item}>
+              <a className={styles.link} href="">
                 <FontAwesomeIcon
                   icon={faSearch}
                   color="#9fcb22"
-                  className={styles.sotialList_item_link_icon}
+                  className={styles.icon}
                 />
               </a>
             </li>
-            <li className={styles.sotialList_item}>
-              <a className={styles.sotialList_item_link} href="">
+            <li className={styles.item}>
+              <a className={styles.link} href="">
                 <FontAwesomeIcon
                   icon={faUser}
                   color="#9fcb22"
-                  className={styles.sotialList_item_link_icon}
+                  className={styles.icon}
                 />
               </a>
             </li>
-            <li className={styles.sotialList_item}>
-              <a className={styles.sotialList_item_link} href="">
+            <li className={styles.item}>
+              <a className={styles.link} href="">
                 <FontAwesomeIcon
                   icon={faStar}
                   color="#9fcb22"
-                  className={styles.sotialList_item_link_icon}
+                  className={styles.icon}
                 />
               </a>
             </li>
-            <li className={styles.sotialList_item}>
-              <a className={styles.sotialList_item_linkCart} href="">
+            <li className={styles.item}>
+              <a className={styles.linkCart} href="">
                 <FontAwesomeIcon
                   icon={faShoppingCart}
                   color="#9fcb22"
-                  className={styles.sotialList_item_link_icon}
+                  className={styles.icon}
                 />
               </a>
             </li>

@@ -53,13 +53,14 @@
       font-weight: 500;
       text-transform: uppercase;
       color: #fffc01;
-    }
-    .span {
-      font-family: Jost;
-      font-size: 60px;
-      font-weight: 500;
-      text-transform: uppercase;
-      color: #ffffff;
+
+      .span {
+        font-family: Jost;
+        font-size: 60px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
     }
     .button {
       font-family: Barlow;
@@ -86,7 +87,7 @@
       }
     }
   }
-  &_title {
+  .title {
     width: 381px;
     margin-left: 50px;
     font-size: 46px;
@@ -94,7 +95,7 @@
     line-height: 57px;
     color: #ffffff;
   }
-  &_img {
+  .img {
     position: absolute;
     top: 0%;
     left: 72.6%;
