@@ -1,21 +1,32 @@
-import * as React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './styles.module.scss'
+import BunnerImg from '../../../../sources/images/prendingProducts/bunner.png'
 import IProduct from 'models/product'
 import ProductComponent from '../ProductComponent/index'
 import trendingProductsJSON from '../../../../sources/products/trendingProducts'
-import BunnerImg from '../../../../sources/images/prendingProducts/bunner.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { useStore } from 'stores'
+import { toJS } from 'mobx'
+import { observer } from 'mobx-react'
 
-const TrendingProducts = () => {
+
+const TrendingProducts = observer(() => {
+  const { productStore } = useStore();
+  const { products } = productStore;
+
+  useEffect(() => {
+    productStore.setProduct(trendingProductsJSON);
+  }, [])
+
   return (
     <>
       <div className={styles.container}>
         <h3 className={styles.subtitle}>Most Popular</h3>
         <h2 className={styles.title}>Trending Products</h2>
         <ul className={styles.list}>
-          {trendingProductsJSON &&
-            trendingProductsJSON.map((product: IProduct) => (
+          {products &&
+            products.map((product: IProduct) => (
               <ProductComponent product={product} key={product.id} />
             ))}
         </ul>
@@ -38,5 +49,5 @@ const TrendingProducts = () => {
       </div>
     </>
   )
-}
+})
 export default TrendingProducts

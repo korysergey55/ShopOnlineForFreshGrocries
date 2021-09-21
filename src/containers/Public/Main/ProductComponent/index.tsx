@@ -10,6 +10,7 @@ interface IProductProps {
 }
 
 const ProductComponent: React.FC<IProductProps> = ({ product }) => {
+  console.log(product)
   return (
     <>
       <li className={styles.li}>

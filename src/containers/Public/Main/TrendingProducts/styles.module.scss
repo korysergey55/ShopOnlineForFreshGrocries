@@ -30,6 +30,10 @@
   align-items: center;
   margin-bottom: 140px;
   padding-left: 0;
+
+  &:hover{
+    cursor: pointer;
+  }
 }
 
 .baner {
