@@ -1,10 +1,20 @@
-import * as React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './styles.module.scss'
 import IProduct from 'models/product'
 import ProductComponent from '../ProductComponent'
 import bestSellerProductsJSON from '../../../../sources/products/bestSellerProducts'
 
-const BestSeller = () => {
+import { useStore } from 'stores'
+import { toJS } from 'mobx'
+import { observer } from 'mobx-react'
+
+const BestSeller = observer(() => {
+  const { productStore } = useStore();
+  const { bestProducts } = productStore
+
+  useEffect(() => {
+    productStore.setBestProduct(bestSellerProductsJSON)
+  },[])
   return (
     <>
       <section className={styles.bestSeller}>
@@ -33,8 +43,8 @@ const BestSeller = () => {
           </ul>
 
           <ul className={styles.productsList}>
-            {bestSellerProductsJSON &&
-              bestSellerProductsJSON.map((product: IProduct) => (
+            {bestProducts &&
+              bestProducts.map((product: IProduct) => (
                 <ProductComponent product={product} key={product.id} />
               ))}
           </ul>
@@ -43,6 +53,6 @@ const BestSeller = () => {
       </section>
     </>
   )
-}
+})
 
 export default BestSeller

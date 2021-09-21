@@ -1,19 +1,25 @@
 import * as React from 'react'
 import styles from './styles.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHeart, faStar } from '@fortawesome/free-solid-svg-icons'
-import { faStar as StarIconRegular } from '@fortawesome/free-regular-svg-icons'
+import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import IProduct from '../../../../models/product'
+import { useHistory } from 'react-router'
 
 interface IProductProps {
   product: IProduct
 }
 
 const ProductComponent: React.FC<IProductProps> = ({ product }) => {
-  console.log(product)
+  const histiry = useHistory()
+
+  const productsDetails = () => {
+    histiry.push(`/${product.id}`)
+    
+  }
+
   return (
     <>
-      <li className={styles.li}>
+      <li className={styles.li} onClick={productsDetails}>
         {product.hot ? <p className={styles.hot}>{product.hot}</p> : null}
         <a className={styles.like}>
           <FontAwesomeIcon icon={faHeart} className={styles.icon} />

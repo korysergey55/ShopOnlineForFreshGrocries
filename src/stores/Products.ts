@@ -10,17 +10,25 @@ import {
 } from 'mobx'
 
 class Products {
-  @observable products: any = []
+  @observable trendingProducts: any = []
+  @observable bestProducts: any = []
+  @observable productWithId: any = []
 
   constructor() {
     makeAutoObservable(this)
-    reaction(
-      () => this.products,
-      _ => console.log(toJS(this.products))
-    )
+    // reaction(
+    //   () => this.bestProducts,
+    //   _ => console.log(toJS(this.bestProducts))
+    // )
   }
-  @action setProduct(product: any) {
-    this.products = product
+  @action setTrendingProduct(product: any) {
+    this.trendingProducts = product
+  }
+  @action setBestProduct(product: any) {
+    this.bestProducts = product
+  }
+  @action setproductWithId(product: any) {
+    this.productWithId = product
   }
 }
 export default new Products()

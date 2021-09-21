@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import styles from './styles.module.scss'
 import BunnerImg from '../../../../sources/images/prendingProducts/bunner.png'
 import IProduct from 'models/product'
@@ -7,16 +7,15 @@ import trendingProductsJSON from '../../../../sources/products/trendingProducts'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { useStore } from 'stores'
-import { toJS } from 'mobx'
 import { observer } from 'mobx-react'
 
 
 const TrendingProducts = observer(() => {
   const { productStore } = useStore();
-  const { products } = productStore;
+  const { trendingProducts } = productStore
 
   useEffect(() => {
-    productStore.setProduct(trendingProductsJSON);
+    productStore.setTrendingProduct(trendingProductsJSON)
   }, [])
 
   return (
@@ -25,8 +24,8 @@ const TrendingProducts = observer(() => {
         <h3 className={styles.subtitle}>Most Popular</h3>
         <h2 className={styles.title}>Trending Products</h2>
         <ul className={styles.list}>
-          {products &&
-            products.map((product: IProduct) => (
+          {trendingProducts &&
+            trendingProducts.map((product: IProduct) => (
               <ProductComponent product={product} key={product.id} />
             ))}
         </ul>
