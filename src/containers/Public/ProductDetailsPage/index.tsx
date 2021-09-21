@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart, faStar } from '@fortawesome/free-solid-svg-icons'
 import { faStar as StarIconRegular } from '@fortawesome/free-regular-svg-icons'
 import IProduct from '../../../models/product'
-import { useParams } from 'react-router'
+import { useHistory, useLocation, useParams } from 'react-router'
 import { useStore } from 'stores'
 import { toJS } from 'mobx'
 
@@ -13,9 +13,12 @@ interface IProductProps {
 }
 
 const ProductDetailsPage: React.FC<IProductProps> = () => {
+  const history = useHistory()
+  const location = useLocation<any>()
   const params = useParams()
   const { id }: any = params
   const { productStore } = useStore()
+  
   const [product, setState] = useState(() => {
     return (
       productStore.trendingProducts.find((item: IProduct) => item.id === id) ||
@@ -23,10 +26,19 @@ const ProductDetailsPage: React.FC<IProductProps> = () => {
     )
   })
 
+  const goBack = () => {
+    if (location.state) {
+      history.push(location.state.from)
+    } else history.push('/')
+  }
+
   return (
     <>
       <div className={styles.container}>
         <h2 className={styles.title}>ProductDetailsPage</h2>
+        <button className={styles.goBack} type="button" onClick={goBack}>
+          go back
+        </button>
         <li className={styles.li}>
           {product.hot ? <p className={styles.hot}>{product.hot}</p> : null}
           <a className={styles.like}>

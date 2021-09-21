@@ -3,18 +3,23 @@ import styles from './styles.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import IProduct from '../../../../models/product'
-import { useHistory } from 'react-router'
+import { useHistory, useLocation, useRouteMatch } from 'react-router'
 
 interface IProductProps {
   product: IProduct
 }
 
 const ProductComponent: React.FC<IProductProps> = ({ product }) => {
-  const histiry = useHistory()
+  const history = useHistory()
+  const match = useRouteMatch()
+  const location = useLocation()
 
   const productsDetails = () => {
-    histiry.push(`/${product.id}`)
-    
+    history.push({
+      pathname: `/${product.id}`,
+      state: { from: location.pathname },
+    })
+
   }
 
   return (
