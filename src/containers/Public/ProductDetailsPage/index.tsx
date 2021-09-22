@@ -2,6 +2,9 @@ import * as React from 'react'
 import styles from './styles.module.scss'
 import Header from 'components/Header'
 import HeroProductsDatails from '../ProductDetailsPage/HeroProductsDatails/index'
+import ProductDetails from '../ProductDetailsPage/ProductDetails/index'
+import NewProductDetails from './newProductDetails'
+
 const index = () => {
   return (
     <>
@@ -10,7 +13,8 @@ const index = () => {
         <Header />
         <HeroProductsDatails />
       </div>
-      <h2 className="title">ProductDetailsPage</h2>
+      {/* <ProductDetails /> */}
+      <NewProductDetails />
     </>
   )
 }

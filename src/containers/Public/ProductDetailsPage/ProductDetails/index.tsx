@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import styles from './styles.module.scss'
+import styles from './styled.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import IProduct from '../../../../models/product'
@@ -7,11 +7,12 @@ import { useHistory, useLocation, useParams } from 'react-router'
 import { useStore } from 'stores'
 import { toJS } from 'mobx'
 
-interface IProductProps {
-  product: IProduct
-}
+// interface IProductProps {
+//   product: IProduct
+// }
+// : React.FC<IProductProps>
 
-const ProductDetailsPage: React.FC<IProductProps> = () => {
+const ProductDetails = () => {
   const history = useHistory()
   const location = useLocation<any>()
   const params = useParams()
@@ -101,4 +102,4 @@ const ProductDetailsPage: React.FC<IProductProps> = () => {
   )
 }
 
-export default ProductDetailsPage
+export default ProductDetails

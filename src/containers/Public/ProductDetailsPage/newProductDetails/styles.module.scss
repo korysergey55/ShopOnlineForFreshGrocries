@@ -1,0 +1,238 @@
+section {
+  padding-top: 141px;
+  padding-bottom: 89px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1112px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.fotoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 54px;
+
+  .fotoContainerLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 22px;
+
+    .scrollBtn {
+      width: 95px;
+      height: 30px;
+      margin-bottom: 17px;
+      border: none;
+      background-color: #9fcb22;
+
+      .icon {
+        color: #ffffff;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .img {
+      width: 95px;
+      height: 89px;
+      margin-bottom: 18px;
+      background-color: #f6fafb;
+    }
+  }
+  .mainImg {
+    width: 459px;
+    height: 611px;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #f6fafb;
+  }
+}
+.containerRigth {
+  width: 50%;
+  .title {
+    margin-bottom: 14px;
+    font-family: 'Jost';
+    font-size: 45px;
+    font-weight: 500;
+    color: #252932;
+  }
+  .starsList {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-left: 0;
+
+    .item {
+      width: 15px;
+      height: 15px;
+      margin-right: 7px;
+      list-style: none;
+
+      &:hover {
+        cursor: pointer;
+      }
+      .starIcon {
+        display: block;
+        margin: 0 auto;
+        width: 20px;
+        height: 20px;
+        color: #fccc42;
+      }
+    }
+  }
+  .oldPrice {
+    display: inline-block;
+    margin-right: 9px;
+    font-family: 'Barlow';
+    font-size: 23px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: line-through;
+    color: #b2b3b4;
+  }
+  .price {
+    display: inline-block;
+    font-family: 'Barlow';
+    font-size: 23px;
+    font-weight: 500;
+    color: #9fcb22;
+  }
+  .btnContainer {
+    margin-bottom: 35px;
+    .btn {
+      width: 43px;
+      height: 43px;
+      border: 1px solid #deecf0;
+      background-color: #f6fafb;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .btn_text {
+      display: inline-block;
+      width: 70px;
+      height: 43px;
+      margin-bottom: 0;
+      border: 1px solid #deecf0;
+      background-color: #f6fafb;
+    }
+    .btnAddToCart {
+      width: 156px;
+      height: 43px;
+      margin-left: 15px;
+      font-family: 'Barlow';
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+      border: none;
+      color: #ffffff;
+      background-color: #14462e;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .overview {
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: #252932;
+  }
+  .text {
+    font-family: Barlow;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    color: #6c6c6c;
+  }
+
+  .sotialContainer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .share {
+      margin-right: 14px;
+      margin-bottom: 0;
+      font-size: 24px;
+      font-weight: 500;
+      color: #252932;
+    }
+
+    .sotialList {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 0;
+      padding-left: 0;
+      list-style: none;
+
+      .item {
+        width: 20px;
+        height: 20px;
+        margin-right: 12px;
+
+        :hover .icon {
+          cursor: pointer;
+        }
+        .icon {
+          display: block;
+          margin: 0 auto;
+          width: 16px;
+          height: 16px;
+          color: #9fcb22;
+        }
+      }
+    }
+  }
+  .downContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .guarantee {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 219px;
+      height: 114px;
+      padding: 31px 27px;
+      border: 1px solid #deecf0;
+      background-color: #f6fafb;
+    }
+    .service {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 219px;
+      height: 114px;
+      padding: 31px 27px;
+      border: 1px solid #deecf0;
+      background-color: #f6fafb;
+    }
+    .img {
+      display: block;
+      width: 44px;
+      height: 52px;
+    }
+    .text {
+      width: 104px;
+      margin-bottom: 0;
+      font-size: 22px;
+      font-weight: 400;
+      color: #252932;
+    }
+  }
+}
