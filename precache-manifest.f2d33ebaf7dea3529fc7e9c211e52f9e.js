@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "762c8b80f73723945bf1f859897feb73",
+    "revision": "0da14936e7b72b4d3e4af214e1765486",
     "url": "/ShopOnlineForFreshGrocries/index.html"
   },
   {
-    "revision": "e4207680af1ce828ebc2",
+    "revision": "2973ea9d39fd959905ec",
     "url": "/ShopOnlineForFreshGrocries/static/css/2.5cc265e8.chunk.css"
   },
   {
-    "revision": "327efa884a78d9923d4f",
-    "url": "/ShopOnlineForFreshGrocries/static/css/main.62d25cbb.chunk.css"
+    "revision": "b4cf0efe348f7e14bab0",
+    "url": "/ShopOnlineForFreshGrocries/static/css/main.46881f76.chunk.css"
   },
   {
-    "revision": "e4207680af1ce828ebc2",
-    "url": "/ShopOnlineForFreshGrocries/static/js/2.ab2c057f.chunk.js"
+    "revision": "2973ea9d39fd959905ec",
+    "url": "/ShopOnlineForFreshGrocries/static/js/2.f431dec4.chunk.js"
   },
   {
     "revision": "4d74ce1e7fee0a16b28267ca01d74155",
-    "url": "/ShopOnlineForFreshGrocries/static/js/2.ab2c057f.chunk.js.LICENSE.txt"
+    "url": "/ShopOnlineForFreshGrocries/static/js/2.f431dec4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "327efa884a78d9923d4f",
-    "url": "/ShopOnlineForFreshGrocries/static/js/main.72de6021.chunk.js"
+    "revision": "b4cf0efe348f7e14bab0",
+    "url": "/ShopOnlineForFreshGrocries/static/js/main.27010095.chunk.js"
   },
   {
     "revision": "fc8b0953485731db77dc",
     "url": "/ShopOnlineForFreshGrocries/static/js/runtime-main.3d792e6a.js"
+  },
+  {
+    "revision": "4546b2714e1e1a7d99a8ce7c9cfd046b",
+    "url": "/ShopOnlineForFreshGrocries/static/media/HeroImg.4546b271.jpg"
+  },
+  {
+    "revision": "36cfa114534e2627139d864de2845de1",
+    "url": "/ShopOnlineForFreshGrocries/static/media/HeroLeftBg.36cfa114.png"
   },
   {
     "revision": "e0ed080b32bd91ccba7a68e9c248e086",
@@ -80,16 +88,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ShopOnlineForFreshGrocries/static/media/featuresCart.a2bd2404.png"
   },
   {
+    "revision": "e0040ad2a4109f4948f1b6fbd581b19a",
+    "url": "/ShopOnlineForFreshGrocries/static/media/heroImg.e0040ad2.png"
+  },
+  {
+    "revision": "36cfa114534e2627139d864de2845de1",
+    "url": "/ShopOnlineForFreshGrocries/static/media/heroLeftBg.36cfa114.png"
+  },
+  {
     "revision": "c776b55091928661bfa23e639fd570a8",
     "url": "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png"
   },
   {
-    "revision": "36cfa114534e2627139d864de2845de1",
-    "url": "/ShopOnlineForFreshGrocries/static/media/leftBg.36cfa114.png"
-  },
-  {
     "revision": "50c7f36c6fe453af759b336ca0348afe",
     "url": "/ShopOnlineForFreshGrocries/static/media/leftBg.50c7f36c.png"
+  },
+  {
+    "revision": "d59f359b1a0ac84bb7c9345f5309cef9",
+    "url": "/ShopOnlineForFreshGrocries/static/media/mainImg_removebg.d59f359b.png"
   },
   {
     "revision": "44a157463ec0fd82f69a53b065d3b72d",
@@ -114,9 +130,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c6f8301548a4fde486031ae6be048f1b",
     "url": "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png"
-  },
-  {
-    "revision": "4546b2714e1e1a7d99a8ce7c9cfd046b",
-    "url": "/ShopOnlineForFreshGrocries/static/media/supermarket-paper-bag-full-healthy-food.4546b271.jpg"
   }
 ]);
