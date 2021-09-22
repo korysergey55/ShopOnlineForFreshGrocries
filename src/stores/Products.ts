@@ -13,6 +13,7 @@ import IProduct from '../models/product'
 class Products {
   @observable trendingProducts: any = []
   @observable bestProducts: any = []
+  @observable relatedProducts: any = []
 
   constructor() {
     makeAutoObservable(this)
@@ -26,6 +27,9 @@ class Products {
   }
   @action setBestProduct(product: any) {
     this.bestProducts = product
+  }
+  @action setRelatedProduct(product: any) {
+    this.relatedProducts = product
   }
 }
 export default new Products()

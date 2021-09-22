@@ -1,15 +1,15 @@
 section {
-  padding-top: 141px;
-  padding-bottom: 89px;
-}
-.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.container {
   max-width: 1112px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 141px;
+  padding-bottom: 89px;
 }
 .fotoContainer {
   display: flex;
@@ -45,12 +45,19 @@ section {
       background-color: #f6fafb;
     }
   }
-  .mainImg {
+  .mainImgContainer {
     width: 459px;
     height: 611px;
     margin-top: 0;
     padding-top: 0;
     background-color: #f6fafb;
+
+    .mainImg {
+      display: block;
+      width: 500px;
+      height: 432px;
+      margin-top: 85px;
+    }
   }
 }
 .containerRigth {
@@ -234,5 +241,54 @@ section {
       font-weight: 400;
       color: #252932;
     }
+  }
+}
+.aboutProduct {
+  .ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 90px;
+    padding-left: 0;
+    list-style: none;
+    border-bottom: 1px solid #deecf0;
+
+    .item {
+      margin-right: 50px;
+      padding-bottom: 22px;
+      font-size: 22px;
+      font-weight: 500;
+      color: #252932;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .active {
+      margin-right: 50px;
+      padding-bottom: 22px;
+      font-size: 22px;
+      font-weight: 500;
+      color: #252932;
+      border-bottom: 3px solid #9fcb22;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .title {
+      margin-bottom: 0;
+      font-size: 22px;
+      font-weight: 500;
+      color: #252932;
+    }
+  }
+  .text {
+    display: block;
+    margin-top: 38px;
+    color: #6c6c6c;
+    font-family: Barlow;
+    font-size: 20px;
+    font-weight: 300;
   }
 }
