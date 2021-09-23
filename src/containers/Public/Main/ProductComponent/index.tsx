@@ -19,7 +19,7 @@ const ProductComponent: React.FC<IProductProps> = ({ product }) => {
       pathname: `/${product.id}`,
       state: { from: location.pathname },
     })
-
+     localStorage.setItem('product', JSON.stringify(product))
   }
 
   return (
