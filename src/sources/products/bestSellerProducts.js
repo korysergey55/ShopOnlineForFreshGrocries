@@ -14,7 +14,7 @@ const bestSellerProductsJSON = [
     "id": uuidv4(),
     "hot": "Hot",
     "img": BreadImg,
-    "imgArr": [BreadImg, BreadImg, BreadImg, BreadImg, BreadImg],
+    "imgArr": [BreadImg, PepperImg, OrangeImg, AggsImg, OilImg],
     "text": "Fresh Bread",
     "oldPrice": 15,
     "price": 12,
@@ -26,61 +26,146 @@ const bestSellerProductsJSON = [
     "id": uuidv4(),
     "hot": null,
     "img": PepperImg,
-    "imgArr": [PepperImg, PepperImg, PepperImg, PepperImg, PepperImg],
+    "imgArr": [BreadImg, PepperImg, OrangeImg, AggsImg, OilImg],
     "text": "BreadImg",
     "oldPrice": 20,
     "price": 15,
     "star": faStar,
     "starRegular": StarIconRegular,
-    "overview": 'BreadImg - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.'
+    "overview": 'BreadImg - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.',
+    "aboutProductLi": [
+      {
+        id: 1,
+        title: 'Description',
+        text: 'Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 2,
+        title: 'Additional Information',
+        text: 'Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 3,
+        title: 'Reviews',
+        text: 'Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+    ]
   },
   {
     "id": uuidv4(),
     "hot": "Hot",
     "img": OrangeImg,
-    "imgArr": [OrangeImg, OrangeImg, OrangeImg, OrangeImg, OrangeImg,],
+    "imgArr": [BreadImg, PepperImg, OrangeImg, AggsImg, OilImg],
     "text": "Orange Beverage",
     "oldPrice": 30,
     "price": 20,
     "star": faStar,
     "starRegular": StarIconRegular,
-    "overview": 'Orange Beverage - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.'
+    "overview": 'Orange Beverage - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.',
+    "aboutProductLi": [
+      {
+        id: 1,
+        title: 'Description',
+        text: 'Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 2,
+        title: 'Additional Information',
+        text: 'Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 3,
+        title: 'Reviews',
+        text: 'Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+    ]
   },
   {
     "id": uuidv4(),
     "hot": null,
     "img": AggsImg,
-    "imgArr": [AggsImg, AggsImg, AggsImg, AggsImg, AggsImg,],
+    "imgArr": [BreadImg, PepperImg, OrangeImg, AggsImg, OilImg],
     "text": "Dozen Eggs",
     "oldPrice": 15,
     "price": 12,
     "star": faStar,
     "starRegular": StarIconRegular,
-    "overview": 'Dozen Eggs - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.'
+    "overview": 'Dozen Eggs - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.',
+    "aboutProductLi": [
+      {
+        id: 1,
+        title: 'Description',
+        text: 'Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 2,
+        title: 'Additional Information',
+        text: 'Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 3,
+        title: 'Reviews',
+        text: 'Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+    ]
   },
   {
     "id": uuidv4(),
     "hot": "Hot",
     "img": OilImg,
-    "imgArr": [OilImg, OilImg, OilImg, OilImg, OilImg,],
+    "imgArr": [BreadImg, PepperImg, OrangeImg, AggsImg, OilImg],
     "text": "Cooking Oil",
     "oldPrice": 20,
     "price": 15,
     "star": faStar,
     "starRegular": StarIconRegular,
-    "overview": 'Cooking Oil - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.'
+    "overview": 'Cooking Oil - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.',
+    "aboutProductLi": [
+      {
+        id: 1,
+        title: 'Description',
+        text: 'Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 2,
+        title: 'Additional Information',
+        text: 'Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 3,
+        title: 'Reviews',
+        text: 'Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+    ]
   },
   {
     "id": uuidv4(),
     "hot": null,
     "img": BodyLotionImg,
-    "imgArr": [BodyLotionImg, BodyLotionImg, BodyLotionImg, BodyLotionImg, BodyLotionImg,],
+    "imgArr": [BreadImg, PepperImg, OrangeImg, AggsImg, OilImg],
     "text": "Body Lotion",
     "oldPrice": 30,
     "price": 20,
     "star": faStar,
     "starRegular": StarIconRegular,
-    "overview": 'Body Lotion - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.'
+    "overview": 'Body Lotion - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.',
+    "aboutProductLi": [
+      {
+        id: 1,
+        title: 'Description',
+        text: 'Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 2,
+        title: 'Additional Information',
+        text: 'Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 3,
+        title: 'Reviews',
+        text: 'Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+    ]
   }
 ];
 export default bestSellerProductsJSON;
