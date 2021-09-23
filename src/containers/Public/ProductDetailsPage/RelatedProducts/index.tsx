@@ -22,7 +22,11 @@ console.log(productStore.relatedProducts)
           <ul className={styles.list}>
             {productStore.relatedProducts &&
               productStore.relatedProducts.map((product: IProduct) => (
-                <ProductComponent product={product} key={product.id} />
+                <ProductComponent
+                  product={product}
+                  key={product.id}
+                  width={true}
+                />
               ))}
           </ul>
         </div>

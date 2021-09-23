@@ -61,6 +61,10 @@ section {
       height: 89px;
       margin-bottom: 18px;
       background-color: #f6fafb;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
   .mainImgContainer {

@@ -4,12 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import IProduct from '../../../../models/product'
 import { useHistory, useLocation, useRouteMatch } from 'react-router'
+import classnames from 'classnames'
 
 interface IProductProps {
   product: IProduct
+  width?: boolean
 }
 
-const ProductComponent: React.FC<IProductProps> = ({ product }) => {
+const ProductComponent: React.FC<IProductProps> = ({ product , width}) => {
   const history = useHistory()
   const match = useRouteMatch()
   const location = useLocation()
@@ -24,7 +26,13 @@ const ProductComponent: React.FC<IProductProps> = ({ product }) => {
 
   return (
     <>
-      <li className={styles.li} onClick={productsDetails}>
+      <li
+        className={classnames({
+          [styles.li]: true,
+          [styles.spesialWidth]: width
+        })}
+        onClick={productsDetails}
+      >
         {product.hot ? <p className={styles.hot}>{product.hot}</p> : null}
         <a className={styles.like}>
           <FontAwesomeIcon icon={faHeart} className={styles.icon} />

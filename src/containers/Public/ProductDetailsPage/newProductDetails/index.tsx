@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import styles from './styles.module.scss'
 import GuarantieImg from '../../../../sources/images/ProductDatailsPage/productProductDetails/productIcon.png'
 import ServiceImg from '../../../../sources/images/ProductDatailsPage/productProductDetails/productIcon2.png'
-import MainImg from '../../../../sources/images/ProductDatailsPage/productProductDetails/mainImg_removebg.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faStar,
@@ -22,25 +21,25 @@ import IProduct from '../../../../models/product'
 import { useHistory, useLocation, useParams } from 'react-router'
 import { useStore } from 'stores'
 import { toJS } from 'mobx'
+import classnames from 'classnames'
 
 const aboutProductLi = [
   {
     id: 1,
     title: 'Description',
-    text: 'Description111111111111111111111111111111111',
+    text: 'Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
   },
   {
     id: 2,
     title: 'Additional Information',
-    text: 'Additional Information222222222222222222222222222',
+    text: 'Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
   },
   {
     id: 3,
     title: 'Reviews',
-    text: 'Reviews33333333333333333333333333333333333333333',
+    text: 'Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
   },
 ]
-
 interface IProductProps {
   product: IProduct
 }
@@ -54,21 +53,27 @@ const NewProductDetails = () => {
   const [couter, setCouter] = useState<number>(0)
   const [activeClass, setActiveClass] = useState<number>()
   const [aboutProductText, setaboutProductText] = useState<string>('')
-  const [product, setState] = useState<IProduct | any>({})
+  const [product, setProduct] = useState<IProduct | any>({})
 
-  const items: any = localStorage.getItem('product')
-  const parsedProduct: any = JSON.parse(items)
+  const setAboutProductTextActiveClass = (id: number, text: string) => {
+    setActiveClass(id)
+    setaboutProductText(text)
+  }
 
   useEffect(() => {
-    setState(parsedProduct)
-    // const findProduct = () => {
-    //   const getProductWithId =
-    //     productStore.trendingProducts.find(
-    //       (item: IProduct) => item.id === id
-    //     ) || productStore.bestProducts.find((item: IProduct) => item.id === id)
-    //   getProductWithId && setState(getProductWithId)
-    // }
-    // findProduct()
+    const items: any = localStorage.getItem('product')
+    const parsedProduct: any = JSON.parse(items)
+    setAboutProductTextActiveClass(1, aboutProductLi[0].text)
+
+    const findProduct = () => {
+      const getProductWithId =
+        productStore.trendingProducts.find(
+          (item: IProduct) => item.id === id
+        ) || productStore.bestProducts.find((item: IProduct) => item.id === id)
+      getProductWithId && setProduct(getProductWithId)
+    }
+    findProduct()
+    setProduct(parsedProduct)
   }, [])
 
   const decrimentProducts = () => {
@@ -79,20 +84,17 @@ const NewProductDetails = () => {
   const incrementProducts = () => {
     setCouter(prev => prev + 1)
   }
-  const setAboutProductTextActiveClass = (id: number, text: string) => {
-    setActiveClass(id)
-    setaboutProductText(text)
-  }
 
   const goBack = () => {
     if (location.state) {
       history.push(location.state.from)
     } else history.push('/')
   }
-
+  console.log('product-----', toJS(product))
+  console.log('product-----Arr', toJS(product.imgArr))
   return (
     <>
-      {items ? (
+      {product ? (
         <div className={styles.container}>
           <button className={styles.goBack} type="button" onClick={goBack}>
             go back
@@ -103,6 +105,7 @@ const NewProductDetails = () => {
                 <button className={styles.scrollBtn}>
                   <FontAwesomeIcon icon={faChevronUp} className={styles.icon} />
                 </button>
+                {/* {product && product.imgArr[0]} */}
                 <img className={styles.img} src="" alt=""></img>
                 <img className={styles.img} src="" alt=""></img>
                 <img className={styles.img} src="" alt=""></img>
@@ -262,9 +265,10 @@ const NewProductDetails = () => {
               {aboutProductLi.map(product => (
                 <li
                   key={product.id}
-                  className={
-                    activeClass === product.id ? styles.active : styles.item
-                  }
+                  className={classnames({
+                    [styles.item]: true,
+                    [styles.active]: activeClass === product.id,
+                  })}
                   onClick={() =>
                     setAboutProductTextActiveClass(product.id, product.text)
                   }
