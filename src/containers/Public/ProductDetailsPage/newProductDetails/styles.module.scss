@@ -42,6 +42,11 @@ section {
     align-items: center;
     margin-right: 22px;
 
+    .photoList{
+      list-style: none;
+      padding-left: 0;
+    }
+
     .scrollBtn {
       width: 95px;
       height: 30px;
@@ -52,16 +57,6 @@ section {
       .icon {
         color: #ffffff;
       }
-      &:hover {
-        cursor: pointer;
-      }
-    }
-    .img {
-      width: 95px;
-      height: 89px;
-      margin-bottom: 18px;
-      background-color: #f6fafb;
-
       &:hover {
         cursor: pointer;
       }

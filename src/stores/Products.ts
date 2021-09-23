@@ -14,6 +14,7 @@ class Products {
   @observable trendingProducts: any = []
   @observable bestProducts: any = []
   @observable relatedProducts: any = []
+  @observable foto: any = ''
 
   constructor() {
     makeAutoObservable(this)
@@ -30,6 +31,9 @@ class Products {
   }
   @action setRelatedProduct(product: any) {
     this.relatedProducts = product
+  }
+  @action setFoto(foto: any) {
+    this.foto = foto
   }
 }
 export default new Products()

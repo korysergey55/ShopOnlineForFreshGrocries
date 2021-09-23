@@ -14,73 +14,175 @@ const trendingProductsJSON = [
     "id": uuidv4(),
     "hot": "Hot",
     "img": BeefImg,
-    "imgArr": [BeefImg, BeefImg, BeefImg, BeefImg, BeefImg],
+    "imgArr": [BeefImg, BrocaliImg, StrawberriesImg, HoneyImg, MangoImg],
     "text": "Beef Steak",
     "oldPrice": 15,
     "price": 12,
     "star": faStar,
     "starRegular": StarIconRegular,
-    "overview": 'Beef Steak - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.'
+    "overview": 'Beef Steak - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.',
+    "aboutProductLi": [
+      {
+        id: 1,
+        title: 'Description',
+        text: 'Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 2,
+        title: 'Additional Information',
+        text: 'Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 3,
+        title: 'Reviews',
+        text: 'Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+    ]
   },
   {
     "id": uuidv4(),
     "hot": null,
     "img": BrocaliImg,
-    "imgArr": [BrocaliImg, BrocaliImg, BrocaliImg, BrocaliImg, BrocaliImg],
+    "imgArr": [BeefImg, BrocaliImg, StrawberriesImg, HoneyImg, MangoImg],
     "text": "Broccoli",
     "oldPrice": 20,
     "price": 15,
     "star": faStar,
     "starRegular": StarIconRegular,
-    "overview": 'Broccoli - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.'
+    "overview": 'Broccoli - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.',
+    "aboutProductLi": [
+      {
+        id: 1,
+        title: 'Description',
+        text: 'Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 2,
+        title: 'Additional Information',
+        text: 'Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 3,
+        title: 'Reviews',
+        text: 'Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+    ]
   },
   {
     "id": uuidv4(),
     "hot": null,
     "img": StrawberriesImg,
-    "imgArr": [StrawberriesImg, StrawberriesImg, StrawberriesImg, StrawberriesImg, StrawberriesImg],
+    "imgArr": [BeefImg, BrocaliImg, StrawberriesImg, HoneyImg, MangoImg],
     "text": "Strawberries",
     "oldPrice": 30,
     "price": 20,
     "star": faStar,
     "starRegular": StarIconRegular,
-    "overview": 'Strawberries - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.'
+    "overview": 'Strawberries - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.',
+    "aboutProductLi": [
+      {
+        id: 1,
+        title: 'Description',
+        text: 'Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 2,
+        title: 'Additional Information',
+        text: 'Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 3,
+        title: 'Reviews',
+        text: 'Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+    ]
   },
   {
     "id": uuidv4(),
     "hot": null,
     "img": HoneyImg,
-    "imgArr": [HoneyImg, HoneyImg, HoneyImg, HoneyImg, HoneyImg],
+    "imgArr": [BeefImg, BrocaliImg, StrawberriesImg, HoneyImg, MangoImg],
     "text": "Fresh Honey",
     "oldPrice": 50,
     "price": 40,
     "star": faStar,
     "starRegular": StarIconRegular,
-    "overview": 'Fresh Honey - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.'
+    "overview": 'Fresh Honey - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.',
+    "aboutProductLi": [
+      {
+        id: 1,
+        title: 'Description',
+        text: 'Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 2,
+        title: 'Additional Information',
+        text: 'Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 3,
+        title: 'Reviews',
+        text: 'Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+    ]
   },
   {
     "id": uuidv4(),
     "hot": null,
     "img": MilkImg,
-    "imgArr": [MilkImg, MilkImg, MilkImg, MilkImg, MilkImg],
+    "imgArr": [BeefImg, BrocaliImg, StrawberriesImg, HoneyImg, MangoImg],
     "text": "Fresh Milk",
     "oldPrice": 10,
     "price": 0.8,
     "star": faStar,
     "starRegular": StarIconRegular,
-    "overview": 'Fresh Milk - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.'
+    "overview": 'Fresh Milk - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.',
+    "aboutProductLi": [
+      {
+        id: 1,
+        title: 'Description',
+        text: 'Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 2,
+        title: 'Additional Information',
+        text: 'Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 3,
+        title: 'Reviews',
+        text: 'Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+    ]
   },
   {
     "id": uuidv4(),
     "hot": null,
     "img": MangoImg,
-    "imgArr": [MangoImg, MangoImg, MangoImg, MangoImg, MangoImg],
+    "imgArr": [BeefImg, BrocaliImg, StrawberriesImg, HoneyImg, MangoImg],
     "text": "Mango Beverage",
     "oldPrice": 22,
     "price": 18,
     "star": faStar,
     "starRegular": StarIconRegular,
-    "overview": 'Mango Beverage - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.'
+    "overview": 'Mango Beverage - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.',
+    "aboutProductLi": [
+      {
+        id: 1,
+        title: 'Description',
+        text: 'Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 2,
+        title: 'Additional Information',
+        text: 'Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 3,
+        title: 'Reviews',
+        text: 'Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+    ]
   }
 ];
 export default trendingProductsJSON;

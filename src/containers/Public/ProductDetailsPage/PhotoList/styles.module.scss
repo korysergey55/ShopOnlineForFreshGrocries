@@ -1,0 +1,13 @@
+li {
+  .img {
+    width: 95px;
+    height: 89px;
+    margin-bottom: 18px;
+    list-style: none;
+    background-color: #f6fafb;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

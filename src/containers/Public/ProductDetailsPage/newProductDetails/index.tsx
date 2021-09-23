@@ -17,34 +17,19 @@ import {
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons'
 
-import IProduct from '../../../../models/product'
+import IProduct, { Product } from '../../../../models/product'
 import { useHistory, useLocation, useParams } from 'react-router'
 import { useStore } from 'stores'
 import { toJS } from 'mobx'
 import classnames from 'classnames'
+import PhotoList from '../PhotoList'
+import { observer } from 'mobx-react'
 
-const aboutProductLi = [
-  {
-    id: 1,
-    title: 'Description',
-    text: 'Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
-  },
-  {
-    id: 2,
-    title: 'Additional Information',
-    text: 'Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
-  },
-  {
-    id: 3,
-    title: 'Reviews',
-    text: 'Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
-  },
-]
 interface IProductProps {
   product: IProduct
 }
 
-const NewProductDetails = () => {
+const NewProductDetails = observer(() => {
   const history = useHistory()
   const location = useLocation<any>()
   const { productStore } = useStore()
@@ -53,7 +38,12 @@ const NewProductDetails = () => {
   const [couter, setCouter] = useState<number>(0)
   const [activeClass, setActiveClass] = useState<number>()
   const [aboutProductText, setaboutProductText] = useState<string>('')
-  const [product, setProduct] = useState<IProduct | any>({})
+
+  const [product, setProduct] = useState<IProduct>(() => {
+    const items: any = localStorage.getItem('product')
+    const parsedProduct: IProduct = JSON.parse(items)
+    return parsedProduct
+  })
 
   const setAboutProductTextActiveClass = (id: number, text: string) => {
     setActiveClass(id)
@@ -61,20 +51,20 @@ const NewProductDetails = () => {
   }
 
   useEffect(() => {
-    const items: any = localStorage.getItem('product')
-    const parsedProduct: any = JSON.parse(items)
-    setAboutProductTextActiveClass(1, aboutProductLi[0].text)
+    setAboutProductTextActiveClass(1, product.aboutProductLi[0].text)
+    // const items: any = localStorage.getItem('product')
+    // const parsedProduct: any = JSON.parse(items)
+    // setProduct(parsedProduct)
 
-    const findProduct = () => {
-      const getProductWithId =
-        productStore.trendingProducts.find(
-          (item: IProduct) => item.id === id
-        ) || productStore.bestProducts.find((item: IProduct) => item.id === id)
-      getProductWithId && setProduct(getProductWithId)
-    }
-    findProduct()
-    setProduct(parsedProduct)
-  }, [])
+    // const findProduct = () => {
+    //   const getProductWithId =
+    //     productStore.trendingProducts.find(
+    //       (item: IProduct) => item.id === id
+    //     ) || productStore.bestProducts.find((item: IProduct) => item.id === id)
+    //   getProductWithId && setProduct(getProductWithId)
+    // }
+    // findProduct()
+  }, [productStore.foto])
 
   const decrimentProducts = () => {
     if (couter > 0) {
@@ -90,8 +80,7 @@ const NewProductDetails = () => {
       history.push(location.state.from)
     } else history.push('/')
   }
-  console.log('product-----', toJS(product))
-  console.log('product-----Arr', toJS(product.imgArr))
+
   return (
     <>
       {product ? (
@@ -105,12 +94,16 @@ const NewProductDetails = () => {
                 <button className={styles.scrollBtn}>
                   <FontAwesomeIcon icon={faChevronUp} className={styles.icon} />
                 </button>
-                {/* {product && product.imgArr[0]} */}
-                <img className={styles.img} src="" alt=""></img>
-                <img className={styles.img} src="" alt=""></img>
-                <img className={styles.img} src="" alt=""></img>
-                <img className={styles.img} src="" alt=""></img>
-                <img className={styles.img} src="" alt=""></img>
+                <ul className={styles.photoList}>
+                  {product &&
+                  product.imgArr &&
+                  product.imgArr.length > 0 &&
+                  product.imgArr
+                    ? product.imgArr.map(item => (
+                        <PhotoList item={item} key={item} />
+                      ))
+                    : null}
+                </ul>
                 <button className={styles.scrollBtn}>
                   <FontAwesomeIcon
                     icon={faChevronDown}
@@ -121,8 +114,8 @@ const NewProductDetails = () => {
               <div className={styles.mainImgContainer}>
                 <img
                   className={styles.mainImg}
-                  src={product.img}
-                  alt={product.text}
+                  src={productStore.foto ? productStore.foto : product.img}
+                  alt={productStore.foto}
                 ></img>
               </div>
             </div>
@@ -262,18 +255,18 @@ const NewProductDetails = () => {
 
           <div className={styles.aboutProduct}>
             <ul className={styles.ul}>
-              {aboutProductLi.map(product => (
+              {product.aboutProductLi.map((prod: Product) => (
                 <li
-                  key={product.id}
+                  key={prod.id}
                   className={classnames({
                     [styles.item]: true,
-                    [styles.active]: activeClass === product.id,
+                    [styles.active]: activeClass === prod.id,
                   })}
                   onClick={() =>
-                    setAboutProductTextActiveClass(product.id, product.text)
+                    setAboutProductTextActiveClass(prod.id, prod.text)
                   }
                 >
-                  {product.title}
+                  {prod.title}
                 </li>
               ))}
             </ul>
@@ -287,6 +280,6 @@ const NewProductDetails = () => {
       ) : null}
     </>
   )
-}
+})
 
 export default NewProductDetails
