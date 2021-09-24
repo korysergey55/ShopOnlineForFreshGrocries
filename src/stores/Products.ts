@@ -11,9 +11,9 @@ import {
 import IProduct from '../models/product'
 
 class Products {
-  @observable trendingProducts: IProduct[] = []
-  @observable bestProducts: IProduct[] = []
-  @observable relatedProducts: IProduct[] = []
+  @observable trendingProducts: any = []
+  @observable bestProducts: any = []
+  @observable relatedProducts: any = []
   @observable foto: string | undefined = ''
 
   constructor() {
@@ -23,13 +23,13 @@ class Products {
     //   _ => console.log(toJS(this.bestProducts))
     // )
   }
-  @action setTrendingProduct(product: IProduct[]) {
+  @action setTrendingProduct(product: any) {
     this.trendingProducts = product
   }
-  @action setBestProduct(product: IProduct[]) {
+  @action setBestProduct(product: any) {
     this.bestProducts = product
   }
-  @action setRelatedProduct(product: IProduct[]) {
+  @action setRelatedProduct(product: any) {
     this.relatedProducts = product
   }
   @action setFoto(foto: string | undefined) {

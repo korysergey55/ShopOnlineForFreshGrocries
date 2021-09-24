@@ -28,16 +28,32 @@ import { toJS } from 'mobx'
 interface IProductProps {
   product: IProduct
 }
-interface LocationProps {
-  hash: string
-  key: string
-  pathname: string
-  search: string
-  state: {
-    from: string
-  }
+const sliderSettings = {
+  dots: false,
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  vertical: true,
+  verticalSwiping: true,
+  nextArrow: (
+    <button type="button">
+      <FontAwesomeIcon
+        icon={faChevronDown}
+        className={styles.icon}
+        color="white"
+      />
+    </button>
+  ),
+  prevArrow: (
+    <button type="button">
+      <FontAwesomeIcon
+        icon={faChevronUp}
+        className={styles.icon}
+        color="white"
+      />
+    </button>
+  ),
 }
-
 const NewProductDetails = observer(() => {
   const history = useHistory()
   const location = useLocation<any>()
@@ -45,8 +61,8 @@ const NewProductDetails = observer(() => {
   const params = useParams()
   const { id }: any = params
   const [couter, setCouter] = useState<number>(0)
-  const [activeClass, setActiveClass] = useState<number>()
-  const [aboutProductText, setaboutProductText] = useState<string>('')
+  const [activeClass, setActiveClass] = useState<number>(1)
+  const [aboutProductText, setaboutProductText] = useState<string | undefined>('')
 
   const [product, setProduct] = useState<IProduct | undefined>(() => {
     const getProductWithId =
@@ -55,20 +71,32 @@ const NewProductDetails = observer(() => {
     return getProductWithId
   })
 
-  const setAboutProductTextActiveClass = (id: number, text: string) => {
-    setActiveClass(id)
-    setaboutProductText(text)
-  }
+  // const [product, setProduct] = useState<any>({})
+  // useEffect(() => {
+  //   console.log(toJS(productStore))
+  //   const findProduct = () => {
+  //     const getProductWithId =
+  //       productStore.trendingProducts.find((item: IProduct) => item.id === id)
+  //       || productStore.bestProducts.find((item: IProduct) => item.id === id)
+  //     getProductWithId && setProduct(getProductWithId)
+  //   }
+  //   findProduct()
+  // },[])
 
   useEffect(() => {
-    console.log(location)
-    product && setAboutProductTextActiveClass(1, product.aboutProductLi[0].text)
     const items: any = localStorage.getItem('product')
     const parsedProduct: any = JSON.parse(items)
     if (!product) {
       setProduct(parsedProduct)
     }
   }, [productStore.foto])
+
+  useEffect(() => {
+    if (product) {
+     const defaultText: string | undefined = product.aboutProductLi.find(item => item.text)?.text
+     setaboutProductText(defaultText)
+    }
+  },[])
 
   const decrimentProducts = () => {
     if (couter > 0) {
@@ -85,31 +113,9 @@ const NewProductDetails = observer(() => {
     } else history.push('/')
   }
 
-  const sliderSettings = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    vertical: true,
-    verticalSwiping: true,
-    nextArrow: (
-      <button type="button">
-        <FontAwesomeIcon
-          icon={faChevronDown}
-          className={styles.icon}
-          color="white"
-        />
-      </button>
-    ),
-    prevArrow: (
-      <button type="button">
-        <FontAwesomeIcon
-          icon={faChevronUp}
-          className={styles.icon}
-          color="white"
-        />
-      </button>
-    ),
+  const setAboutProductTextActiveClass = (id: number, text: string) => {
+    setActiveClass(id)
+    setaboutProductText(text)
   }
 
   return (
