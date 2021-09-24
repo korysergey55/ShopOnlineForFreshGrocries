@@ -11,7 +11,7 @@ interface IProductProps {
   width?: boolean
 }
 
-const ProductComponent: React.FC<IProductProps> = ({ product , width}) => {
+const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {
   const history = useHistory()
   const match = useRouteMatch()
   const location = useLocation()
@@ -21,7 +21,7 @@ const ProductComponent: React.FC<IProductProps> = ({ product , width}) => {
       pathname: `/${product.id}`,
       state: { from: location.pathname },
     })
-     localStorage.setItem('product', JSON.stringify(product))
+    localStorage.setItem('product', JSON.stringify(product))
   }
 
   return (
@@ -29,7 +29,7 @@ const ProductComponent: React.FC<IProductProps> = ({ product , width}) => {
       <li
         className={classnames({
           [styles.li]: true,
-          [styles.spesialWidth]: width
+          [styles.spesialWidth]: width,
         })}
         onClick={productsDetails}
       >

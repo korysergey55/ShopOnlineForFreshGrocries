@@ -23,13 +23,13 @@ class Products {
     //   _ => console.log(toJS(this.bestProducts))
     // )
   }
-  @action setTrendingProduct(product: any) {
+  @action setTrendingProduct(product: IProduct[]) {
     this.trendingProducts = product
   }
-  @action setBestProduct(product: any) {
+  @action setBestProduct(product: IProduct[]) {
     this.bestProducts = product
   }
-  @action setRelatedProduct(product: any) {
+  @action setRelatedProduct(product: IProduct[]) {
     this.relatedProducts = product
   }
   @action setFoto(foto: string | undefined) {

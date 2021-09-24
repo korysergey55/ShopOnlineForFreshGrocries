@@ -4,6 +4,7 @@ import StrawberriesImg from '../images/prendingProducts/strawberries-removebg-pr
 import HoneyImg from '../images/prendingProducts/honey.png';
 import MilkImg from '../images/prendingProducts/milk.png';
 import MangoImg from '../images/prendingProducts/mango.png';
+
 import { v4 as uuidv4 } from 'uuid';
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { faStar as StarIconRegular } from '@fortawesome/free-regular-svg-icons'

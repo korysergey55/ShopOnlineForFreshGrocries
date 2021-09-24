@@ -28,6 +28,15 @@ import { toJS } from 'mobx'
 interface IProductProps {
   product: IProduct
 }
+interface LocationProps {
+  hash: string
+  key: string
+  pathname: string
+  search: string
+  state: {
+    from: string
+  }
+}
 
 const NewProductDetails = observer(() => {
   const history = useHistory()
@@ -39,7 +48,7 @@ const NewProductDetails = observer(() => {
   const [activeClass, setActiveClass] = useState<number>()
   const [aboutProductText, setaboutProductText] = useState<string>('')
 
-  const [product, setProduct] = useState<IProduct>(() => {
+  const [product, setProduct] = useState<IProduct | undefined>(() => {
     const getProductWithId =
       productStore.trendingProducts.find((item: IProduct) => item.id === id) ||
       productStore.bestProducts.find((item: IProduct) => item.id === id)
@@ -52,6 +61,7 @@ const NewProductDetails = observer(() => {
   }
 
   useEffect(() => {
+    console.log(location)
     product && setAboutProductTextActiveClass(1, product.aboutProductLi[0].text)
     const items: any = localStorage.getItem('product')
     const parsedProduct: any = JSON.parse(items)
