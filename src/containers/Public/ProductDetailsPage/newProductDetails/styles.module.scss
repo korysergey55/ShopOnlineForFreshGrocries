@@ -29,6 +29,7 @@ section {
     background-color: #9fcb22;
   }
 }
+
 .fotoContainer {
   display: flex;
   justify-content: space-between;
@@ -38,15 +39,16 @@ section {
   .fotoContainerLeft {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     margin-right: 22px;
+    width: 95px;
+    max-height: 643px;
 
-    .photoList{
+    .photoList {
       list-style: none;
       padding-left: 0;
     }
-
     .scrollBtn {
       width: 95px;
       height: 30px;

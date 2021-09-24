@@ -1,11 +1,16 @@
-li {
+.li {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 18px;
+  background-color: #f6fafb;
+  
   .img {
-    width: 95px;
-    height: 89px;
-    margin-bottom: 18px;
+    display: block;
+    margin-right: 0;
+    width: 90px;
+    height: 90px;
     list-style: none;
-    background-color: #f6fafb;
-
+    
     &:hover {
       cursor: pointer;
     }

@@ -8,6 +8,7 @@ import * as serviceWorker from './serviceWorker'
 import 'normalize.css'
 import 'antd/dist/antd.css'
 import 'sources/styles/styles.scss'
+import 'index.css'
 
 ReactDOM.render(<App />, document.getElementById('root'))
 

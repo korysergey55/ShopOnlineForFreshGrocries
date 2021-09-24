@@ -16,14 +16,14 @@ import {
   faPinterest,
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons'
-
 import IProduct, { Product } from '../../../../models/product'
 import { useHistory, useLocation, useParams } from 'react-router'
 import { useStore } from 'stores'
-import { toJS } from 'mobx'
 import classnames from 'classnames'
+import Slider from 'react-slick'
 import PhotoList from '../PhotoList'
 import { observer } from 'mobx-react'
+import { toJS } from 'mobx'
 
 interface IProductProps {
   product: IProduct
@@ -40,9 +40,10 @@ const NewProductDetails = observer(() => {
   const [aboutProductText, setaboutProductText] = useState<string>('')
 
   const [product, setProduct] = useState<IProduct>(() => {
-    const items: any = localStorage.getItem('product')
-    const parsedProduct: IProduct = JSON.parse(items)
-    return parsedProduct
+    const getProductWithId =
+      productStore.trendingProducts.find((item: IProduct) => item.id === id) ||
+      productStore.bestProducts.find((item: IProduct) => item.id === id)
+    return getProductWithId
   })
 
   const setAboutProductTextActiveClass = (id: number, text: string) => {
@@ -51,19 +52,12 @@ const NewProductDetails = observer(() => {
   }
 
   useEffect(() => {
-    setAboutProductTextActiveClass(1, product.aboutProductLi[0].text)
-    // const items: any = localStorage.getItem('product')
-    // const parsedProduct: any = JSON.parse(items)
-    // setProduct(parsedProduct)
-
-    // const findProduct = () => {
-    //   const getProductWithId =
-    //     productStore.trendingProducts.find(
-    //       (item: IProduct) => item.id === id
-    //     ) || productStore.bestProducts.find((item: IProduct) => item.id === id)
-    //   getProductWithId && setProduct(getProductWithId)
-    // }
-    // findProduct()
+    product && setAboutProductTextActiveClass(1, product.aboutProductLi[0].text)
+    const items: any = localStorage.getItem('product')
+    const parsedProduct: any = JSON.parse(items)
+    if (!product) {
+      setProduct(parsedProduct)
+    }
   }, [productStore.foto])
 
   const decrimentProducts = () => {
@@ -81,6 +75,33 @@ const NewProductDetails = observer(() => {
     } else history.push('/')
   }
 
+  const sliderSettings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    vertical: true,
+    verticalSwiping: true,
+    nextArrow: (
+      <button type="button">
+        <FontAwesomeIcon
+          icon={faChevronDown}
+          className={styles.icon}
+          color="white"
+        />
+      </button>
+    ),
+    prevArrow: (
+      <button type="button">
+        <FontAwesomeIcon
+          icon={faChevronUp}
+          className={styles.icon}
+          color="white"
+        />
+      </button>
+    ),
+  }
+
   return (
     <>
       {product ? (
@@ -91,25 +112,13 @@ const NewProductDetails = observer(() => {
           <section className={styles.section}>
             <div className={styles.fotoContainer}>
               <div className={styles.fotoContainerLeft}>
-                <button className={styles.scrollBtn}>
-                  <FontAwesomeIcon icon={faChevronUp} className={styles.icon} />
-                </button>
-                <ul className={styles.photoList}>
-                  {product &&
-                  product.imgArr &&
-                  product.imgArr.length > 0 &&
-                  product.imgArr
+                <Slider {...sliderSettings} className={styles.photoList}>
+                  {product.imgArr
                     ? product.imgArr.map(item => (
                         <PhotoList item={item} key={item} />
                       ))
                     : null}
-                </ul>
-                <button className={styles.scrollBtn}>
-                  <FontAwesomeIcon
-                    icon={faChevronDown}
-                    className={styles.icon}
-                  />
-                </button>
+                </Slider>
               </div>
               <div className={styles.mainImgContainer}>
                 <img
@@ -283,3 +292,24 @@ const NewProductDetails = observer(() => {
 })
 
 export default NewProductDetails
+
+//const [product, setProduct] = useState<IProduct>(() => {
+// const items: any = localStorage.getItem('product')
+// const parsedProduct: IProduct = JSON.parse(items)
+// return parsedProduct
+//})
+
+// useEffect(() => {
+// const items: any = localStorage.getItem('product')
+// const parsedProduct: any = JSON.parse(items)
+// setProduct(parsedProduct)
+
+// const findProduct = () => {
+//   const getProductWithId =
+//     productStore.trendingProducts.find(
+//       (item: IProduct) => item.id === id
+//     ) || productStore.bestProducts.find((item: IProduct) => item.id === id)
+//   getProductWithId && setProduct(getProductWithId)
+// }
+// findProduct()
+// ),[]}

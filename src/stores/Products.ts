@@ -14,7 +14,7 @@ class Products {
   @observable trendingProducts: any = []
   @observable bestProducts: any = []
   @observable relatedProducts: any = []
-  @observable foto: any = ''
+  @observable foto: string | undefined = ''
 
   constructor() {
     makeAutoObservable(this)
@@ -32,7 +32,7 @@ class Products {
   @action setRelatedProduct(product: any) {
     this.relatedProducts = product
   }
-  @action setFoto(foto: any) {
+  @action setFoto(foto: string | undefined) {
     this.foto = foto
   }
 }
