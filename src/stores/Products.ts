@@ -11,9 +11,9 @@ import {
 import IProduct from '../models/product'
 
 class Products {
-  @observable trendingProducts: any = []
-  @observable bestProducts: any = []
-  @observable relatedProducts: any = []
+  @observable trendingProducts: IProduct[] = []
+  @observable bestProducts: IProduct[] = []
+  @observable relatedProducts: IProduct[] = []
   @observable foto: string | undefined = ''
 
   constructor() {
