@@ -57,9 +57,10 @@ const sliderSettings = {
 const NewProductDetails = observer(() => {
   const history = useHistory()
   const location = useLocation<any>()
-  const { productStore } = useStore()
   const params = useParams()
   const { id }: any = params
+  const { productStore } = useStore()
+
   const [couter, setCouter] = useState<number>(0)
   const [activeClass, setActiveClass] = useState<number>(1)
   const [aboutProductText, setaboutProductText] = useState<string | undefined>('')
@@ -93,10 +94,12 @@ const NewProductDetails = observer(() => {
 
   useEffect(() => {
     if (product) {
-     const defaultText: string | undefined = product.aboutProductLi.find(item => item.text)?.text
-     setaboutProductText(defaultText)
+      const defaultText: string | undefined = product.aboutProductLi.find(
+        item => item.text
+      )?.text
+      setaboutProductText(defaultText)
     }
-  },[])
+  }, [])
 
   const decrimentProducts = () => {
     if (couter > 0) {
@@ -126,8 +129,8 @@ const NewProductDetails = observer(() => {
             go back
           </button>
           <section className={styles.section}>
-            <div className={styles.fotoContainer}>
-              <div className={styles.fotoContainerLeft}>
+            <div className={styles.photoContainer}>
+              <div className={styles.photoContainerLeft}>
                 <Slider {...sliderSettings} className={styles.photoList}>
                   {product.imgArr
                     ? product.imgArr.map(item => (

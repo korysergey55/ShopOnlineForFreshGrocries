@@ -4,10 +4,10 @@ import Header from 'components/Header'
 import HeroProductsDatails from '../ProductDetailsPage/HeroProductsDatails/index'
 import NewProductDetails from './newProductDetails'
 import CustomersSaying from '../Main/CustomersSaying'
-import Footer from 'components/Footer'
 import RelatedProducts from './RelatedProducts'
+import Footer from 'components/Footer'
 
-const index = () => {
+const ProductDetailsPage = () => {
   return (
     <>
       <div className={styles.headerHeroContainer}>
@@ -23,4 +23,4 @@ const index = () => {
   )
 }
 
-export default index
+export default ProductDetailsPage

@@ -19,32 +19,32 @@ const Header = () => {
           </a>
           <ul className={styles.navList}>
             <li className={styles.item}>
-              <a className={styles.link} href="http://localhost:3000/">
+              <a className={styles.link} href="/">
                 Home{' '}
               </a>
             </li>
             <li className={styles.item}>
-              <a className={styles.link} href="">
+              <a className={styles.link} href="/">
                 About
               </a>
             </li>
             <li className={styles.item}>
-              <a className={styles.link} href="">
+              <a className={styles.link} href="/">
                 Shop
               </a>
             </li>
             <li className={styles.item}>
-              <a className={styles.link} href="">
+              <a className={styles.link} href="/">
                 Pages{' '}
               </a>
             </li>
             <li className={styles.item}>
-              <a className={styles.link} href="">
+              <a className={styles.link} href="/">
                 Blog{' '}
               </a>
             </li>
             <li className={styles.item}>
-              <a className={styles.link} href="">
+              <a className={styles.link} href="/">
                 Contact{' '}
               </a>
             </li>

@@ -8,12 +8,12 @@ interface IProps {
 
 const PhotoList: React.FC<IProps> = ({ item }) => {
   const { productStore } = useStore()
-  const changeFoto = () => {
-    productStore.setFoto(item)
+  const changePhoto = () => {
+    productStore.setPhoto(item)
   }
   return (
     <>
-      <li className={styles.li} onClick={changeFoto}>
+      <li className={styles.li} onClick={changePhoto}>
         <img className={styles.img} src={item} alt=""></img>
       </li>
     </>
