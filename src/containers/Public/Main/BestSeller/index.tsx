@@ -1,20 +1,19 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import styles from './styles.module.scss'
 import IProduct from 'models/product'
 import ProductComponent from '../ProductComponent'
 import bestSellerProductsJSON from '../../../../sources/products/bestSellerProducts'
 
 import { useStore } from 'stores'
-import { toJS } from 'mobx'
 import { observer } from 'mobx-react'
 
 const BestSeller = observer(() => {
-  const { productStore } = useStore();
+  const { productStore } = useStore()
   const { bestProducts } = productStore
 
   useEffect(() => {
     productStore.setBestProduct(bestSellerProductsJSON)
-  },[])
+  }, [productStore])
   return (
     <>
       <section className={styles.bestSeller}>
@@ -23,22 +22,35 @@ const BestSeller = observer(() => {
           <h2 className={styles.title}>Featured Products</h2>
           <ul className={styles.list}>
             <li className={styles.item}>
-              <a className={styles.link}>All </a>
+              <a className={styles.link} href="/">
+                All{' '}
+              </a>
             </li>
             <li className={styles.item}>
-              <a className={styles.link}>Food</a>
+              <a className={styles.link} href="/">
+                Food
+              </a>
             </li>
             <li className={styles.item}>
-              <a className={styles.link}> Fruits</a>
+              <a className={styles.link} href="/">
+                {' '}
+                Fruits
+              </a>
             </li>
             <li className={styles.item}>
-              <a className={styles.link}>Health</a>
+              <a className={styles.link} href="/">
+                Health
+              </a>
             </li>
             <li className={styles.item}>
-              <a className={styles.link}>Meat</a>
+              <a className={styles.link} href="/">
+                Meat
+              </a>
             </li>
             <li className={styles.item}>
-              <a className={styles.link}>Dairy</a>
+              <a className={styles.link} href="/">
+                Dairy
+              </a>
             </li>
           </ul>
 

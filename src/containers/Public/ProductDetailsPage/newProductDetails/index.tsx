@@ -23,7 +23,7 @@ import classnames from 'classnames'
 import Slider from 'react-slick'
 import PhotoList from '../PhotoList'
 import { observer } from 'mobx-react'
-import { toJS } from 'mobx'
+// import { toJS } from 'mobx'
 
 interface IProductProps {
   product: IProduct
@@ -63,7 +63,9 @@ const NewProductDetails = observer(() => {
 
   const [couter, setCouter] = useState<number>(0)
   const [activeClass, setActiveClass] = useState<number>(1)
-  const [aboutProductText, setaboutProductText] = useState<string | undefined>('')
+  const [aboutProductText, setaboutProductText] = useState<string | undefined>(
+    ''
+  )
 
   const [product, setProduct] = useState<IProduct | undefined>(() => {
     const getProductWithId =
@@ -90,7 +92,7 @@ const NewProductDetails = observer(() => {
     if (!product) {
       setProduct(parsedProduct)
     }
-  }, [productStore.foto])
+  }, [product])
 
   useEffect(() => {
     if (product) {
@@ -99,7 +101,7 @@ const NewProductDetails = observer(() => {
       )?.text
       setaboutProductText(defaultText)
     }
-  }, [])
+  }, [product])
 
   const decrimentProducts = () => {
     if (couter > 0) {
@@ -151,7 +153,7 @@ const NewProductDetails = observer(() => {
               <h3 className={styles.title}>{product.text}</h3>
               <ul className={styles.starsList}>
                 <li className={styles.item}>
-                  <a className={styles.link}>
+                  <a className={styles.link} href="/">
                     <FontAwesomeIcon
                       icon={faStar}
                       className={styles.starIcon}
@@ -159,7 +161,7 @@ const NewProductDetails = observer(() => {
                   </a>
                 </li>
                 <li className={styles.item}>
-                  <a className={styles.link}>
+                  <a className={styles.link} href="/">
                     <FontAwesomeIcon
                       icon={faStar}
                       className={styles.starIcon}
@@ -167,7 +169,7 @@ const NewProductDetails = observer(() => {
                   </a>
                 </li>
                 <li className={styles.item}>
-                  <a className={styles.link}>
+                  <a className={styles.link} href="/">
                     <FontAwesomeIcon
                       icon={faStar}
                       className={styles.starIcon}
@@ -175,7 +177,7 @@ const NewProductDetails = observer(() => {
                   </a>
                 </li>
                 <li className={styles.item}>
-                  <a className={styles.link}>
+                  <a className={styles.link} href="/">
                     <FontAwesomeIcon
                       icon={StarIconRegular}
                       className={styles.starIcon}
@@ -183,7 +185,7 @@ const NewProductDetails = observer(() => {
                   </a>
                 </li>
                 <li className={styles.item}>
-                  <a className={styles.link}>
+                  <a className={styles.link} href="/">
                     <FontAwesomeIcon
                       icon={StarIconRegular}
                       className={styles.starIcon}
@@ -219,7 +221,7 @@ const NewProductDetails = observer(() => {
                 <h4 className={styles.share}>Share:</h4>
                 <ul className={styles.sotialList}>
                   <li className={styles.item}>
-                    <a className={styles.link} href="">
+                    <a className={styles.link} href="/">
                       <FontAwesomeIcon
                         icon={faFacebookF}
                         className={styles.icon}
@@ -227,7 +229,7 @@ const NewProductDetails = observer(() => {
                     </a>
                   </li>
                   <li className={styles.item}>
-                    <a className={styles.link} href="">
+                    <a className={styles.link} href="/">
                       <FontAwesomeIcon
                         icon={faTwitter}
                         className={styles.icon}
@@ -235,7 +237,7 @@ const NewProductDetails = observer(() => {
                     </a>
                   </li>
                   <li className={styles.item}>
-                    <a className={styles.link} href="">
+                    <a className={styles.link} href="/">
                       <FontAwesomeIcon
                         icon={faLinkedin}
                         className={styles.icon}
@@ -243,7 +245,7 @@ const NewProductDetails = observer(() => {
                     </a>
                   </li>
                   <li className={styles.item}>
-                    <a className={styles.link} href="">
+                    <a className={styles.link} href="/">
                       <FontAwesomeIcon
                         icon={faPinterest}
                         className={styles.icon}
@@ -251,7 +253,7 @@ const NewProductDetails = observer(() => {
                     </a>
                   </li>
                   <li className={styles.item}>
-                    <a className={styles.link} href="">
+                    <a className={styles.link} href="/">
                       <FontAwesomeIcon
                         icon={faInstagram}
                         className={styles.icon}
@@ -311,24 +313,3 @@ const NewProductDetails = observer(() => {
 })
 
 export default NewProductDetails
-
-//const [product, setProduct] = useState<IProduct>(() => {
-// const items: any = localStorage.getItem('product')
-// const parsedProduct: IProduct = JSON.parse(items)
-// return parsedProduct
-//})
-
-// useEffect(() => {
-// const items: any = localStorage.getItem('product')
-// const parsedProduct: any = JSON.parse(items)
-// setProduct(parsedProduct)
-
-// const findProduct = () => {
-//   const getProductWithId =
-//     productStore.trendingProducts.find(
-//       (item: IProduct) => item.id === id
-//     ) || productStore.bestProducts.find((item: IProduct) => item.id === id)
-//   getProductWithId && setProduct(getProductWithId)
-// }
-// findProduct()
-// ),[]}

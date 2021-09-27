@@ -1,10 +1,9 @@
 import React, { useEffect } from 'react'
-import { useStore } from 'stores'
 import styles from './styles.module.scss'
+import IProduct from '../../../../models/product'
+import { useStore } from 'stores'
 import ProductComponent from 'containers/Public/Main/ProductComponent'
 import relatedProductsJSON from '../../../../sources/products/relatedProducts'
-import IProduct from '../../../../models/product'
-import { toJS } from 'mobx'
 import { observer } from 'mobx-react'
 
 const RelatedProducts = observer(() => {
@@ -12,8 +11,7 @@ const RelatedProducts = observer(() => {
 
   useEffect(() => {
     productStore.setRelatedProduct(relatedProductsJSON)
-  }, [])
-console.log(productStore.relatedProducts)
+  }, [productStore])
   return (
     <>
       <section className={styles.section}>

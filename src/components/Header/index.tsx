@@ -51,7 +51,7 @@ const Header = () => {
           </ul>
           <ul className={styles.sotialList}>
             <li className={styles.item}>
-              <a className={styles.link} href="">
+              <a className={styles.link} href="/">
                 <FontAwesomeIcon
                   icon={faSearch}
                   color="#9fcb22"
@@ -60,7 +60,7 @@ const Header = () => {
               </a>
             </li>
             <li className={styles.item}>
-              <a className={styles.link} href="">
+              <a className={styles.link} href="/">
                 <FontAwesomeIcon
                   icon={faUser}
                   color="#9fcb22"
@@ -69,7 +69,7 @@ const Header = () => {
               </a>
             </li>
             <li className={styles.item}>
-              <a className={styles.link} href="">
+              <a className={styles.link} href="/">
                 <FontAwesomeIcon
                   icon={faStar}
                   color="#9fcb22"
@@ -78,7 +78,7 @@ const Header = () => {
               </a>
             </li>
             <li className={styles.item}>
-              <a className={styles.linkCart} href="">
+              <a className={styles.linkCart} href="/">
                 <FontAwesomeIcon
                   icon={faShoppingCart}
                   color="#9fcb22"

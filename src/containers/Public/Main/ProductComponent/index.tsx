@@ -3,7 +3,7 @@ import styles from './styles.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import IProduct from '../../../../models/product'
-import { useHistory, useLocation, useRouteMatch } from 'react-router'
+import { useHistory, useLocation } from 'react-router'
 import classnames from 'classnames'
 
 interface IProductProps {
@@ -13,7 +13,6 @@ interface IProductProps {
 
 const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {
   const history = useHistory()
-  const match = useRouteMatch()
   const location = useLocation()
 
   const productsDetails = () => {
@@ -34,13 +33,13 @@ const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {
         onClick={productsDetails}
       >
         {product.hot ? <p className={styles.hot}>{product.hot}</p> : null}
-        <a className={styles.like}>
+        <a className={styles.like} href="/">
           <FontAwesomeIcon icon={faHeart} className={styles.icon} />
         </a>
         <img className={styles.img} src={product.img} alt={product.text}></img>
         <ul className={styles.starsList}>
           <li className={styles.item}>
-            <a className={styles.link}>
+            <a className={styles.link} href="/">
               <FontAwesomeIcon
                 icon={product.star}
                 className={styles.starIcon}
@@ -48,7 +47,7 @@ const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {
             </a>
           </li>
           <li className={styles.item}>
-            <a className={styles.link}>
+            <a className={styles.link} href="/">
               <FontAwesomeIcon
                 icon={product.star}
                 className={styles.starIcon}
@@ -56,7 +55,7 @@ const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {
             </a>
           </li>
           <li className={styles.item}>
-            <a className={styles.link}>
+            <a className={styles.link} href="/">
               <FontAwesomeIcon
                 icon={product.star}
                 className={styles.starIcon}
@@ -64,7 +63,7 @@ const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {
             </a>
           </li>
           <li className={styles.item}>
-            <a className={styles.link}>
+            <a className={styles.link} href="/">
               <FontAwesomeIcon
                 icon={product.starRegular}
                 className={styles.starIcon}
@@ -72,7 +71,7 @@ const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {
             </a>
           </li>
           <li className={styles.item}>
-            <a className={styles.link}>
+            <a className={styles.link} href="/">
               <FontAwesomeIcon
                 icon={product.starRegular}
                 className={styles.starIcon}

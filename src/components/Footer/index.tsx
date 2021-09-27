@@ -2,7 +2,6 @@ import * as React from 'react'
 import styles from './styles.module.scss'
 import FormBannerImg from '../../sources/images/footer/Left_Image.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar } from '@fortawesome/free-solid-svg-icons'
 import {
   faFacebookF,
   faTwitter,
@@ -20,12 +19,14 @@ const Footer = () => {
             <li className={styles.item}>
               <h4 className={styles.title}>Store Location</h4>
               <p className={styles.subtitle}>Address:</p>
-              <a className={styles.text}
+              <a
+                className={styles.text}
                 href="https://www.google.com/maps/place/121+King+St,+Melbourne+VIC+3000,
                 +%D0%90%D0%B2%D1%81%D1%82%D1%80%D0%B0%D0%BB%D0%B8%D1%8F/@-37.8172467,
                 144.9535863,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad65d4dd5a05d97:0x3e64f855a564844d!8m2!3d
                 -37.817251!4d144.955775?hl=ru"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 121 King Street Melbourne,3000, Australia
               </a>
@@ -76,27 +77,27 @@ const Footer = () => {
             <p className={styles.followUs}>Follow Us:</p>
             <ul className={styles.list}>
               <li className={styles.item}>
-                <a className={styles.link} href="">
+                <a className={styles.link} href="/">
                   <FontAwesomeIcon icon={faFacebookF} className={styles.icon} />
                 </a>
               </li>
               <li className={styles.item}>
-                <a className={styles.link} href="">
+                <a className={styles.link} href="/">
                   <FontAwesomeIcon icon={faTwitter} className={styles.icon} />
                 </a>
               </li>
               <li className={styles.item}>
-                <a className={styles.link} href="">
+                <a className={styles.link} href="/">
                   <FontAwesomeIcon icon={faLinkedin} className={styles.icon} />
                 </a>
               </li>
               <li className={styles.item}>
-                <a className={styles.link} href="">
+                <a className={styles.link} href="/">
                   <FontAwesomeIcon icon={faPinterest} className={styles.icon} />
                 </a>
               </li>
               <li className={styles.item}>
-                <a className={styles.link} href="">
+                <a className={styles.link} href="/">
                   <FontAwesomeIcon icon={faInstagram} className={styles.icon} />
                 </a>
               </li>

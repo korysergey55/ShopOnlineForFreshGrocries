@@ -32,7 +32,10 @@ const CustomersSaying = () => {
               </p>
               <ul className={styles.customersSaying_starsList}>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}>
+                  <a
+                    className={styles.customersSaying_starsList_item_link}
+                    href="/"
+                  >
                     <FontAwesomeIcon
                       icon={faStar}
                       className={
@@ -42,7 +45,10 @@ const CustomersSaying = () => {
                   </a>
                 </li>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}>
+                  <a
+                    className={styles.customersSaying_starsList_item_link}
+                    href="/"
+                  >
                     <FontAwesomeIcon
                       icon={faStar}
                       className={
@@ -52,7 +58,10 @@ const CustomersSaying = () => {
                   </a>
                 </li>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}>
+                  <a
+                    className={styles.customersSaying_starsList_item_link}
+                    href="/"
+                  >
                     <FontAwesomeIcon
                       icon={faStar}
                       className={
@@ -62,7 +71,10 @@ const CustomersSaying = () => {
                   </a>
                 </li>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}>
+                  <a
+                    className={styles.customersSaying_starsList_item_link}
+                    href="/"
+                  >
                     <FontAwesomeIcon
                       icon={faStar}
                       className={
@@ -72,7 +84,10 @@ const CustomersSaying = () => {
                   </a>
                 </li>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}>
+                  <a
+                    className={styles.customersSaying_starsList_item_link}
+                    href="/"
+                  >
                     <FontAwesomeIcon
                       icon={faStar}
                       className={
@@ -104,7 +119,10 @@ const CustomersSaying = () => {
               </p>
               <ul className={styles.customersSaying_starsList}>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}>
+                  <a
+                    className={styles.customersSaying_starsList_item_link}
+                    href="/"
+                  >
                     <FontAwesomeIcon
                       icon={faStar}
                       className={
@@ -114,7 +132,10 @@ const CustomersSaying = () => {
                   </a>
                 </li>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}>
+                  <a
+                    className={styles.customersSaying_starsList_item_link}
+                    href="/"
+                  >
                     <FontAwesomeIcon
                       icon={faStar}
                       className={
@@ -124,7 +145,10 @@ const CustomersSaying = () => {
                   </a>
                 </li>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}>
+                  <a
+                    className={styles.customersSaying_starsList_item_link}
+                    href="/"
+                  >
                     <FontAwesomeIcon
                       icon={faStar}
                       className={
@@ -134,7 +158,10 @@ const CustomersSaying = () => {
                   </a>
                 </li>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}>
+                  <a
+                    className={styles.customersSaying_starsList_item_link}
+                    href="/"
+                  >
                     <FontAwesomeIcon
                       icon={faStar}
                       className={
@@ -144,7 +171,10 @@ const CustomersSaying = () => {
                   </a>
                 </li>
                 <li className={styles.customersSaying_starsList_item}>
-                  <a className={styles.customersSaying_starsList_item_link}>
+                  <a
+                    className={styles.customersSaying_starsList_item_link}
+                    href="/"
+                  >
                     <FontAwesomeIcon
                       icon={faStar}
                       className={

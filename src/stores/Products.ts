@@ -1,12 +1,12 @@
 import {
   makeAutoObservable,
-  configure,
-  computed,
   observable,
   action,
-  reaction,
-  runInAction,
-  toJS,
+  // configure,
+  // computed,
+  // reaction,
+  // runInAction,
+  // toJS,
 } from 'mobx'
 import IProduct from '../models/product'
 

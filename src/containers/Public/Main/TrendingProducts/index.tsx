@@ -16,7 +16,7 @@ const TrendingProducts = observer(() => {
 
   useEffect(() => {
     productStore.setTrendingProduct(trendingProductsJSON)
-  }, [])
+  }, [productStore])
 
   return (
     <>
