@@ -47,14 +47,15 @@
   &_imgContainer {
     position: absolute;
     top: 16%;
-    left: 31%;
+    left: 35%;
     width: 532px;
     height: 420px;
   }
   &_btn {
+    display: block;
     width: 175px;
     height: 53px;
-    margin-left: 182px;
+    margin: 0 auto;
     margin-top: 80px;
     font-family: Barlow;
     font-size: 16px;

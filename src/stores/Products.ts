@@ -15,6 +15,7 @@ class Products {
   @observable bestProducts: IProduct[] = []
   @observable relatedProducts: IProduct[] = []
   @observable foto: string | undefined = ''
+  @observable modal: boolean = false
 
   constructor() {
     makeAutoObservable(this)
@@ -34,6 +35,9 @@ class Products {
   }
   @action setPhoto(foto: string | undefined) {
     this.foto = foto
+  }
+  @action setModal() {
+    this.modal = !this.modal
   }
 }
 export default new Products()
