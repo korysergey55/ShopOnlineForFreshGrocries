@@ -18,6 +18,7 @@ code {
 .slick-list {
   width: 95px;
   height: 643px;
+  list-style: none;
 }
 .slick-track {
   height: 643px;
@@ -36,5 +37,37 @@ code {
 }
 .slick-next {
   margin-top: 17px;
-  
+}
+
+#modal-root .slick-slider {
+  width: 400px;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+#modal-root .slick-list {
+  width: 430px;
+  height: 100px;
+  list-style: none;
+}
+#modal-root .slick-list .slick-track {
+  height: 100px;
+}
+#modal-root .slick-arrow {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+}
+
+#modal-root .slick-arrow.slick-next {
+  position: absolute;
+  top: 23%;
+  left: 109%;
+}
+
+#modal-root .slick-arrow.slick-prev {
+  position: absolute;
+  top: 23%;
+  left: -11%;
 }

@@ -14,7 +14,7 @@ class Products {
   @observable trendingProducts: IProduct[] = []
   @observable bestProducts: IProduct[] = []
   @observable relatedProducts: IProduct[] = []
-  @observable foto: string | undefined = ''
+  @observable photo: string | undefined = ''
   @observable modal: boolean = false
 
   constructor() {
@@ -33,8 +33,8 @@ class Products {
   @action setRelatedProduct(product: any) {
     this.relatedProducts = product
   }
-  @action setPhoto(foto: string | undefined) {
-    this.foto = foto
+  @action setPhoto(photo: string | undefined) {
+    this.photo = photo
   }
   @action setModal() {
     this.modal = !this.modal

@@ -8,6 +8,8 @@ import {
   faStar,
   faChevronUp,
   faChevronDown,
+  faChevronCircleLeft,
+  faChevronCircleRight,
 } from '@fortawesome/free-solid-svg-icons'
 import { faStar as StarIconRegular } from '@fortawesome/free-regular-svg-icons'
 import {
@@ -23,9 +25,9 @@ import Slider from 'react-slick'
 import PhotoList from '../PhotoList'
 import Modal from '../Modal/index'
 import { observer } from 'mobx-react'
-import { toJS } from 'mobx'
 import { useHistory, useLocation, useParams } from 'react-router'
 import { useStore } from 'stores'
+import { toJS } from 'mobx'
 
 interface IProductProps {
   product: IProduct
@@ -56,6 +58,33 @@ const sliderSettings = {
     </button>
   ),
 }
+
+const sliderModalSettings = {
+  dots: false,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  nextArrow: (
+    <button type="button">
+      <FontAwesomeIcon
+        icon={faChevronCircleRight}
+        className={styles.icon}
+        color="#9fcb22"
+      />
+    </button>
+  ),
+  prevArrow: (
+    <button type="button">
+      <FontAwesomeIcon
+        icon={faChevronCircleLeft}
+        className={styles.icon}
+        color="#9fcb22"
+      />
+    </button>
+  ),
+}
+
 const NewProductDetails = observer(() => {
   const history = useHistory()
   const location = useLocation<any>()
@@ -73,18 +102,6 @@ const NewProductDetails = observer(() => {
       productStore.bestProducts.find((item: IProduct) => item.id === id)
     return getProductWithId
   })
-
-  // const [product, setProduct] = useState<any>({})
-  // useEffect(() => {
-  //   console.log(toJS(productStore))
-  //   const findProduct = () => {
-  //     const getProductWithId =
-  //       productStore.trendingProducts.find((item: IProduct) => item.id === id)
-  //       || productStore.bestProducts.find((item: IProduct) => item.id === id)
-  //     getProductWithId && setProduct(getProductWithId)
-  //   }
-  //   findProduct()
-  // },[])
 
   useEffect(() => {
     const items: any = localStorage.getItem('product')
@@ -108,6 +125,7 @@ const NewProductDetails = observer(() => {
       setCouter(prev => prev - 1)
     }
   }
+
   const incrementProducts = () => {
     setCouter(prev => prev + 1)
   }
@@ -125,6 +143,7 @@ const NewProductDetails = observer(() => {
   const openImgModal = () => {
     productStore.setModal()
   }
+
   return (
     <>
       {product ? (
@@ -147,8 +166,8 @@ const NewProductDetails = observer(() => {
                 <div className={styles.mainImgContainer}>
                   <img
                     className={styles.mainImg}
-                    src={productStore.foto ? productStore.foto : product.img}
-                    alt={productStore.foto}
+                    src={productStore.photo ? productStore.photo : product.img}
+                    alt="main Photo"
                     onClick={() => openImgModal()}
                   ></img>
                 </div>
@@ -313,11 +332,18 @@ const NewProductDetails = observer(() => {
           </div>
           {productStore.modal && (
             <Modal>
+              <Slider {...sliderModalSettings} className={styles.photoList}>
+                {product.imgArr
+                  ? product.imgArr.map(item => (
+                      <PhotoList item={item} key={item} />
+                    ))
+                  : null}
+              </Slider>
               <img
                 className={styles.mainImg}
-                src={productStore.foto ? productStore.foto : product?.img}
-                alt={productStore.foto}
-              ></img>
+                src={productStore.photo ? productStore.photo : product.img}
+                alt="main Photo"
+              />
             </Modal>
           )}
         </>
@@ -325,5 +351,51 @@ const NewProductDetails = observer(() => {
     </>
   )
 })
-
 export default NewProductDetails
+
+// const [product, setProduct] = useState<any>({})
+// useEffect(() => {
+//   console.log(toJS(productStore))
+//   const findProduct = () => {
+//     const getProductWithId =
+//       productStore.trendingProducts.find((item: IProduct) => item.id === id)
+//       || productStore.bestProducts.find((item: IProduct) => item.id === id)
+//     getProductWithId && setProduct(getProductWithId)
+//   }
+//   findProduct()
+// },[])
+
+//  const [index, setIndex] = useState<number>(0)
+// const changePhoto = (increment = true) => {
+//   if (product && product['imgArr']) {
+//     if (index < product['imgArr'].length - 1) {
+//       if (increment) {
+//         setIndex(index + 1)
+//       } else {
+//         setIndex(index - 1)
+//       }
+//     }
+//   }
+// }
+
+// {
+//   productStore.modal && (
+//     <Modal>
+//       <button type="button" onClick={() => changePhoto(false)}>
+//         prev
+//       </button>
+//       {product && product['imgArr'] ? (
+//         <img
+//           className={styles.mainImg}
+//           src={
+//             productStore.photo ? productStore.photo : product['imgArr'][index]
+//           }
+//           alt="main Photo"
+//         />
+//       ) : null}
+//       <button type="button" onClick={() => changePhoto()}>
+//         next
+//       </button>
+//     </Modal>
+//   )
+// }
