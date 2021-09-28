@@ -179,7 +179,7 @@ const NewProductDetails = observer(() => {
                   <img
                     className={styles.mainImg}
                     src={productStore.photo ? productStore.photo : product.img}
-                    alt="main Photo"
+                    alt="mainPhoto"
                     onClick={() => openImgModal()}
                   ></img>
                 </div>
@@ -354,7 +354,7 @@ const NewProductDetails = observer(() => {
               <img
                 className={styles.mainImg}
                 src={productStore.photo ? productStore.photo : product.img}
-                alt="main Photo"
+                alt="mainPhoto"
               ></img>
             </Modal>
           )}
@@ -365,27 +365,3 @@ const NewProductDetails = observer(() => {
 })
 export default NewProductDetails
 
-// const [product, setProduct] = useState<any>({})
-// useEffect(() => {
-//   console.log(toJS(productStore))
-//   const findProduct = () => {
-//     const getProductWithId =
-//       productStore.trendingProducts.find((item: IProduct) => item.id === id)
-//       || productStore.bestProducts.find((item: IProduct) => item.id === id)
-//     getProductWithId && setProduct(getProductWithId)
-//   }
-//   findProduct()
-// },[])
-
-// const [index, setIndex] = useState<number>(0)
-// const changePhoto = (increment = true) => {
-//   if (product && product['imgArr']) {
-//     if (index < product['imgArr'].length - 1) {
-//       if (increment) {
-//         setIndex(index + 1)
-//       } else {
-//         setIndex(index - 1)
-//       }
-//     }
-//   }
-// }

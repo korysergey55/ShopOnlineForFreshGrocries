@@ -6,6 +6,7 @@ import store from 'stores'
 import Loader from '../Public/Loader/index'
 const Main = lazy(() => import('../Public/Main/index'))
 const ProductDetailsPage = lazy(() => import('containers/Public/ProductDetailsPage'))
+const Shop = lazy(()=> import ('containers/Public/Shop/index'))
 
 class App extends Component {
   componentDidMount = (): void => {}
@@ -14,9 +15,10 @@ class App extends Component {
     return (
       <Provider store={store}>
         <Router history={history}>
-          <Suspense fallback={<Loader/>}>
+          <Suspense fallback={<Loader />}>
             <Switch>
               <Route exact path="/" component={Main} />
+              <Route exact path="/shop" component={Shop} />
               <Route path="/:id" component={ProductDetailsPage} />
             </Switch>
           </Suspense>
