@@ -1,4 +1,5 @@
 import React, { Component, Suspense, lazy } from 'react'
+import 'antd/dist/antd.css'
 import { Router, Switch, Route } from 'react-router'
 import { Provider } from 'mobx-react'
 import history from 'utils/history'
