@@ -4,6 +4,7 @@ import BunnerImg from '../../../../sources/images/prendingProducts/bunner.png'
 import IProduct from 'models/product'
 import ProductComponent from '../ProductComponent/index'
 import trendingProductsJSON from '../../../../sources/products/trendingProducts'
+import relatedProductsJSON from '../../../../sources/products/trendingProducts'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { useStore } from 'stores'
@@ -16,6 +17,7 @@ const TrendingProducts = observer(() => {
 
   useEffect(() => {
     productStore.setTrendingProduct(trendingProductsJSON)
+     productStore.setRelatedProduct(relatedProductsJSON)
   }, [productStore])
 
   return (

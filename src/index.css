@@ -54,20 +54,20 @@ code {
   height: 100px;
 }
 #modal-root .slick-arrow {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border: none;
   background-color: transparent;
 }
 
 #modal-root .slick-arrow.slick-next {
   position: absolute;
-  top: 23%;
-  left: 109%;
+  top: 6%;
+  left: 104%;
 }
 
 #modal-root .slick-arrow.slick-prev {
   position: absolute;
-  top: 23%;
+  top: 6%;
   left: -11%;
 }

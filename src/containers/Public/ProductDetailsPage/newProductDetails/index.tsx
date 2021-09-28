@@ -71,6 +71,7 @@ const sliderModalSettings = {
         icon={faChevronCircleRight}
         className={styles.icon}
         color="#9fcb22"
+        size="lg"
       />
     </button>
   ),
@@ -80,6 +81,7 @@ const sliderModalSettings = {
         icon={faChevronCircleLeft}
         className={styles.icon}
         color="#9fcb22"
+        size="lg"
       />
     </button>
   ),
@@ -110,6 +112,16 @@ const NewProductDetails = observer(() => {
       setProduct(parsedProduct)
     }
   }, [product])
+
+  useEffect(() => {
+    const findProduct = () => {
+      const getProductWithId = productStore.relatedProducts.find(
+        (item: IProduct) => item.id === id
+      )
+      getProductWithId && setProduct(getProductWithId)
+    }
+    findProduct()
+  }, [id, productStore])
 
   useEffect(() => {
     if (product) {
@@ -343,7 +355,7 @@ const NewProductDetails = observer(() => {
                 className={styles.mainImg}
                 src={productStore.photo ? productStore.photo : product.img}
                 alt="main Photo"
-              />
+              ></img>
             </Modal>
           )}
         </>
@@ -365,7 +377,7 @@ export default NewProductDetails
 //   findProduct()
 // },[])
 
-//  const [index, setIndex] = useState<number>(0)
+// const [index, setIndex] = useState<number>(0)
 // const changePhoto = (increment = true) => {
 //   if (product && product['imgArr']) {
 //     if (index < product['imgArr'].length - 1) {
@@ -376,26 +388,4 @@ export default NewProductDetails
 //       }
 //     }
 //   }
-// }
-
-// {
-//   productStore.modal && (
-//     <Modal>
-//       <button type="button" onClick={() => changePhoto(false)}>
-//         prev
-//       </button>
-//       {product && product['imgArr'] ? (
-//         <img
-//           className={styles.mainImg}
-//           src={
-//             productStore.photo ? productStore.photo : product['imgArr'][index]
-//           }
-//           alt="main Photo"
-//         />
-//       ) : null}
-//       <button type="button" onClick={() => changePhoto()}>
-//         next
-//       </button>
-//     </Modal>
-//   )
 // }
