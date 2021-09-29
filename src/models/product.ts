@@ -18,3 +18,9 @@ export interface Product {
   title: string
   text: string
 }
+
+export interface ICheckbox {
+  id: number
+  name: string
+  title: string
+}

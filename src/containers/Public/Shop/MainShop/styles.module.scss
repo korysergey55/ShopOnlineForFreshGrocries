@@ -20,24 +20,31 @@
     width: 254px;
     height: 44px;
     margin-right: 31px;
-    padding-left: 15px;
     color: #6c6c6c;
     font-family: Barlow;
     font-size: 18px;
     font-weight: 400;
-    background-color: #f6fafb;
+    // background-color: #f6fafb;
   }
   .sortBtn {
     width: 44px;
     height: 44px;
     margin-right: 11px;
     background-color: #9fcb22;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
   .sortBtnL {
     width: 44px;
     height: 44px;
     margin-right: 25px;
     background-color: #f6fafb;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
   .text {
     display: inline-block;
@@ -48,20 +55,119 @@
     font-weight: 400;
     color: #6c6c6c;
   }
+  .select {
+    width: 254px;
+    // height: 44px;
+    margin-right: 31px;
+    color: #6c6c6c;
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    // background-color: #f6fafb;
+  }
 }
 
 .shopMainContainer {
   .leftContainer {
-    min-width: 257px;
+    margin-right: 31px;
+
     .checkboxContainer {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      max-width: 254px;
+      min-height: 507px;
+      margin-bottom: 30px;
+      padding-top: 29px;
+      padding-bottom: 41px;
+      padding-left: 30px;
+      border: 1px solid #deecf0;
+      background-color: #f6fafb;
+
+      .list {
+        list-style: none;
+        padding-left: 0;
+        .title {
+          margin-bottom: 27px;
+          font-size: 24px;
+          font-weight: 400;
+          color: #252932;
+        }
+        .item {
+          margin-bottom: 18px;
+        }
+      }
+    }
+    .filterContainer {
+      max-width: 254px;
+      min-height: 149px;
+      margin-bottom: 30px;
+      padding: 28px 30px;
+      border: 1px solid #deecf0;
+      background-color: #ffffff;
+
+      .title {
+        margin-bottom: 25px;
+        font-size: 24px;
+        font-weight: 500;
+        color: #252932;
+      }
+      .button {
+        margin-top: 23px;
+        margin-right: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        border: none;
+        color: #9fcb22;
+        background-color: transparent;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .range {
+        width: 171px;
+        height: 7px;
+      }
+
+      .text {
+        display: inline-block;
+        font-family: Barlow;
+        font-size: 16px;
+        font-weight: 400;
+        color: #6c6c6c;
+      }
+    }
+    .trandingContainer {
+      max-width: 254px;
+      min-height: 577px;
+      padding: 28px 30px;
+      border: 1px solid #deecf0;
+      background-color: #ffffff;
 
       .title {
         font-size: 24px;
-        font-weight: 400;
+        font-weight: 500;
         color: #252932;
+      }
+      .list {
+        padding-left: 0;
+        list-style: none;
+      }
+      .button {
+        margin-top: 29px;
+        font-family: 'Barlow';
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+        border: none;
+        background-color: transparent;
+        color: #9fcb22;
+
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
   }
