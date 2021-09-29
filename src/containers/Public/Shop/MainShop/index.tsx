@@ -1,21 +1,26 @@
 import React, { useState } from 'react'
 import styles from './styles.module.scss'
 import TrandingItem from '../TrandingItem'
+import ProductComponent from 'containers/Public/Main/ProductComponent'
 import relatedProductsJSON from 'sources/products/relatedProducts'
 import { checkboxJSON } from 'sources/checkbox'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTh, faListUl, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { Checkbox, Select, Input, Slider, Switch } from 'antd'
 import { toJS } from 'mobx'
+import { useStore } from 'stores'
+import { observer } from 'mobx-react'
 const { Option } = Select
 const { Search } = Input
 
-const MainShop = () => {
+const MainShop = observer(() => {
+  const { productStore } = useStore()
   const [checkbox, setCheckbox] = useState<string>('')
   const [sort, setSort] = useState<string>('')
   const [product, setProduct] = useState<any>('')
   const [range, setRange] = useState<number[]>([10, 90])
 
+  console.log(toJS(productStore.allProducts))
   const onSearch = (value: string) => {
     console.log(value)
   }
@@ -158,12 +163,19 @@ const MainShop = () => {
               </div>
             </div>
 
-            <div className={styles.rigthContainer}></div>
+            <div className={styles.rigthContainer}>
+              <ul className={styles.productsList}>
+                {productStore.allProducts &&
+                  productStore.allProducts.map(product => (
+                    <ProductComponent product={product} width={true}/>
+                  ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>
     </>
   )
-}
+})
 
 export default MainShop

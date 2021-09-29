@@ -11,6 +11,7 @@ import {
 import IProduct from '../models/product'
 
 class Products {
+  @observable allProducts: IProduct[] = []
   @observable trendingProducts: IProduct[] = []
   @observable bestProducts: IProduct[] = []
   @observable relatedProducts: IProduct[] = []
@@ -23,6 +24,9 @@ class Products {
     //   () => this.bestProducts,
     //   _ => console.log(toJS(this.bestProducts))
     // )
+  }
+  @action setAllProduct(product: any) {
+    this.allProducts = product
   }
   @action setTrendingProduct(product: any) {
     this.trendingProducts = product

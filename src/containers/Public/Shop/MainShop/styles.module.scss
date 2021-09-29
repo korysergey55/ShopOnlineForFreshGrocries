@@ -1,6 +1,6 @@
 .section {
   min-width: 1740px;
-  padding: 141px 0;
+  padding-top: 141px;
 }
 .container {
   display: block;
@@ -68,9 +68,11 @@
 }
 
 .shopMainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   .leftContainer {
-    margin-right: 31px;
-
+    // margin-right: 31px;
     .checkboxContainer {
       display: flex;
       flex-direction: column;
@@ -169,6 +171,18 @@
           cursor: pointer;
         }
       }
+    }
+  }
+  .rigthContainer {
+    max-width: 823px;
+    max-height: 1300px;
+    .productsList {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 0;
+      padding-left: 0;
     }
   }
 }

@@ -141,10 +141,13 @@
   height: 411px;
   margin-right: 15px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 30px;
 
   &:nth-child(3n + 3) {
     margin-right: 15px;
+  }
+  &:nth-child(n + 4) {
+    margin-bottom: 30px;
   }
 
   .like {

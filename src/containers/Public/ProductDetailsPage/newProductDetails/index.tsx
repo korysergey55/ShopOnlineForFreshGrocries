@@ -155,7 +155,7 @@ const NewProductDetails = observer(() => {
   const openImgModal = () => {
     productStore.setModal()
   }
-
+// if(!product) return null
   return (
     <>
       {product ? (
