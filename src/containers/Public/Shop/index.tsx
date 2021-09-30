@@ -8,8 +8,10 @@ import CustomersSaying from '../Main/CustomersSaying'
 import { allProductsJSON } from 'sources/products/allProducts'
 import { useStore } from 'stores'
 import { toJS } from 'mobx'
+
 const Shop = () => {
   const { productStore, productStoreAPI } = useStore()
+  
   useEffect(() => {
     productStore.setAllProducts(allProductsJSON)
     productStoreAPI.fetchAllProductAPI(allProductsJSON)

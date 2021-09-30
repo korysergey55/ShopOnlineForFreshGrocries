@@ -12,7 +12,7 @@ import IProduct from '../models/product'
 import axios from 'axios'
 
 class ProductsAPI {
-  
+
   @observable allProductsAPI: IProduct[] = []
   @observable productsAPI: IProduct[] = []
 
@@ -42,6 +42,7 @@ class ProductsAPI {
   @action.bound setAllProductsAPI(products: any) {
     this.allProductsAPI = [...products, this.allProductsAPI]
   }
+  
   @action async getProductsAPI(page = 1) {
     const BASE_URL = 'http://localhost:3000/products'
     const response = await fetch(`${BASE_URL}?_page=${page}&_limit=9`).then(

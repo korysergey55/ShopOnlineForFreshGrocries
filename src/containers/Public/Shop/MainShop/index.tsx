@@ -23,9 +23,8 @@ const MainShop = observer(() => {
   useEffect(() => {
     productStoreAPI.getProductsAPI()
   }, [])
-
   console.log('productsAPI', toJS(productStoreAPI.productsAPI))
-  console.log('allProductsAPI',toJS(productStoreAPI.allProductsAPI))
+  console.log('allProductsAPI', toJS(productStoreAPI.allProductsAPI))
 
   const onSearch = (value: string) => {
     console.log(value)
