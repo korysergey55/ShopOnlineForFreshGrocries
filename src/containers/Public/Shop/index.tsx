@@ -7,12 +7,13 @@ import Footer from 'components/Footer'
 import CustomersSaying from '../Main/CustomersSaying'
 import { allProductsJSON } from 'sources/products/allProducts'
 import { useStore } from 'stores'
-
+import { toJS } from 'mobx'
 const Shop = () => {
-  const { productStore } = useStore()
+  const { productStore, productStoreAPI } = useStore()
   useEffect(() => {
-  productStore.setAllProduct(allProductsJSON)
-  }, [productStore])
+    productStore.setAllProducts(allProductsJSON)
+    productStoreAPI.fetchAllProductAPI(allProductsJSON)
+  }, [])
 
   return (
     <>

@@ -9,6 +9,7 @@ import classnames from 'classnames'
 interface IProductProps {
   product: IProduct
   width?: boolean
+  key?: string
 }
 
 const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {

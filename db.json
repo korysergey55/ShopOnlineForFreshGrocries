@@ -1,0 +1,2584 @@
+{
+  "products": [
+    [
+      {
+        "id": "87c09dd2-f9c9-4450-912f-16bea867a2f1",
+        "hot": "Hot",
+        "img": "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Beef Steak",
+        "oldPrice": 15,
+        "price": 12,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Beef Steak - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "60432b2a-b400-499a-8795-195d44e32773",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Broccoli",
+        "oldPrice": 20,
+        "price": 15,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Broccoli - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "2fec1379-7376-493c-892a-ed908cb2cd54",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Strawberries",
+        "oldPrice": 30,
+        "price": 20,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Strawberries - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "2023c9b7-e99e-407a-9e50-94e243e1bbbf",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Fresh Honey",
+        "oldPrice": 50,
+        "price": 40,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Fresh Honey - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "d4e55af5-0311-4809-896d-6c690cf14046",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/milk.66febc51.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Fresh Milk",
+        "oldPrice": 10,
+        "price": 0.8,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Fresh Milk - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "cee8b3fa-a5b6-44e0-b44d-19f214cf29a5",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Mango Beverage",
+        "oldPrice": 22,
+        "price": 18,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Mango Beverage - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "71c6bb30-663e-42e5-982b-b04a83419201",
+        "hot": "Hot",
+        "img": "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Fresh Bread",
+        "oldPrice": 15,
+        "price": 12,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Fresh Bread - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam."
+      },
+      {
+        "id": "72f0c3a9-5ec6-44ef-ae7b-af16bf3f5bc2",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "BreadImg",
+        "oldPrice": 20,
+        "price": 15,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "BreadImg - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "bdf0b927-731e-4ab3-a0b7-33e555e101b1",
+        "hot": "Hot",
+        "img": "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Orange Beverage",
+        "oldPrice": 30,
+        "price": 20,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Orange Beverage - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "e8938934-a1a5-48e9-a645-fff2f843ff4c",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Dozen Eggs",
+        "oldPrice": 15,
+        "price": 12,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Dozen Eggs - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "c43e75a8-0419-4200-af3b-6da1638f7e7b",
+        "hot": "Hot",
+        "img": "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Cooking Oil",
+        "oldPrice": 20,
+        "price": 15,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Cooking Oil - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "de71870a-dfed-46a0-b942-d5bdd07aef2a",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/bodyLotion.8e144207.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Body Lotion",
+        "oldPrice": 30,
+        "price": 20,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Body Lotion - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "3dd67b85-7749-454f-83e9-86e1fe86468f",
+        "hot": "Hot",
+        "img": "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Beef Steak",
+        "oldPrice": 15,
+        "price": 12,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Beef Steak - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "5fdf24c5-0829-4794-a6d5-498f1de6a6b5",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Broccoli",
+        "oldPrice": 20,
+        "price": 15,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Broccoli - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "145c9e5b-386e-46fb-92a6-c34d95b9bf89",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Strawberries",
+        "oldPrice": 30,
+        "price": 20,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Strawberries - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "04aca072-a527-486f-b5ea-ec453a0c5415",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Fresh Honey",
+        "oldPrice": 50,
+        "price": 40,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Fresh Honey - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "1685b882-d902-43be-b95b-de3d7d649603",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/milk.66febc51.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Fresh Milk",
+        "oldPrice": 10,
+        "price": 0.8,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Fresh Milk - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "e61ae6f8-6813-4b82-95f2-d1f890c98993",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Mango Beverage",
+        "oldPrice": 22,
+        "price": 18,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Mango Beverage - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "94cc82e0-f8f5-4f0d-a53b-8df039b0a90d",
+        "hot": "Hot",
+        "img": "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Fresh Bread",
+        "oldPrice": 15,
+        "price": 12,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Fresh Bread - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam."
+      },
+      {
+        "id": "6d650884-cfd9-4a3d-9d5c-12e49a88a92a",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "BreadImg",
+        "oldPrice": 20,
+        "price": 15,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "BreadImg - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "d46f1fc7-4e22-4c5e-9ca9-edf9c7d42878",
+        "hot": "Hot",
+        "img": "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Orange Beverage",
+        "oldPrice": 30,
+        "price": 20,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Orange Beverage - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "0e67b200-9310-4cae-bbf0-70a268cb4f92",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Dozen Eggs",
+        "oldPrice": 15,
+        "price": 12,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Dozen Eggs - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "50c2cd89-64dd-4803-bbe4-79e8637e47b1",
+        "hot": "Hot",
+        "img": "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Cooking Oil",
+        "oldPrice": 20,
+        "price": 15,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Cooking Oil - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "c64ab46b-f0f0-4496-acbe-7392935672ea",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/bodyLotion.8e144207.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Body Lotion",
+        "oldPrice": 30,
+        "price": 20,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Body Lotion - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "5ad73c5f-35f3-4a88-a60a-4566568a4e4b",
+        "hot": "Hot",
+        "img": "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Beef Steak",
+        "oldPrice": 15,
+        "price": 12,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Beef Steak - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "6ba8e0b4-ad21-49de-95fb-f943e84815e2",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Broccoli",
+        "oldPrice": 20,
+        "price": 15,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Broccoli - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "9f5a65ac-fbdc-4281-875e-2b8857dbae26",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Strawberries",
+        "oldPrice": 30,
+        "price": 20,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Strawberries - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "8fa12dc5-9a9c-4bf6-9b6c-ce204f6f5114",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Fresh Honey",
+        "oldPrice": 50,
+        "price": 40,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Fresh Honey - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "2698126b-a45c-44ec-8927-4df4eb8fc615",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/milk.66febc51.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Fresh Milk",
+        "oldPrice": 10,
+        "price": 0.8,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Fresh Milk - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "3dd8aba1-c15c-4a3a-a22a-9b0e56182532",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Mango Beverage",
+        "oldPrice": 22,
+        "price": 18,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Mango Beverage - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "1a79d67f-5c62-4dfb-8d3e-49eca672d0f3",
+        "hot": "Hot",
+        "img": "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Fresh Bread",
+        "oldPrice": 15,
+        "price": 12,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Fresh Bread - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam."
+      },
+      {
+        "id": "c91cb01a-d00a-4678-836c-b921fac968c4",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "BreadImg",
+        "oldPrice": 20,
+        "price": 15,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "BreadImg - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "338be7cb-78c8-4fa0-b019-44af43ad601e",
+        "hot": "Hot",
+        "img": "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Orange Beverage",
+        "oldPrice": 30,
+        "price": 20,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Orange Beverage - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "61201687-0c3f-42e2-b286-ba94b6f91b7a",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Dozen Eggs",
+        "oldPrice": 15,
+        "price": 12,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Dozen Eggs - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "06f23378-4d81-48b1-8210-1eefdbd52082",
+        "hot": "Hot",
+        "img": "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Cooking Oil",
+        "oldPrice": 20,
+        "price": 15,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Cooking Oil - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "a0f50e80-78f1-478a-b1a0-383b1e4ea51d",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/bodyLotion.8e144207.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Body Lotion",
+        "oldPrice": 30,
+        "price": 20,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Body Lotion - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "09535bf1-3482-418f-8e74-2fe7c875c2e6",
+        "hot": "Hot",
+        "img": "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Beef Steak",
+        "oldPrice": 15,
+        "price": 12,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Beef Steak - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "24301b3c-0022-49c9-93f2-ec5b58496345",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Broccoli",
+        "oldPrice": 20,
+        "price": 15,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Broccoli - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "d6638437-7b11-491d-81c2-c16c9169c791",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Strawberries",
+        "oldPrice": 30,
+        "price": 20,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Strawberries - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "54fc4595-a198-499a-85a4-df79f6812406",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Fresh Honey",
+        "oldPrice": 50,
+        "price": 40,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Fresh Honey - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "f8892118-2ed4-40c2-b4ff-95420a38d49a",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/milk.66febc51.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Fresh Milk",
+        "oldPrice": 10,
+        "price": 0.8,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Fresh Milk - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "ad92a13e-4d87-41a4-b519-8cf05154945d",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/beef.0ec8257c.png",
+          "/ShopOnlineForFreshGrocries/static/media/brocali-removebg-preview.9d852398.png",
+          "/ShopOnlineForFreshGrocries/static/media/strawberries-removebg-preview.c6f83015.png",
+          "/ShopOnlineForFreshGrocries/static/media/honey.c776b550.png",
+          "/ShopOnlineForFreshGrocries/static/media/mango.44a15746.png"
+        ],
+        "text": "Mango Beverage",
+        "oldPrice": 22,
+        "price": 18,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Mango Beverage - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "1a88cc74-4d2a-46a8-82d1-573c4906383a",
+        "hot": "Hot",
+        "img": "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Fresh Bread",
+        "oldPrice": 15,
+        "price": 12,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Fresh Bread - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam."
+      },
+      {
+        "id": "dca0777d-569f-4bcf-9cf8-69a168aab2ed",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "BreadImg",
+        "oldPrice": 20,
+        "price": 15,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "BreadImg - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "4267a080-e557-4ffe-ade0-a6138fbe6c0d",
+        "hot": "Hot",
+        "img": "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Orange Beverage",
+        "oldPrice": 30,
+        "price": 20,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Orange Beverage - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "3ff09753-04fc-4a41-a921-84b0aa11b609",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Dozen Eggs",
+        "oldPrice": 15,
+        "price": 12,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Dozen Eggs - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "68207ecf-41f3-465a-a28f-56d7c1c90f06",
+        "hot": "Hot",
+        "img": "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Cooking Oil",
+        "oldPrice": 20,
+        "price": 15,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Cooking Oil - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      },
+      {
+        "id": "b3797830-7a50-4c42-a862-5e8babe0154c",
+        "hot": null,
+        "img": "/ShopOnlineForFreshGrocries/static/media/bodyLotion.8e144207.png",
+        "imgArr": [
+          "/ShopOnlineForFreshGrocries/static/media/bread.42c54e49.png",
+          "/ShopOnlineForFreshGrocries/static/media/peper.405aee6d.png",
+          "/ShopOnlineForFreshGrocries/static/media/orange.6fe3e690.png",
+          "/ShopOnlineForFreshGrocries/static/media/eggs.a3731138.png",
+          "/ShopOnlineForFreshGrocries/static/media/oil.1c5b53a5.png"
+        ],
+        "text": "Body Lotion",
+        "oldPrice": 30,
+        "price": 20,
+        "star": {
+          "prefix": "fas",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          ]
+        },
+        "starRegular": {
+          "prefix": "far",
+          "iconName": "star",
+          "icon": [
+            576,
+            512,
+            [],
+            "f005",
+            "M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+          ]
+        },
+        "overview": "Body Lotion - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.",
+        "aboutProductLi": [
+          {
+            "id": 1,
+            "title": "Description",
+            "text": "Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 2,
+            "title": "Additional Information",
+            "text": "Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          },
+          {
+            "id": 3,
+            "title": "Reviews",
+            "text": "Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur"
+          }
+        ]
+      }
+    ]
+  ]
+}

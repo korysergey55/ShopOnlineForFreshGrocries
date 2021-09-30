@@ -4,11 +4,16 @@
   align-items: center;
   max-width: 200px;
   max-height: 70px;
-  margin-bottom: 20px;
 
+  &:hover {
+    cursor: pointer;
+  }
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
   .imgContainer {
-    width: 70px;
-    height: 70px;
+    width: 83px;
+    height: 83px;
     background-color: #f6fafb;
 
     .img {
@@ -21,6 +26,7 @@
   }
   .rigthSide {
     min-width: 83px;
+    min-height: 83px;
     .title {
       margin-bottom: 0;
       font-size: 16px;

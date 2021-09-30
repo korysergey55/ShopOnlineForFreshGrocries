@@ -11,16 +11,10 @@ import {
 import IProduct from '../models/product'
 import axios from 'axios'
 
-class Products {
+class ProductsAPI {
+  
   @observable allProductsAPI: IProduct[] = []
   @observable productsAPI: IProduct[] = []
-
-  @observable allProducts: IProduct[] = []
-  @observable trendingProducts: IProduct[] = []
-  @observable bestProducts: IProduct[] = []
-  @observable relatedProducts: IProduct[] = []
-  @observable photo: string | undefined = ''
-  @observable modal: boolean = false
 
   constructor() {
     makeAutoObservable(this)
@@ -51,31 +45,12 @@ class Products {
   @action async getProductsAPI(page = 1) {
     const BASE_URL = 'http://localhost:3000/products'
     const response = await fetch(`${BASE_URL}?_page=${page}&_limit=9`).then(
-      res => res.json())
+      res => res.json()
+    )
     this.setProductsAPI(response)
   }
   @action.bound setProductsAPI(products: any) {
     this.productsAPI = products
   }
-  // --------------------------------------------------------------------//
-
-  @action setAllProducts(product: any) {
-    this.allProducts = product
-  }
-  @action setTrendingProduct(product: any) {
-    this.trendingProducts = product
-  }
-  @action setBestProduct(product: any) {
-    this.bestProducts = product
-  }
-  @action setRelatedProduct(product: any) {
-    this.relatedProducts = product
-  }
-  @action setPhoto(photo: string | undefined) {
-    this.photo = photo
-  }
-  @action setModal() {
-    this.modal = !this.modal
-  }
 }
-export default new Products()
+export default new ProductsAPI()
