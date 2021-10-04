@@ -7,14 +7,15 @@ import Footer from 'components/Footer'
 import CustomersSaying from '../Main/CustomersSaying'
 import { allProductsJSON } from 'sources/products/allProducts'
 import { useStore } from 'stores'
+import { observer } from 'mobx-react'
 import { toJS } from 'mobx'
 
-const Shop = () => {
+const Shop = observer(() => {
   const { productStore, productStoreAPI } = useStore()
-  
+
   useEffect(() => {
     productStore.setAllProducts(allProductsJSON)
-    productStoreAPI.fetchAllProductAPI(allProductsJSON)
+    // productStoreAPI.fetchAllProductAPI(allProductsJSON)
   }, [])
 
   return (
@@ -29,6 +30,6 @@ const Shop = () => {
       <Footer />
     </>
   )
-}
+})
 
 export default Shop

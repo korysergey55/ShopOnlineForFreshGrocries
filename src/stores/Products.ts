@@ -2,8 +2,8 @@ import {
   makeAutoObservable,
   observable,
   action,
+  computed,
   // configure,
-  // computed,
   // reaction,
   // runInAction,
   // toJS,
@@ -17,6 +17,8 @@ class Products {
   @observable relatedProducts: IProduct[] = []
   @observable photo: string | undefined = ''
   @observable modal: boolean = false
+
+  @observable filter: string = ''
 
   constructor() {
     makeAutoObservable(this)
@@ -42,6 +44,17 @@ class Products {
   }
   @action setModal() {
     this.modal = !this.modal
+  }
+
+  @action updateFilter(value: string) {
+    this.filter = value
+  }
+  @computed getFilterProducts() {
+    const mobxProducts = this.filter.toLocaleLowerCase().trim()
+    const filtered: any = this.allProducts.filter(product => {
+      product.text.toLocaleLowerCase().includes(mobxProducts)
+      return filtered
+    })
   }
 }
 export default new Products()

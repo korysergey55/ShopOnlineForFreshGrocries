@@ -21,13 +21,15 @@ const MainShop = observer(() => {
   const [range, setRange] = useState<number[]>([10, 90])
 
   useEffect(() => {
-    productStoreAPI.getProductsAPI()
+    // productStoreAPI.fetchProductsAPI()
   }, [])
-  console.log('productsAPI', toJS(productStoreAPI.productsAPI))
-  console.log('allProductsAPI', toJS(productStoreAPI.allProductsAPI))
+  // console.log('allProductsAPI', toJS(productStoreAPI.allProductsAPI))
+  // console.log('productsAPI', toJS(productStoreAPI.productsAPI))
 
-  const onSearch = (value: string) => {
-    console.log(value)
+  
+  const onFilterSearch = (value: string) => {
+    productStore.updateFilter(value)
+    // console.log(toJS(productStore.filter))
   }
   const onChangeCategoriesCheckbox = (evt: any) => {
     const { name, checked } = evt.target
@@ -38,7 +40,7 @@ const MainShop = observer(() => {
     setSort(data)
     console.log(data)
   }
-  const onChangeRange = (value: any) => {
+  const onChangeRange = (value: [number, number]) => {
     setRange(value)
     console.log(toJS(value))
   }
@@ -49,7 +51,7 @@ const MainShop = observer(() => {
 
         <div className={styles.topContainer}>
           <Search
-            onSearch={onSearch}
+            onSearch={onFilterSearch}
             className={styles.search}
             style={{ height: 44 }}
             placeholder="Search"
@@ -169,14 +171,13 @@ const MainShop = observer(() => {
 
           <div className={styles.rigthContainer}>
             <ul className={styles.productsList}>
-              {productStore.allProducts &&
-                productStore.allProducts.map(product => (
-                  <ProductComponent
-                    product={product}
-                    width={true}
-                    key={product.id}
-                  />
-                ))}
+              {productStore.allProducts.map(product => (
+                <ProductComponent
+                  product={product}
+                  width={true}
+                  key={product.id}
+                />
+              ))}
             </ul>
           </div>
         </div>
