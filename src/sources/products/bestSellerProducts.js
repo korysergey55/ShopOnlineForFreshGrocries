@@ -27,7 +27,7 @@ const bestSellerProductsJSON = [
     "hot": null,
     "img": PepperImg,
     "imgArr": [BreadImg, PepperImg, OrangeImg, AggsImg, OilImg],
-    "text": "BreadImg",
+    "text": "Pepper",
     "oldPrice": 20,
     "price": 15,
     "star": faStar,

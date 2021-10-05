@@ -26,10 +26,10 @@ const MainShop = observer(() => {
   // console.log('allProductsAPI', toJS(productStoreAPI.allProductsAPI))
   // console.log('productsAPI', toJS(productStoreAPI.productsAPI))
 
-  
   const onFilterSearch = (value: string) => {
     productStore.updateFilter(value)
-    // console.log(toJS(productStore.filter))
+    productStore.filterAllPriducts(value)
+    console.log(toJS(productStore.filteredProducts))
   }
   const onChangeCategoriesCheckbox = (evt: any) => {
     const { name, checked } = evt.target
@@ -171,13 +171,21 @@ const MainShop = observer(() => {
 
           <div className={styles.rigthContainer}>
             <ul className={styles.productsList}>
-              {productStore.allProducts.map(product => (
-                <ProductComponent
-                  product={product}
-                  width={true}
-                  key={product.id}
-                />
-              ))}
+              {productStore.filteredProducts.length > 0
+                ? (productStore.filteredProducts.map(product => (
+                    <ProductComponent
+                      product={product}
+                      width={true}
+                      key={product.id}
+                    />
+                  )))
+                : productStore.allProducts.map(product => (
+                    <ProductComponent
+                      product={product}
+                      width={true}
+                      key={product.id}
+                    />
+                  ))}
             </ul>
           </div>
         </div>

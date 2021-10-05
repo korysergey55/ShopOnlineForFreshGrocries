@@ -19,6 +19,7 @@ class Products {
   @observable modal: boolean = false
 
   @observable filter: string = ''
+  @observable filteredProducts: IProduct[] = []
 
   constructor() {
     makeAutoObservable(this)
@@ -45,16 +46,22 @@ class Products {
   @action setModal() {
     this.modal = !this.modal
   }
-
   @action updateFilter(value: string) {
     this.filter = value
   }
-  @computed getFilterProducts() {
+  @computed getFilterAllProducts() {
     const mobxProducts = this.filter.toLocaleLowerCase().trim()
     const filtered: any = this.allProducts.filter(product => {
       product.text.toLocaleLowerCase().includes(mobxProducts)
       return filtered
     })
+  }
+  @action filterAllPriducts(data: string) {
+    const mobxProducts = data.toLocaleLowerCase().trim()
+    const filtered: any = this.allProducts.filter(product =>
+      product.text.toLocaleLowerCase().includes(mobxProducts)
+    )
+    this.filteredProducts = filtered
   }
 }
 export default new Products()
