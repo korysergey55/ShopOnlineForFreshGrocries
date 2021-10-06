@@ -56,12 +56,29 @@ class Products {
       return filtered
     })
   }
-  @action filterAllPriducts(data: string) {
-    const mobxProducts = data.toLocaleLowerCase().trim()
+  @action filterAllProducts(value: string) {
+    const mobxProducts = value.toLocaleLowerCase().trim()
     const filtered: any = this.allProducts.filter(product =>
       product.text.toLocaleLowerCase().includes(mobxProducts)
     )
     this.filteredProducts = filtered
+  }
+  @action sortAllProducts(value: string) {
+    if (value === 'price') {
+      const sortedProducts = this.allProducts.sort(
+        (min, max) => max.price - min.price
+      )
+      this.filteredProducts = sortedProducts
+    }
+    if (value === 'name') {
+      const sortedProducts = this.allProducts.sort((a, b) =>
+        a.text.localeCompare(b.text)
+      )
+      this.filteredProducts = sortedProducts
+    }
+    if (value === 'default') {
+      this.filteredProducts = this.allProducts
+    }
   }
 }
 export default new Products()

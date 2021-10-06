@@ -17,7 +17,6 @@ const { Search } = Input
 const MainShop = observer(() => {
   const { productStore, productStoreAPI } = useStore()
   const [checkbox, setCheckbox] = useState<string>('')
-  const [sort, setSort] = useState<string>('')
   const [product, setProduct] = useState<any>([])
   const [range, setRange] = useState<number[]>([10, 90])
   const [activeClass, setActiveClass] = useState<boolean>(false)
@@ -30,21 +29,20 @@ const MainShop = observer(() => {
 
   const onFilterSearch = (value: string) => {
     productStore.updateFilter(value)
-    productStore.filterAllPriducts(value)
-    console.log(toJS(productStore.filteredProducts))
+    productStore.filterAllProducts(value)
+  }
+  const onChangeSortSelect = (data: string) => {
+    productStore.sortAllProducts(data)
+  }
+
+  const onChangeRange = (value: [number, number]) => {
+    setRange(value)
+    console.log(toJS(value))
   }
   const onChangeCategoriesCheckbox = (evt: any) => {
     const { name, checked } = evt.target
     setCheckbox((prev: any) => ({ ...prev, [name]: checked }))
     console.log(name, checked)
-  }
-  const onChangeSortSelect = (data: string) => {
-    setSort(data)
-    console.log(data)
-  }
-  const onChangeRange = (value: [number, number]) => {
-    setRange(value)
-    console.log(toJS(value))
   }
 
   const changeStyle = (data: boolean) => {
@@ -100,9 +98,9 @@ const MainShop = observer(() => {
             className={styles.select}
             onChange={onChangeSortSelect}
           >
-            <Option value="Default Sorting">Default Sorting</Option>
-            <Option value="Sorting by name">Sorting by name</Option>
-            <Option value="Sorting by price">Sorting by price</Option>
+            <Option value="default">Default Sorting</Option>
+            <Option value="name">Sorting by name</Option>
+            <Option value="price">Sorting by price</Option>
           </Select>
         </div>
 
@@ -168,7 +166,7 @@ const MainShop = observer(() => {
               <ul className={styles.list}>
                 {relatedProductsJSON &&
                   relatedProductsJSON.map(item => (
-                    <TrandingItem item={item} key={item.id} />
+                    <TrandingItem item={item} key={item.id}/>
                   ))}
               </ul>
               <button className={styles.button} type="button">
