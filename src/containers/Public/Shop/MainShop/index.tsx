@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styles from './styles.module.scss'
+import classnames from 'classnames'
 import TrandingItem from '../TrandingItem'
 import ProductComponent from 'containers/Public/Main/ProductComponent'
 import relatedProductsJSON from 'sources/products/relatedProducts'
@@ -19,6 +20,7 @@ const MainShop = observer(() => {
   const [sort, setSort] = useState<string>('')
   const [product, setProduct] = useState<any>([])
   const [range, setRange] = useState<number[]>([10, 90])
+  const [activeClass, setActiveClass] = useState<boolean>(false)
 
   useEffect(() => {
     // productStoreAPI.fetchProductsAPI()
@@ -44,6 +46,10 @@ const MainShop = observer(() => {
     setRange(value)
     console.log(toJS(value))
   }
+
+  const changeStyle = (data: boolean) => {
+    setActiveClass(data)
+  }
   return (
     <>
       <div className={styles.container}>
@@ -59,7 +65,11 @@ const MainShop = observer(() => {
             allowClear={true}
             maxLength={20}
           />
-          <button className={styles.sortBtn} type="button">
+          <button
+            className={styles.sortBtn}
+            type="button"
+            onClick={() => changeStyle(false)}
+          >
             <FontAwesomeIcon
               icon={faTh}
               size="2x"
@@ -67,7 +77,11 @@ const MainShop = observer(() => {
               className={styles.icon}
             />
           </button>
-          <button className={styles.sortBtnL} type="button">
+          <button
+            className={styles.sortBtnL}
+            type="button"
+            onClick={() => changeStyle(true)}
+          >
             <FontAwesomeIcon
               icon={faListUl}
               size="2x"
@@ -170,15 +184,20 @@ const MainShop = observer(() => {
           </div>
 
           <div className={styles.rigthContainer}>
-            <ul className={styles.productsList}>
+            <ul
+              className={classnames({
+                [styles.productsList]: true,
+                [styles.productsListActive]: activeClass,
+              })}
+            >
               {productStore.filteredProducts.length > 0
-                ? (productStore.filteredProducts.map(product => (
+                ? productStore.filteredProducts.map(product => (
                     <ProductComponent
                       product={product}
                       width={true}
                       key={product.id}
                     />
-                  )))
+                  ))
                 : productStore.allProducts.map(product => (
                     <ProductComponent
                       product={product}

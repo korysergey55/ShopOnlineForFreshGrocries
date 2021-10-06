@@ -66,9 +66,10 @@
 
 .shopMainContainer {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: left;
+  align-items: top;
   .leftContainer {
+    margin-right: 10px;
     .checkboxContainer {
       display: flex;
       flex-direction: column;
@@ -173,11 +174,20 @@
   }
   .rigthContainer {
     max-width: 823px;
-    max-height: 1300px;
+    min-height: 1300px;
     .productsList {
       display: flex;
       justify-content: left;
-      align-items: center;
+      align-items: top;
+      flex-wrap: wrap;
+      margin-bottom: 0;
+      padding-left: 0;
+    }
+    .productsListActive {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: top;
       flex-wrap: wrap;
       margin-bottom: 0;
       padding-left: 0;
