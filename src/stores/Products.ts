@@ -46,16 +46,16 @@ class Products {
   @action setModal() {
     this.modal = !this.modal
   }
-  @action updateFilter(value: string) {
-    this.filter = value
-  }
-  @computed getFilterAllProducts() {
-    const mobxProducts = this.filter.toLocaleLowerCase().trim()
-    const filtered: any = this.allProducts.filter(product => {
-      product.text.toLocaleLowerCase().includes(mobxProducts)
-      return filtered
-    })
-  }
+  // @action updateFilter(value: string) {
+  //   this.filter = value
+  // }
+  // @computed getFilterAllProducts() {
+  //   const mobxProducts = this.filter.toLocaleLowerCase().trim()
+  //   const filtered: any = this.allProducts.filter(product => {
+  //     product.text.toLocaleLowerCase().includes(mobxProducts)
+  //     return filtered
+  //   })
+  // }
   @action filterAllProducts(value: string) {
     const mobxProducts = value.toLocaleLowerCase().trim()
     const filtered: any = this.allProducts.filter(product =>
@@ -79,6 +79,12 @@ class Products {
     if (value === 'default') {
       this.filteredProducts = this.allProducts
     }
+  }
+  @action rangeAllProducts(data: [number, number]) {
+    const felteredByRange = this.allProducts.filter(
+      product => product.price > data[0] && product.price < data[1]
+    )
+    this.filteredProducts = felteredByRange
   }
 }
 export default new Products()

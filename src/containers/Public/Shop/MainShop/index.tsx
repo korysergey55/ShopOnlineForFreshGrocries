@@ -27,17 +27,17 @@ const MainShop = observer(() => {
   // console.log('allProductsAPI', toJS(productStoreAPI.allProductsAPI))
   // console.log('productsAPI', toJS(productStoreAPI.productsAPI))
 
+  useEffect(() => {}, [productStore.filteredProducts])
+
   const onFilterSearch = (value: string) => {
-    productStore.updateFilter(value)
     productStore.filterAllProducts(value)
   }
   const onChangeSortSelect = (data: string) => {
     productStore.sortAllProducts(data)
   }
-
   const onChangeRange = (value: [number, number]) => {
     setRange(value)
-    console.log(toJS(value))
+    productStore.rangeAllProducts(value)
   }
   const onChangeCategoriesCheckbox = (evt: any) => {
     const { name, checked } = evt.target
@@ -166,7 +166,7 @@ const MainShop = observer(() => {
               <ul className={styles.list}>
                 {relatedProductsJSON &&
                   relatedProductsJSON.map(item => (
-                    <TrandingItem item={item} key={item.id}/>
+                    <TrandingItem item={item} key={item.id} />
                   ))}
               </ul>
               <button className={styles.button} type="button">
