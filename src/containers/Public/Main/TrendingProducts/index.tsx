@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import styles from './styles.module.scss'
-import BunnerImg from '../../../../sources/images/prendingProducts/bunner.png'
+import BunnerImg from '../../../../sources/images/Main/trendingProducts/bunner.png'
 import IProduct from 'models/product'
 import ProductComponent from '../ProductComponent/index'
 import trendingProductsJSON from '../../../../sources/products/trendingProducts'

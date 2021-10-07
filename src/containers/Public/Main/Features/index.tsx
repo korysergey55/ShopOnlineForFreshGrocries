@@ -1,10 +1,10 @@
 import * as React from 'react'
 import styles from './styles.module.scss'
-import FeatureImg from '../../../../sources/images/features/features1.png'
-import Feature2Img from '../../../../sources/images/features/features2.png'
-import Feature3Img from '../../../../sources/images/features/features3.png'
-import Feature4Img from '../../../../sources/images/features/features4.png'
-import CartImg from '../../../../sources/images/features/featuresCart.png'
+import FeatureImg from '../../../../sources/images/Main/features/features1.png'
+import Feature2Img from '../../../../sources/images/Main/features/features2.png'
+import Feature3Img from '../../../../sources/images/Main/features/features3.png'
+import Feature4Img from '../../../../sources/images/Main/features/features4.png'
+import CartImg from '../../../../sources/images/Main/features/featuresCart.png'
 
 const Features = () => {
   return (

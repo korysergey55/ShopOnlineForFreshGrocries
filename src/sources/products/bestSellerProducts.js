@@ -1,9 +1,9 @@
-import BreadImg from '../images/bestSellers/bread.png';
-import PepperImg from '../images/bestSellers/peper.png';
-import OrangeImg from '../images/bestSellers/orange.png';
-import AggsImg from '../images/bestSellers/eggs.png';
-import OilImg from '../images/bestSellers/oil.png';
-import BodyLotionImg from '../images/bestSellers/bodyLotion.png';
+import BreadImg from '../images/Main/bestSellers/bread.png';
+import PepperImg from '../images/Main/bestSellers/peper.png';
+import OrangeImg from '../images/Main/bestSellers/orange.png';
+import AggsImg from '../images/Main/bestSellers/eggs.png';
+import OilImg from '../images/Main/bestSellers/oil.png';
+import BodyLotionImg from '../images/Main/bestSellers/bodyLotion.png';
 import { v4 as uuidv4 } from 'uuid';
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { faStar as StarIconRegular } from '@fortawesome/free-regular-svg-icons'

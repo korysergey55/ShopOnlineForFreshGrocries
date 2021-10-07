@@ -82,7 +82,7 @@ class Products {
   }
   @action rangeAllProducts(data: [number, number]) {
     const felteredByRange = this.allProducts.filter(
-      product => product.price > data[0] && product.price < data[1]
+      product => product.price >= data[0] && product.price <= data[1]
     )
     this.filteredProducts = felteredByRange
   }

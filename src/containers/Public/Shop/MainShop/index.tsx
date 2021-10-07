@@ -4,7 +4,7 @@ import classnames from 'classnames'
 import TrandingItem from '../TrandingItem'
 import ProductComponent from 'containers/Public/Main/ProductComponent'
 import relatedProductsJSON from 'sources/products/relatedProducts'
-import { checkboxJSON } from 'sources/checkbox'
+import { checkboxJSON } from 'sources/products/checkbox'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTh, faListUl, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { Checkbox, Select, Input, Slider, Switch } from 'antd'
@@ -27,6 +27,7 @@ const MainShop = observer(() => {
   // console.log('allProductsAPI', toJS(productStoreAPI.allProductsAPI))
   // console.log('productsAPI', toJS(productStoreAPI.productsAPI))
 
+  
   useEffect(() => {}, [productStore.filteredProducts])
 
   const onFilterSearch = (value: string) => {
