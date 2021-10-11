@@ -17,6 +17,8 @@ class Products {
   @observable relatedProducts: IProduct[] = []
   @observable photo: string | undefined = ''
   @observable modal: boolean = false
+  @observable likes: string[] = []
+  @observable cart: IProduct[] = []
 
   @observable filter: string = ''
   @observable filteredProducts: IProduct[] = []
@@ -27,6 +29,15 @@ class Products {
     //   () => this.bestProducts,
     //   _ => console.log(toJS(this.bestProducts))
     // )
+  }
+  @action addtoCart(product: any) {
+    this.cart = [...this.cart, product]
+  }
+  @action setLike(product: any) {
+    this.likes = [...this.likes, product]
+  }
+  @action removeLike(id: string) {
+    this.likes = this.likes.filter(like => like !== id)
   }
   @action setAllProducts(product: any) {
     this.allProducts = product

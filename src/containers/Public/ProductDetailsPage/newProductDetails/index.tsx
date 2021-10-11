@@ -155,7 +155,9 @@ const NewProductDetails = observer(() => {
   const openImgModal = () => {
     productStore.setModal()
   }
-// if(!product) return null
+  const addToCart = (prod: any) => {
+    productStore.addtoCart(prod)
+  }
   return (
     <>
       {product ? (
@@ -246,7 +248,11 @@ const NewProductDetails = observer(() => {
                   >
                     -
                   </button>
-                  <button className={styles.btnAddToCart} type="button">
+                  <button
+                    className={styles.btnAddToCart}
+                    type="button"
+                    onClick={() => addToCart(product.id)}
+                  >
                     Add to cart
                   </button>
                 </div>
@@ -364,4 +370,3 @@ const NewProductDetails = observer(() => {
   )
 })
 export default NewProductDetails
-

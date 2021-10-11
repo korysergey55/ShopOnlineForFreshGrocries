@@ -4,18 +4,20 @@ import LogoImg from '../../sources/images/Logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faSearch,
-  faStar,
   faUser,
+  faHeart,
   faShoppingCart,
 } from '@fortawesome/free-solid-svg-icons'
+import { useStore } from 'stores'
 
 const Header = () => {
+  const {productStore} = useStore()
   return (
     <>
-      <header>
+      <header className={styles.mainHeader}>
         <div className={styles.container}>
           <div className={styles.header}>
-            <a className={styles.logo} href="http://localhost:3000/">
+            <a className={styles.logo} href="/">
               <img className={styles.icon} src={LogoImg} alt="Logo"></img>
             </a>
             <ul className={styles.navList}>
@@ -72,7 +74,7 @@ const Header = () => {
               <li className={styles.item}>
                 <a className={styles.link} href="/">
                   <FontAwesomeIcon
-                    icon={faStar}
+                    icon={faHeart}
                     color="#9fcb22"
                     className={styles.icon}
                   />
@@ -86,6 +88,9 @@ const Header = () => {
                     className={styles.icon}
                   />
                 </a>
+              </li>
+              <li>
+                <a className={styles.linkCartLength}>{productStore.cart.length}</a>
               </li>
             </ul>
           </div>

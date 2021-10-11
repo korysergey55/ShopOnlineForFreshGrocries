@@ -1,10 +1,12 @@
-import * as React from 'react'
+import React, { useState } from 'react'
 import styles from './styles.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import IProduct from '../../../../models/product'
 import { useHistory, useLocation } from 'react-router'
 import classnames from 'classnames'
+import { useStore } from 'stores'
+import { toJS } from 'mobx'
 
 interface IProductProps {
   product: IProduct
@@ -15,6 +17,8 @@ interface IProductProps {
 const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {
   const history = useHistory()
   const location = useLocation()
+  const { productStore } = useStore()
+  const [activeClass, setActive] = useState(false)
 
   const productsDetails = () => {
     history.push({
@@ -24,6 +28,20 @@ const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {
     localStorage.setItem('product', JSON.stringify(product))
   }
 
+  const setLike = () => {
+    setActive(!activeClass)
+    if (productStore.likes.includes(product.id)) {
+      productStore.removeLike(product.id)
+    } else {
+      productStore.setLike(product.id)
+    }
+    console.log('likes', toJS(productStore.likes))
+  }
+  
+  const addToCart = () => {
+    productStore.addtoCart(product.id)
+    console.log('cart', toJS(productStore.cart))
+  }
   return (
     <>
       <li
@@ -34,7 +52,13 @@ const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {
         onClick={productsDetails}
       >
         {product.hot ? <p className={styles.hot}>{product.hot}</p> : null}
-        <a className={styles.like} href="/">
+        <a
+          className={classnames({
+            [styles.like]: true,
+            [styles.likeActive]: activeClass,
+          })}
+          onClick={() => setLike()}
+        >
           <FontAwesomeIcon icon={faHeart} className={styles.icon} />
         </a>
         <img className={styles.img} src={product.img} alt={product.text}></img>
@@ -83,7 +107,11 @@ const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {
         <p className={styles.text}>{product.text}</p>
         <p className={styles.oldPrice}>${product.oldPrice}</p>
         <p className={styles.price}>${product.price}</p>
-        <button className={styles.button} type="button">
+        <button
+          className={styles.button}
+          type="button"
+          onClick={() => addToCart()}
+        >
           Add to cart
         </button>
       </li>

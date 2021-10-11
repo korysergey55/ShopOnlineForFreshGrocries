@@ -40,6 +40,7 @@ class ProductsAPI {
     //   this.setAllProductApi(res)
     // })
   }
+  
   @action.bound setProductsAPI(products: any) {
     this.productsAPI = products
   }
