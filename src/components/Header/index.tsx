@@ -9,8 +9,9 @@ import {
   faShoppingCart,
 } from '@fortawesome/free-solid-svg-icons'
 import { useStore } from 'stores'
+import { observer } from 'mobx-react'
 
-const Header = () => {
+const Header = observer(() => {
   const {productStore} = useStore()
   return (
     <>
@@ -90,7 +91,14 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a className={styles.linkCartLength}>{productStore.cart.length}</a>
+                <a className={styles.linkCartLength}>
+                  {productStore.cart.length}
+                </a>
+              </li>
+              <li>
+                <a className={styles.linkLikeLength}>
+                  {productStore.likes.length}
+                </a>
               </li>
             </ul>
           </div>
@@ -98,6 +106,6 @@ const Header = () => {
       </header>
     </>
   )
-}
+})
 
 export default Header

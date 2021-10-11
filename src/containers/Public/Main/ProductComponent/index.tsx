@@ -37,9 +37,9 @@ const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {
     }
     console.log('likes', toJS(productStore.likes))
   }
-  
+
   const addToCart = () => {
-    productStore.addtoCart(product.id)
+    productStore.addtoCart(product)
     console.log('cart', toJS(productStore.cart))
   }
   return (
@@ -57,7 +57,11 @@ const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {
             [styles.like]: true,
             [styles.likeActive]: activeClass,
           })}
-          onClick={() => setLike()}
+          onClick={e => {
+            e.preventDefault()
+            e.stopPropagation()
+            setLike()
+          }}
         >
           <FontAwesomeIcon icon={faHeart} className={styles.icon} />
         </a>
@@ -110,7 +114,11 @@ const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {
         <button
           className={styles.button}
           type="button"
-          onClick={() => addToCart()}
+          onClick={e => {
+            e.preventDefault()
+            e.stopPropagation()
+            addToCart()
+          }}
         >
           Add to cart
         </button>

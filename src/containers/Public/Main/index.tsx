@@ -18,13 +18,13 @@ const Main = () => {
         <Header />
         <Hero />
       </div>
-      <Products />
+      {/* <Products />
       <TrendingProducts />
       <AboutUs />
       <Features />
       <BestSeller />
       <CustomersSaying />
-      <Footer />
+      <Footer /> */}
     </>
   )
 }

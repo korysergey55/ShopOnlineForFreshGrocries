@@ -31,12 +31,15 @@ class Products {
     // )
   }
   @action addtoCart(product: any) {
-    this.cart = [...this.cart, product]
+    // if (this.cart.filter(item => item.id === product.id)) {
+    //   return
+    // } else 
+      this.cart = [...this.cart, product]
   }
   @action setLike(product: any) {
     this.likes = [...this.likes, product]
   }
-  @action removeLike(id: string) {
+  @action removeLike(id: any) {
     this.likes = this.likes.filter(like => like !== id)
   }
   @action setAllProducts(product: any) {
@@ -88,7 +91,10 @@ class Products {
       this.filteredProducts = sortedProducts
     }
     if (value === 'default') {
-      this.filteredProducts = this.allProducts
+      const sortedProducts = this.allProducts.sort((a, b) =>
+        b.text.localeCompare(a.text)
+      )
+      this.filteredProducts = sortedProducts
     }
   }
   @action rangeAllProducts(data: [number, number]) {

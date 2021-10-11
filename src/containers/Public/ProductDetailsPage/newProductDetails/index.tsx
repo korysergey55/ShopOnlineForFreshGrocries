@@ -155,8 +155,8 @@ const NewProductDetails = observer(() => {
   const openImgModal = () => {
     productStore.setModal()
   }
-  const addToCart = (prod: any) => {
-    productStore.addtoCart(prod)
+  const addToCart = (product: any) => {
+    productStore.addtoCart(product)
   }
   return (
     <>
@@ -251,7 +251,7 @@ const NewProductDetails = observer(() => {
                   <button
                     className={styles.btnAddToCart}
                     type="button"
-                    onClick={() => addToCart(product.id)}
+                    onClick={() => addToCart(product)}
                   >
                     Add to cart
                   </button>
