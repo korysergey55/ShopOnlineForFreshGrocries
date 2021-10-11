@@ -18,8 +18,8 @@ const Main = () => {
         <Header />
         <Hero />
       </div>
-      {/* <Products />
-      <TrendingProducts />
+      <Products />
+      {/* <TrendingProducts />
       <AboutUs />
       <Features />
       <BestSeller />

@@ -12,50 +12,58 @@ const Products = () => {
       <div className={styles.container}>
         <ul className={styles.productsList}>
           <li className={styles.productsItem1}>
-            <h3 className={styles.productsTitle}>
-              Get Every Vegetable You Need
-            </h3>
-            <button type="button" className={styles.productsList_shopNow}>
-              Shop now{' '}
-              <FontAwesomeIcon
-                icon={faArrowRight}
-                className={styles.productsList_shopNow_icon}
-              />
-            </button>
+            <div className={styles.productsItemContainer}>
+              <h3 className={styles.productsTitle}>
+                Get Every Vegetable You Need
+              </h3>
+              <button type="button" className={styles.productsList_shopNow}>
+                Shop now{' '}
+                <FontAwesomeIcon
+                  icon={faArrowRight}
+                  className={styles.productsList_shopNow_icon}
+                />
+              </button>
+            </div>
             <img
-              className={styles.productsImage1}
+              className={styles.productsImage}
               src={LayerImg}
               alt="Layer"
             ></img>
           </li>
           <li className={styles.productsItem2}>
-            <h3 className={styles.productsTitle}>
-              We Have Best Beverages Collection
-            </h3>
-            <button type="button" className={styles.productsList_shopNow}>
-              Shop now{' '}
-              <FontAwesomeIcon
-                icon={faArrowRight}
-                className={styles.productsList_shopNow_icon}
-              />
-            </button>
+            <div className={styles.productsItemContainer}>
+              <h3 className={styles.productsTitle}>
+                We Have Best Beverages Collection
+              </h3>
+              <button type="button" className={styles.productsList_shopNow}>
+                Shop now{' '}
+                <FontAwesomeIcon
+                  icon={faArrowRight}
+                  className={styles.productsList_shopNow_icon}
+                />
+              </button>
+            </div>
             <img
-              className={styles.productsImage2}
+              className={styles.productsImage}
               src={LayerImg2}
               alt="Layer2"
             ></img>
           </li>
           <li className={styles.productsItem3}>
-            <h3 className={styles.productsTitle}>Beauty And Health Products</h3>
-            <button type="button" className={styles.productsList_shopNow}>
-              Shop now{' '}
-              <FontAwesomeIcon
-                icon={faArrowRight}
-                className={styles.productsList_shopNow_icon}
-              />
-            </button>
+            <div className={styles.productsItemContainer}>
+              <h3 className={styles.productsTitle}>
+                Beauty And Health Products
+              </h3>
+              <button type="button" className={styles.productsList_shopNow}>
+                Shop now{' '}
+                <FontAwesomeIcon
+                  icon={faArrowRight}
+                  className={styles.productsList_shopNow_icon}
+                />
+              </button>
+            </div>
             <img
-              className={styles.productsImage3}
+              className={styles.productsImage}
               src={LayerImg3}
               alt="Layer3"
             ></img>
