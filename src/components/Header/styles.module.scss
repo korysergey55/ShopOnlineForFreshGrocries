@@ -6,33 +6,36 @@
   width: 100%;
   z-index: 30;
   background-color: #e8ebe8;
-}
-.container {
-  display: block;
-  width: 100%;
-  max-width: 480px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 
-  .header {
-    height: 130px;
-    .logo {
-      width: 60px;
+  .container {
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .header {
+      height: 130px;
+
+      .logo {
+        width: 40px;
+      }
     }
   }
 }
 .navList {
-  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
   margin-bottom: 10px;
+  padding-left: 0;
   list-style: none;
 
   .item {
     font-family: Barlow;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 400;
 
     &:not(:last-child) {
@@ -50,20 +53,19 @@
 }
 .sotialList {
   position: absolute;
-  top: 10%;
-  left: 39%;
+  top: 12%;
+  left: 56%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 100px;
   list-style: none;
   padding-left: 0;
 
   .item {
     position: relative;
-    width: 42px;
-    height: 42px;
-    margin-right: 12px;
+    width: 25px;
+    height: 25px;
+    margin-right: 7px;
     background-color: #ffffff;
     border-radius: 50%;
     transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -78,31 +80,33 @@
     .icon {
       display: block;
       margin: 0 auto;
-      margin-top: 11px;
-      width: 20px;
-      height: 20px;
+      margin-top: 7px;
+      width: 12px;
+      height: 12px;
       fill: #9fcb22;
       transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
   .linkCartLength {
     position: absolute;
-    top: -10%;
+    top: -36%;
     left: 88%;
-    width: 20px;
-    height: 20px;
-    padding-left: 7px;
+    width: 15px;
+    height: 15px;
+    padding-left: 4px;
+    padding-bottom: 20px;
     background-color: #10472e;
     color: white;
     border-radius: 50%;
   }
   .linkLikeLength {
     position: absolute;
-    top: -10%;
+    top: -36%;
     left: 63%;
-    width: 20px;
-    height: 20px;
-    padding-left: 7px;
+    width: 15px;
+    height: 15px;
+    padding-left: 4px;
+    padding-bottom: 20px;
     background-color: #10472e;
     color: white;
     border-radius: 50%;
@@ -112,25 +116,27 @@
 @media screen and (min-width: 1280px) {
   .mainHeader {
     max-height: 130px;
-  }
-  .container {
-    width: 100%;
-    max-width: 1112px;
-
-    .header {
-      height: 130px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      .logo {
-        width: 100%;
+    .container {
+      width: 100%;
+      max-width: 1112px;
+      .header {
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logo {
+          width: 100%;
+        }
       }
     }
   }
   .navList {
-    height: 130px;
+    height: 100px;
     margin-right: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
     .item {
+      font-size: 20px;
       &:not(:last-child) {
         margin-right: 35px;
       }
@@ -140,5 +146,32 @@
     position: relative;
     top: 0%;
     left: 0%;
+    margin-left: 100px;
+
+    .item {
+      width: 42px;
+      height: 42px;
+      margin-right: 12px;
+
+      .icon {
+        margin-top: 11px;
+        width: 20px;
+        height: 20px;
+      }
+    }
+    .linkCartLength {
+      top: -10%;
+      left: 88%;
+      width: 20px;
+      height: 20px;
+      padding-left: 7px;
+    }
+    .linkLikeLength {
+      top: -10%;
+      left: 63%;
+      width: 20px;
+      height: 20px;
+      padding-left: 7px;
+    }
   }
 }
