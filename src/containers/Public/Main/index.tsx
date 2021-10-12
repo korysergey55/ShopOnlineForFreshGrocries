@@ -19,9 +19,9 @@ const Main = () => {
         <Hero />
       </div>
       <Products />
-      {/* <TrendingProducts />
+      <TrendingProducts />
       <AboutUs />
-      <Features />
+      {/* <Features />
       <BestSeller />
       <CustomersSaying />
       <Footer /> */}
