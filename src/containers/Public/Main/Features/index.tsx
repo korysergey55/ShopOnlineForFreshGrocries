@@ -38,6 +38,16 @@ const Features = () => {
               </p>
             </li>
           </ul>
+          <div className={styles.features_imgContainer}>
+            <img
+              className={styles.features_mainImg}
+              src={CartImg}
+              alt="CartImg"
+            />
+            <button className={styles.features_btn} type="button">
+              Shop now
+            </button>
+          </div>
           <ul className={styles.features_list}>
             <li className={styles.features_item}>
               <img
@@ -65,16 +75,6 @@ const Features = () => {
               </p>
             </li>
           </ul>
-          <div className={styles.features_imgContainer}>
-            <img
-              className={styles.features_mainImg}
-              src={CartImg}
-              alt="CartImg"
-            />
-            <button className={styles.features_btn} type="button">
-              Shop now
-            </button>
-          </div>
         </div>
       </section>
     </>
