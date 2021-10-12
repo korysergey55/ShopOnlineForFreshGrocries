@@ -15,6 +15,17 @@ const Footer = () => {
     <>
       <footer className={styles.footer}>
         <div className={styles.container}>
+          <form className={styles.form}>
+            <h2 className={styles.title}>Subscribe To Newsletter</h2>
+            <input
+              className={styles.input}
+              placeholder="Enter Your Email Address"
+            ></input>
+            <button className={styles.button} type="submit">
+              Subscribe Now
+            </button>
+            <img className={styles.img} src={FormBannerImg} alt="FormBanner" />
+          </form>
           <ul className={styles.list}>
             <li className={styles.item}>
               <h4 className={styles.title}>Store Location</h4>
@@ -32,7 +43,7 @@ const Footer = () => {
               </a>
               <p className={styles.subtitle}>Email:</p>
               <a className={styles.text} href="mailto:info@groxistore.com">
-                info@groxistore.com
+                korysergey55@gmail.com
               </a>
               <p className={styles.subtitle}>Phone:</p>
               <a className={styles.text} href="tel:+380633926523">
@@ -103,17 +114,6 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <form className={styles.form}>
-            <h2 className={styles.title}>Subscribe To Newsletter</h2>
-            <input
-              className={styles.input}
-              placeholder="Enter Your Email Address"
-            ></input>
-            <button className={styles.button} type="submit">
-              Subscribe Now
-            </button>
-            <img className={styles.img} src={FormBannerImg} alt="FormBanner" />
-          </form>
         </div>
       </footer>
     </>

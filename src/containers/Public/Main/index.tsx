@@ -23,8 +23,8 @@ const Main = () => {
       <AboutUs />
       <Features />
       <BestSeller />
-      {/* <CustomersSaying />
-      <Footer /> */}
+      <CustomersSaying />
+      <Footer />
     </>
   )
 }
