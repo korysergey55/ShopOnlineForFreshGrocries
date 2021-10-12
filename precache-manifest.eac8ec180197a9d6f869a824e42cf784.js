@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f1a3c0a953b4ae123c46c92b178201a",
+    "revision": "284aec06956b972b2ccde786c58cdc58",
     "url": "/ShopOnlineForFreshGrocries/index.html"
   },
   {
-    "revision": "d0634e1cffd0409437ec",
-    "url": "/ShopOnlineForFreshGrocries/static/css/0.bf5018a5.chunk.css"
+    "revision": "8e3dcf551806c5c04e0b",
+    "url": "/ShopOnlineForFreshGrocries/static/css/0.b6917439.chunk.css"
   },
   {
-    "revision": "e5dd8e92521641fac8c8",
+    "revision": "e0faee49aa7bda09f972",
     "url": "/ShopOnlineForFreshGrocries/static/css/10.94a83667.chunk.css"
   },
   {
@@ -16,20 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ShopOnlineForFreshGrocries/static/css/6.26efbdaf.chunk.css"
   },
   {
-    "revision": "ecbdbd3a831ce3718dfe",
-    "url": "/ShopOnlineForFreshGrocries/static/css/7.2bfcf041.chunk.css"
+    "revision": "00927cdb0cadd631ba2c",
+    "url": "/ShopOnlineForFreshGrocries/static/css/7.fdecca82.chunk.css"
   },
   {
-    "revision": "74e6a8c44f5706c8a588",
-    "url": "/ShopOnlineForFreshGrocries/static/css/8.a51690f4.chunk.css"
+    "revision": "94cbac11d9acdde7a275",
+    "url": "/ShopOnlineForFreshGrocries/static/css/8.97b47105.chunk.css"
   },
   {
-    "revision": "7edc96c7c39be0fc51ba",
+    "revision": "dc4f5ab5c7c62cf3506b",
     "url": "/ShopOnlineForFreshGrocries/static/css/main.6d9141a6.chunk.css"
   },
   {
-    "revision": "d0634e1cffd0409437ec",
-    "url": "/ShopOnlineForFreshGrocries/static/js/0.2dc587cb.chunk.js"
+    "revision": "8e3dcf551806c5c04e0b",
+    "url": "/ShopOnlineForFreshGrocries/static/js/0.ddf45510.chunk.js"
   },
   {
     "revision": "4f1c77e11af059ef4d32",
@@ -40,16 +40,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ShopOnlineForFreshGrocries/static/js/1.55b67a7e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e5dd8e92521641fac8c8",
-    "url": "/ShopOnlineForFreshGrocries/static/js/10.d937bce4.chunk.js"
+    "revision": "e0faee49aa7bda09f972",
+    "url": "/ShopOnlineForFreshGrocries/static/js/10.eb03a5de.chunk.js"
   },
   {
     "revision": "d98c794820c7f38c2cdc",
     "url": "/ShopOnlineForFreshGrocries/static/js/2.b91aabe6.chunk.js"
   },
   {
-    "revision": "03ece2bcdd0077f29380",
-    "url": "/ShopOnlineForFreshGrocries/static/js/5.493283af.chunk.js"
+    "revision": "944dec176d4b0876ade3",
+    "url": "/ShopOnlineForFreshGrocries/static/js/5.3f0ab345.chunk.js"
   },
   {
     "revision": "45b34fcb32c6c87ae2e4",
@@ -60,24 +60,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ShopOnlineForFreshGrocries/static/js/6.8cf52214.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ecbdbd3a831ce3718dfe",
-    "url": "/ShopOnlineForFreshGrocries/static/js/7.c47d2a49.chunk.js"
+    "revision": "00927cdb0cadd631ba2c",
+    "url": "/ShopOnlineForFreshGrocries/static/js/7.cbeec2c9.chunk.js"
   },
   {
-    "revision": "74e6a8c44f5706c8a588",
-    "url": "/ShopOnlineForFreshGrocries/static/js/8.5915637d.chunk.js"
+    "revision": "94cbac11d9acdde7a275",
+    "url": "/ShopOnlineForFreshGrocries/static/js/8.ce8dc1a6.chunk.js"
   },
   {
     "revision": "80d80a8406ee74ba2686",
     "url": "/ShopOnlineForFreshGrocries/static/js/9.8988deeb.chunk.js"
   },
   {
-    "revision": "7edc96c7c39be0fc51ba",
-    "url": "/ShopOnlineForFreshGrocries/static/js/main.42b839a3.chunk.js"
+    "revision": "dc4f5ab5c7c62cf3506b",
+    "url": "/ShopOnlineForFreshGrocries/static/js/main.89464a6c.chunk.js"
   },
   {
-    "revision": "56a9a8be896b5e981237",
-    "url": "/ShopOnlineForFreshGrocries/static/js/runtime-main.0076900c.js"
+    "revision": "198ef12700f17cb47159",
+    "url": "/ShopOnlineForFreshGrocries/static/js/runtime-main.bed41564.js"
   },
   {
     "revision": "4546b2714e1e1a7d99a8ce7c9cfd046b",
