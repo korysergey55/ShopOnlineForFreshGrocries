@@ -10,13 +10,13 @@
   .headerHeroContainer {
     position: relative;
     width: 100%;
-    max-width: 1920px;
     height: 955px;
     background-image: url(../../../sources/images/Main/hero/HeroImg.jpg);
+    background-repeat: no-repeat;
   }
   .headerLeftBg {
     position: absolute;
-    left: -20%;
+    left: -270px;
     top: -8%;
     width: 100%;
     max-width: 582px;

@@ -52,8 +52,8 @@ const ProductComponent: React.FC<IProductProps> = ({
       <li
         className={classnames({
           [styles.li]: true,
-          [styles.colorItem]: colorItem,
           [styles.spesialWidth]: width,
+          [styles.colorItem]: colorItem,
         })}
         onClick={productsDetails}
       >

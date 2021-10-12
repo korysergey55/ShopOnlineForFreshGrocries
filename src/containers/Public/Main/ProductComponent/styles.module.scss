@@ -137,21 +137,21 @@
 }
 
 .spesialWidth {
-  width: 255px;
+  width: 255px !important;
   height: 411px;
   margin-right: 15px;
   margin-top: 0;
   margin-bottom: 30px;
 
   &:nth-child(3n + 3) {
-    margin-right: 15px;
+    margin-right: 10px !important;
   }
   &:nth-child(n + 4) {
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
   }
 
   .like {
-    margin-left: 196px;
+    margin-left: 196px !important;
   }
   .img {
     width: 150px;
