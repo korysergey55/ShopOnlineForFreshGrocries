@@ -1,7 +1,6 @@
 .features {
   position: relative;
   padding-top: 100px;
-  padding-bottom: 100px;
 
   .container {
     display: block;
@@ -77,19 +76,26 @@
 @media screen and (min-width: 768px) {
   .features {
     padding-top: 141px;
-    padding-bottom: 141px;
 
     .container {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      max-width: 1112px;
+      max-width: 768px;
     }
     &_btn {
       margin-top: 59px;
     }
     &_mainImg {
       max-width: 531px;
+    }
+  }
+}
+@media screen and (min-width: 1280px) {
+  .features {
+    padding-bottom: 141px;
+    .container {
+      max-width: 1280px;
     }
   }
 }

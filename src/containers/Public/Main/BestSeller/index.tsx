@@ -57,7 +57,11 @@ const BestSeller = observer(() => {
           <ul className={styles.productsList}>
             {bestProducts &&
               bestProducts.map((product: IProduct) => (
-                <ProductComponent product={product} key={product.id} />
+                <ProductComponent
+                  product={product}
+                  colorItem={true}
+                  key={product.id}
+                />
               ))}
           </ul>
         </div>

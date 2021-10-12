@@ -11,10 +11,15 @@ import { toJS } from 'mobx'
 interface IProductProps {
   product: IProduct
   width?: boolean
+  colorItem?: boolean
   key?: string
 }
 
-const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {
+const ProductComponent: React.FC<IProductProps> = ({
+  product,
+  width,
+  colorItem,
+}) => {
   const history = useHistory()
   const location = useLocation()
   const { productStore } = useStore()
@@ -47,6 +52,7 @@ const ProductComponent: React.FC<IProductProps> = ({ product, width }) => {
       <li
         className={classnames({
           [styles.li]: true,
+          [styles.colorItem]: colorItem,
           [styles.spesialWidth]: width,
         })}
         onClick={productsDetails}

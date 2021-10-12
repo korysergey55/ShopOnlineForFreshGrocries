@@ -22,8 +22,8 @@ const Main = () => {
       <TrendingProducts />
       <AboutUs />
       <Features />
-      {/* <BestSeller />
-      <CustomersSaying />
+      <BestSeller />
+      {/* <CustomersSaying />
       <Footer /> */}
     </>
   )
