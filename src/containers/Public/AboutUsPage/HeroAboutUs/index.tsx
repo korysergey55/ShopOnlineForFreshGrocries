@@ -1,23 +1,22 @@
-import React from 'react'
+import * as React from 'react'
 import styles from './styles.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
-const HeroShop = () => {
+const HeroAboutUsPage = () => {
   return (
     <>
       <div className={styles.container}>
         <div className={styles.heroContainer}>
           <h3 className={styles.subtitle}>
             Home <FontAwesomeIcon icon={faArrowRight} className={styles.icon} />{' '}
-            Shop
+            About
           </h3>
-          <h2 className={styles.title}>Shop</h2>
+          <h2 className={styles.title}>About Us</h2>
         </div>
-        <div className={styles.img}></div>
       </div>
     </>
   )
 }
 
-export default HeroShop
+export default HeroAboutUsPage

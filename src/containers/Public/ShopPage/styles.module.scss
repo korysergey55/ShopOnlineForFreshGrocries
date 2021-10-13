@@ -1,0 +1,18 @@
+.headerHeroContainer {
+  position: relative;
+  width: 100%;
+  background-color: #f6fafb;
+  
+  background-image: url(../../../sources/images/ProductDatailsPage/heroProductDetails/heroImg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.headerLeftBg {
+  position: absolute;
+  left: -257px;
+  top: -70px;
+  width: 100%;
+  max-width: 582px;
+  height: 501px;
+  background-image: url(../../../sources/images/ProductDatailsPage/heroProductDetails/heroLeftBg.png);
+}

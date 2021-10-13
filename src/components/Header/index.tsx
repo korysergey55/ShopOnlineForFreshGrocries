@@ -15,12 +15,7 @@ import { useHistory } from 'react-router'
 
 const Header = observer(() => {
   const { productStore } = useStore()
-  const history = useHistory()
   const [colorHeader, setColorHeader] = useState(false)
-
-  const pushToCart = () => {
-    history.push('/cart')
-  }
 
   const scrollHeader = () => {
     const last_known_scroll_position = window.scrollY
@@ -57,7 +52,7 @@ const Header = observer(() => {
               </a>
             </li>
             <li className={styles.item}>
-              <a className={styles.link} href="/">
+              <a className={styles.link} href="/aboutUs">
                 About
               </a>
             </li>
@@ -110,8 +105,8 @@ const Header = observer(() => {
                 />
               </a>
             </li>
-            <li className={styles.item} onClick={pushToCart}>
-              <a className={styles.linkCart}>
+            <li className={styles.item}>
+              <a className={styles.linkCart} href="/cart">
                 <FontAwesomeIcon
                   icon={faShoppingCart}
                   color="#9fcb22"

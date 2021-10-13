@@ -6,9 +6,10 @@ import history from 'utils/history'
 import store from 'stores'
 import Loader from '../Public/Loader/index'
 const Main = lazy(() => import('../Public/Main/index'))
-const Shop = lazy(()=> import ('containers/Public/Shop/index'))
-const ProductDetailsPage = lazy(() => import('containers/Public/ProductDetailsPage'))
+const Shop = lazy(()=> import ('containers/Public/ShopPage/index'))
 const Cart = lazy(() => import('containers/Public/Cart/index'))
+const ProductDetailsPage = lazy(() => import('containers/Public/ProductDetailsPage'))
+const AboutUs = lazy(() => import('containers/Public/AboutUsPage/index'))
 
 class App extends Component {
   componentDidMount = (): void => {}
@@ -22,6 +23,7 @@ class App extends Component {
               <Route exact path="/" component={Main} />
               <Route exact path="/shop" component={Shop} />
               <Route exact path="/cart" component={Cart} />
+              <Route exact path="/aboutUs" component={AboutUs}/>
               <Route path="/:id" component={ProductDetailsPage} />
             </Switch>
           </Suspense>

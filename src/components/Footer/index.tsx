@@ -1,6 +1,6 @@
 import * as React from 'react'
 import styles from './styles.module.scss'
-import FormBannerImg from '../../sources/images/footer/Left_Image.png'
+import FormBannerImg from '../../sources/images/Footer/Left_Image.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faFacebookF,

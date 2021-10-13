@@ -31,8 +31,8 @@ class Products {
     // )
   }
   @action addtoCart(product: any) {
-    this.cart = [...this.cart, product]
-    const id = this.cart.find(el => el.id === product.id)
+      this.cart = [...this.cart, product]     
+    // const id = this.cart.find(el => el.id === product.id);
     // if (!id) {
     //   this.cart = [...this.cart, product]
     // } else {}
