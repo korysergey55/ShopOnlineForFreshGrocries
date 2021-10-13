@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import styles from './styles.module.scss'
 import Header from '../../../components/Header/index'
 import Hero from './Hero/index'

@@ -4,8 +4,9 @@
   height: 451px;
   margin-right: 0;
   margin-bottom: 30px;
-  background-color: #f6fafb;
   list-style: none;
+  background-color: #f6fafb;
+  border: 1px solid transparent;
 
   &:hover {
     cursor: pointer;

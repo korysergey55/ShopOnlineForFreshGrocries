@@ -6,7 +6,7 @@ import {
   // configure,
   // reaction,
   // runInAction,
-  // toJS,
+  toJS,
 } from 'mobx'
 import IProduct from '../models/product'
 
@@ -31,10 +31,11 @@ class Products {
     // )
   }
   @action addtoCart(product: any) {
-    // if (this.cart.filter(item => item.id === product.id)) {
-    //   return
-    // } else 
-      this.cart = [...this.cart, product]
+    this.cart = [...this.cart, product]
+    const id = this.cart.find(el => el.id === product.id)
+    // if (!id) {
+    //   this.cart = [...this.cart, product]
+    // } else {}
   }
   @action setLike(product: any) {
     this.likes = [...this.likes, product]
