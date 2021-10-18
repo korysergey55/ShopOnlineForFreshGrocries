@@ -7,7 +7,7 @@ import store from 'stores'
 import Loader from '../Public/Loader/index'
 const Main = lazy(() => import('../Public/Main/index'))
 const Shop = lazy(()=> import ('containers/Public/ShopPage/index'))
-const Cart = lazy(() => import('containers/Public/Cart/index'))
+const Cart = lazy(() => import('containers/Public/CartPage/index'))
 const ProductDetailsPage = lazy(() => import('containers/Public/ProductDetailsPage'))
 const AboutUs = lazy(() => import('containers/Public/AboutUsPage/index'))
 

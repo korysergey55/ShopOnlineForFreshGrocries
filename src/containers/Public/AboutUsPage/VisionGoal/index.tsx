@@ -1,7 +1,7 @@
 import * as React from 'react'
 import styles from './styles.module.scss'
-import visionImg from 'sources/images/AboutUsPage/vision.png'
-import goalImg from 'sources/images/AboutUsPage/goal.png'
+import visionImg from 'sources/images/AboutUsPage/visionGoal/vision.png'
+import goalImg from 'sources/images/AboutUsPage/visionGoal/goal.png'
   
 const VisionGoal = () => {
   return (

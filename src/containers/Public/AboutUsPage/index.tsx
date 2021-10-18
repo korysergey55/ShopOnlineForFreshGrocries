@@ -4,6 +4,10 @@ import Header from 'components/Header'
 import HeroAboutUs from 'containers/Public/AboutUsPage/HeroAboutUs/index'
 import WeGive from 'containers/Public/AboutUsPage/WeGive/index'
 import VisionGoal from 'containers/Public/AboutUsPage/VisionGoal/index'
+import VideoContent from 'containers/Public/AboutUsPage/VideoContent/index'
+import WhyChooseUs from 'containers/Public/AboutUsPage/WhyChooseUs/index'
+import CustomersSaying from '../Main/CustomersSaying'
+import Footer from 'components/Footer'
 
 const AboutUsPage = () => {
   return (
@@ -15,6 +19,10 @@ const AboutUsPage = () => {
       </div>
       <WeGive />
       <VisionGoal/>
+      <VideoContent/>
+      <WhyChooseUs/>
+      <CustomersSaying/>
+      <Footer/>
     </>
   )
 }
