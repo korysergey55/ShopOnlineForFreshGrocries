@@ -32,7 +32,7 @@ const Header = observer(() => {
       window.scroll(0, 0)
     }
   }
-  
+
   useEffect(() => {
     window.addEventListener('scroll', scrollHeader)
     return () => {
@@ -107,8 +107,8 @@ const Header = observer(() => {
                 />
               </a>
             </li>
-            <li className={styles.item}>
-              <a className={styles.link} href="/">
+            <li className={styles.item} onClick={()=> history.push('/likes')}>
+              <a className={styles.link}>
                 <FontAwesomeIcon
                   icon={faHeart}
                   color="#9fcb22"

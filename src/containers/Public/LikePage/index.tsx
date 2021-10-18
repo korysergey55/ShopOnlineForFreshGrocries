@@ -1,16 +1,17 @@
 import * as React from 'react'
+import styles from './styles.module.scss'
 import Header from 'components/Header'
 import Footer from 'components/Footer'
-import CartComponent from './CartComponent'
+import LikesComponent from './LikesComponent'
 
-const Cart = () => {
+const LikePage = () => {
   return (
     <>
       <Header />
-      <CartComponent />
+      <LikesComponent />
       <Footer />
     </>
   )
 }
 
-export default Cart
+export default LikePage

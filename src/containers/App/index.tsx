@@ -7,9 +7,10 @@ import store from 'stores'
 import Loader from '../Public/Loader/index'
 const MainPage = lazy(() => import('../Public/Main/index'))
 const ShopPage = lazy(() => import('containers/Public/ShopPage/index'))
-const CartPage = lazy(() => import('containers/Public/CartPage/index'))
 const AboutUsPage = lazy(() => import('containers/Public/AboutUsPage/index'))
 const ProductDetailsPage = lazy(() => import('containers/Public/ProductDetailsPage'))
+const CartPage = lazy(() => import('containers/Public/CartPage/index'))
+const LikePage = lazy(()=> import('containers/Public/LikePage/index'))
 
 class App extends Component {
   componentDidMount = (): void => {}
@@ -22,8 +23,9 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={MainPage} />
               <Route exact path="/shop" component={ShopPage} />
-              <Route exact path="/cart" component={CartPage} />
               <Route exact path="/aboutUs" component={AboutUsPage} />
+              <Route exact path="/cart" component={CartPage} />
+              <Route exact path="/likes" component={LikePage} />
               <Route path="/:id" component={ProductDetailsPage} />
             </Switch>
           </Suspense>
