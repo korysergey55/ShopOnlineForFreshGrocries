@@ -19,7 +19,7 @@ const Footer = () => {
             <h2 className={styles.title}>Subscribe To Newsletter</h2>
             <input
               className={styles.input}
-              placeholder="Enter Your Email Address"
+              placeholder="Enter Your Email"
             ></input>
             <button className={styles.button} type="submit">
               Subscribe Now

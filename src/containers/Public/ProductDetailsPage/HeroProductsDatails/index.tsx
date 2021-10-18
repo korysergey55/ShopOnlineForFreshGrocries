@@ -14,7 +14,6 @@ const HeroProductsDatails = () => {
           </h3>
           <h2 className={styles.title}>Product Detail</h2>
         </div>
-        <div className={styles.img}></div>
       </div>
     </>
   )

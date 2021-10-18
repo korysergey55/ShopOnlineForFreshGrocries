@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import styles from './styles.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
@@ -24,6 +24,13 @@ const ProductComponent: React.FC<IProductProps> = ({
   const location = useLocation()
   const { productStore } = useStore()
   const [activeClass, setActive] = useState(false)
+  const [btnRemoveFromCart, setBtnRemoveFromCart] = useState(false)
+
+  useEffect(() => {
+    if (location.pathname === '/cart') {
+      setBtnRemoveFromCart(true)
+    }
+  })
 
   const productsDetails = () => {
     history.push({
@@ -46,6 +53,9 @@ const ProductComponent: React.FC<IProductProps> = ({
   const addToCart = () => {
     productStore.addtoCart(product)
     console.log('cart', toJS(productStore.cart))
+  }
+  const removeFromCart = (id: any) => {
+    productStore.removeFromCart(id)
   }
   return (
     <>
@@ -127,6 +137,20 @@ const ProductComponent: React.FC<IProductProps> = ({
           }}
         >
           Add to cart
+        </button>
+        <button
+          className={classnames({
+            [styles.buttonNone]: true,
+            [styles.buttonRemuve]: btnRemoveFromCart,
+          })}
+          type="button"
+          onClick={e => {
+            e.preventDefault()
+            e.stopPropagation()
+            removeFromCart(product.id)
+          }}
+        >
+          Remove from cart
         </button>
       </li>
     </>

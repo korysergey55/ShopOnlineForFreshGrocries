@@ -6,7 +6,8 @@ import { observer } from 'mobx-react'
 
 const CartComponent = observer(() => {
   const { productStore } = useStore()
-    return (
+  
+  return (
     <>
       <div className={styles.container}>
         <div className={styles.cartContainer}>

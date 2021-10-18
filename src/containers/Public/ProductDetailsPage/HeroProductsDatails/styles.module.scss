@@ -6,9 +6,10 @@
   padding: 108px 15px;
 }
 .heroContainer {
-  width: 483px;
+  max-width: 483px;
   min-height: 198px;
   margin: 0 auto;
+  margin-top: 115px;
   padding-top: 53px;
   padding-bottom: 53px;
   border-top: 3px solid #9fcb22;
@@ -33,15 +34,4 @@
       color: #9fcb22;
     }
   }
-}
-.img {
-  position: absolute;
-  left: 49%;
-  top: 22%;
-
-  width: 100%;
-  width: 679px;
-  height: 441px;
-  background-image: url(../../../../sources/images/ProductDatailsPage/heroProductDetails/heroImg.png);
-  background-repeat: no-repeat;
 }

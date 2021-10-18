@@ -18,7 +18,9 @@ class Products {
   @observable photo: string | undefined = ''
   @observable modal: boolean = false
   @observable likes: string[] = []
-  @observable cart: IProduct[] = []
+  @observable cart: IProduct[] = localStorage.getItem('cart')
+    ? JSON.parse(localStorage.getItem('cart') as string)
+    : []
 
   @observable filter: string = ''
   @observable filteredProducts: IProduct[] = []
@@ -31,11 +33,20 @@ class Products {
     // )
   }
   @action addtoCart(product: any) {
-      this.cart = [...this.cart, product]     
+    this.cart = [...this.cart, product]
+    localStorage.setItem('cart', JSON.stringify(this.cart))
+
     // const id = this.cart.find(el => el.id === product.id);
     // if (!id) {
     //   this.cart = [...this.cart, product]
     // } else {}
+  }
+  @action removeFromCart(productId: string) {
+    const elementId = this.cart.find(el => el.id === productId)
+    if (elementId) {
+      this.cart = this.cart.filter(item => item.id !== elementId.id)
+      localStorage.setItem('cart', JSON.stringify(this.cart))
+    }
   }
   @action setLike(product: any) {
     this.likes = [...this.likes, product]
@@ -61,16 +72,6 @@ class Products {
   @action setModal() {
     this.modal = !this.modal
   }
-  // @action updateFilter(value: string) {
-  //   this.filter = value
-  // }
-  // @computed getFilterAllProducts() {
-  //   const mobxProducts = this.filter.toLocaleLowerCase().trim()
-  //   const filtered: any = this.allProducts.filter(product => {
-  //     product.text.toLocaleLowerCase().includes(mobxProducts)
-  //     return filtered
-  //   })
-  // }
   @action filterAllProducts(value: string) {
     const mobxProducts = value.toLocaleLowerCase().trim()
     const filtered: any = this.allProducts.filter(product =>
@@ -104,5 +105,15 @@ class Products {
     )
     this.filteredProducts = felteredByRange
   }
+  // @action updateFilter(value: string) {
+  //   this.filter = value
+  // }
+  // @computed getFilterAllProducts() {
+  //   const mobxProducts = this.filter.toLocaleLowerCase().trim()
+  //   const filtered: any = this.allProducts.filter(product => {
+  //     product.text.toLocaleLowerCase().includes(mobxProducts)
+  //     return filtered
+  //   })
+  // }
 }
 export default new Products()

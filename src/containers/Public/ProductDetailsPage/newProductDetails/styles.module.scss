@@ -1,7 +1,8 @@
 section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .container {
   max-width: 1112px;
@@ -32,9 +33,10 @@ section {
 
 .photoContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-right: 54px;
+  margin-right: 34px;
+  margin-bottom: 20px;
 
   .photoContainerLeft {
     display: flex;
@@ -65,7 +67,7 @@ section {
     }
   }
   .mainImgContainer {
-    width: 459px;
+    max-width: 390px;
     height: 611px;
     margin-top: 0;
     padding-top: 0;
@@ -136,6 +138,7 @@ section {
     .btn {
       width: 43px;
       height: 43px;
+      margin-bottom: 10px;
       border: 1px solid #deecf0;
       background-color: #f6fafb;
 
@@ -230,6 +233,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 
     .guarantee {
       display: flex;
@@ -237,6 +241,7 @@ section {
       align-items: center;
       width: 219px;
       height: 114px;
+      margin-bottom: 10px;
       padding: 31px 27px;
       border: 1px solid #deecf0;
       background-color: #f6fafb;
@@ -270,6 +275,7 @@ section {
     display: flex;
     justify-content: left;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 90px;
     padding-left: 0;
     list-style: none;

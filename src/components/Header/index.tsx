@@ -11,12 +11,15 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import { useStore } from 'stores'
 import { observer } from 'mobx-react'
-import { useHistory } from 'react-router'
+import { useHistory, useLocation, useRouteMatch } from 'react-router'
 
 const Header = observer(() => {
   const { productStore } = useStore()
   const [colorHeader, setColorHeader] = useState(false)
-
+  const history = useHistory()
+  const location = useLocation<any>()
+  const match = useRouteMatch()
+ 
   const scrollHeader = () => {
     const last_known_scroll_position = window.scrollY
     if (last_known_scroll_position <= 10) {
@@ -24,14 +27,22 @@ const Header = observer(() => {
     } else {
       setColorHeader(true)
     }
-  }
 
+    if (location.pathname !== match.path ) {
+      window.scroll(0, 0)
+    }
+  }
+  
   useEffect(() => {
     window.addEventListener('scroll', scrollHeader)
     return () => {
       window.removeEventListener('scroll', scrollHeader)
     }
   }, [])
+
+  const gotoCart = () => {
+    history.push('/cart')
+  }
 
   return (
     <header
@@ -105,8 +116,8 @@ const Header = observer(() => {
                 />
               </a>
             </li>
-            <li className={styles.item}>
-              <a className={styles.linkCart} href="/cart">
+            <li className={styles.item} onClick={gotoCart}>
+              <a className={styles.linkCart}>
                 <FontAwesomeIcon
                   icon={faShoppingCart}
                   color="#9fcb22"

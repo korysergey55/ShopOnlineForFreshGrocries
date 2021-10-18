@@ -5,11 +5,11 @@ import { Provider } from 'mobx-react'
 import history from 'utils/history'
 import store from 'stores'
 import Loader from '../Public/Loader/index'
-const Main = lazy(() => import('../Public/Main/index'))
-const Shop = lazy(()=> import ('containers/Public/ShopPage/index'))
-const Cart = lazy(() => import('containers/Public/CartPage/index'))
+const MainPage = lazy(() => import('../Public/Main/index'))
+const ShopPage = lazy(() => import('containers/Public/ShopPage/index'))
+const CartPage = lazy(() => import('containers/Public/CartPage/index'))
+const AboutUsPage = lazy(() => import('containers/Public/AboutUsPage/index'))
 const ProductDetailsPage = lazy(() => import('containers/Public/ProductDetailsPage'))
-const AboutUs = lazy(() => import('containers/Public/AboutUsPage/index'))
 
 class App extends Component {
   componentDidMount = (): void => {}
@@ -20,10 +20,10 @@ class App extends Component {
         <Router history={history}>
           <Suspense fallback={<Loader />}>
             <Switch>
-              <Route exact path="/" component={Main} />
-              <Route exact path="/shop" component={Shop} />
-              <Route exact path="/cart" component={Cart} />
-              <Route exact path="/aboutUs" component={AboutUs}/>
+              <Route exact path="/" component={MainPage} />
+              <Route exact path="/shop" component={ShopPage} />
+              <Route exact path="/cart" component={CartPage} />
+              <Route exact path="/aboutUs" component={AboutUsPage} />
               <Route path="/:id" component={ProductDetailsPage} />
             </Switch>
           </Suspense>
