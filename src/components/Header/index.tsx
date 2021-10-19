@@ -10,26 +10,22 @@ import {
   faShoppingCart,
 } from '@fortawesome/free-solid-svg-icons'
 import { useStore } from 'stores'
+import { useHistory, useLocation, useParams, useRouteMatch } from 'react-router'
 import { observer } from 'mobx-react'
-import { useHistory, useLocation, useRouteMatch } from 'react-router'
 
 const Header = observer(() => {
   const { productStore } = useStore()
   const [colorHeader, setColorHeader] = useState(false)
   const history = useHistory()
   const location = useLocation<any>()
-  const match = useRouteMatch()
- 
+  const { pathname } = useLocation()
+
   const scrollHeader = () => {
     const last_known_scroll_position = window.scrollY
     if (last_known_scroll_position <= 10) {
       setColorHeader(false)
     } else {
       setColorHeader(true)
-    }
-
-    if (location.pathname !== match.path ) {
-      window.scroll(0, 0)
     }
   }
 
@@ -39,10 +35,10 @@ const Header = observer(() => {
       window.removeEventListener('scroll', scrollHeader)
     }
   }, [])
-
-  const gotoCart = () => {
-    history.push('/cart')
-  }
+  
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
 
   return (
     <header
@@ -107,7 +103,7 @@ const Header = observer(() => {
                 />
               </a>
             </li>
-            <li className={styles.item} onClick={()=> history.push('/likes')}>
+            <li className={styles.item} onClick={() => history.push('/likes')}>
               <a className={styles.link}>
                 <FontAwesomeIcon
                   icon={faHeart}
@@ -116,7 +112,7 @@ const Header = observer(() => {
                 />
               </a>
             </li>
-            <li className={styles.item} onClick={gotoCart}>
+            <li className={styles.item} onClick={() => history.push('/cart')}>
               <a className={styles.linkCart}>
                 <FontAwesomeIcon
                   icon={faShoppingCart}

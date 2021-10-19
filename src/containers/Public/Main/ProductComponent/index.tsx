@@ -34,7 +34,7 @@ const ProductComponent: React.FC<IProductProps> = ({
 
   const productsDetails = () => {
     history.push({
-      pathname: `/${product.id}`,
+      pathname: `/product/${product.id}`,
       state: { from: location.pathname },
     })
     localStorage.setItem('product', JSON.stringify(product))

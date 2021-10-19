@@ -32,10 +32,13 @@ class Products {
     //   _ => console.log(toJS(this.bestProducts))
     // )
   }
-  @action addtoCart(product: any) {
-    this.cart = [...this.cart, product]
+  @action setCarts(arr: any[]) {
+    this.cart = [...arr]
     localStorage.setItem('cart', JSON.stringify(this.cart))
-
+  }
+  @action addtoCart(product: any) {
+    this.setCarts([...this.cart, product])
+    
     // const id = this.cart.find(el => el.id === product.id);
     // if (!id) {
     //   this.cart = [...this.cart, product]
@@ -44,8 +47,7 @@ class Products {
   @action removeFromCart(productId: string) {
     const elementId = this.cart.find(el => el.id === productId)
     if (elementId) {
-      this.cart = this.cart.filter(item => item.id !== elementId.id)
-      localStorage.setItem('cart', JSON.stringify(this.cart))
+      this.setCarts([...this.cart.filter(item => item.id !== elementId.id)])
     }
   }
   @action setLike(product: any) {
@@ -105,6 +107,7 @@ class Products {
     )
     this.filteredProducts = felteredByRange
   }
+
   // @action updateFilter(value: string) {
   //   this.filter = value
   // }

@@ -2,15 +2,17 @@ import * as React from 'react'
 import styles from './styles.module.scss'
 import IProduct from '../../../../models/product'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { useHistory } from 'react-router'
 
 interface IProps {
   item: IProduct
 }
 
 const TrandingItem: React.FC<IProps> = ({ item }) => {
+  const history = useHistory()
   return (
     <>
-      <li className={styles.item}>
+      <li className={styles.item} onClick={()=>history.push(`/${item.id}`)}>
         <div className={styles.imgContainer}>
           <img className={styles.img} src={item.img} alt="img" />
         </div>
