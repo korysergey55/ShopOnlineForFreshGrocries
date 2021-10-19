@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "48d9cea9c14eb36b3ac4e1ca39ac8ecd",
+    "revision": "29a03158a415dbeaeb953ffbbd2ee91c",
     "url": "/ShopOnlineForFreshGrocries/index.html"
   },
   {
-    "revision": "a2c6ecdd390fa38a0418",
+    "revision": "724cc33478a3037ddac1",
     "url": "/ShopOnlineForFreshGrocries/static/css/10.75b7a5d5.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ShopOnlineForFreshGrocries/static/css/2.dce2d842.chunk.css"
   },
   {
-    "revision": "b45eba9cb60ed22be0b5",
-    "url": "/ShopOnlineForFreshGrocries/static/css/7.35b29ff5.chunk.css"
+    "revision": "d8b49a6862b910025b23",
+    "url": "/ShopOnlineForFreshGrocries/static/css/7.055ef047.chunk.css"
   },
   {
     "revision": "9f198a86eaa31cdff390",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ShopOnlineForFreshGrocries/static/js/1.2916afc0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a2c6ecdd390fa38a0418",
-    "url": "/ShopOnlineForFreshGrocries/static/js/10.6383b544.chunk.js"
+    "revision": "724cc33478a3037ddac1",
+    "url": "/ShopOnlineForFreshGrocries/static/js/10.50b92f41.chunk.js"
   },
   {
     "revision": "1f6d4a3ca236b553d462",
@@ -100,8 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ShopOnlineForFreshGrocries/static/js/4.d55c33a6.chunk.js"
   },
   {
-    "revision": "b45eba9cb60ed22be0b5",
-    "url": "/ShopOnlineForFreshGrocries/static/js/7.da43474f.chunk.js"
+    "revision": "d8b49a6862b910025b23",
+    "url": "/ShopOnlineForFreshGrocries/static/js/7.2d453e69.chunk.js"
   },
   {
     "revision": "9f198a86eaa31cdff390",
@@ -120,8 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ShopOnlineForFreshGrocries/static/js/main.a9200edc.chunk.js"
   },
   {
-    "revision": "9fd82c484c58e66ca4c3",
-    "url": "/ShopOnlineForFreshGrocries/static/js/runtime-main.0a7ddffa.js"
+    "revision": "5b74dcc7a6faeb6f9184",
+    "url": "/ShopOnlineForFreshGrocries/static/js/runtime-main.16621d41.js"
   },
   {
     "revision": "4546b2714e1e1a7d99a8ce7c9cfd046b",
