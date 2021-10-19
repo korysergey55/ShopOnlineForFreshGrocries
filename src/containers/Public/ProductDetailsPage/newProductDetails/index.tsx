@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import styles from './styles.module.scss'
 import IProduct, { Product } from '../../../../models/product'
+import styles from './styles.module.scss'
+import classnames from 'classnames'
 import GuarantieImg from '../../../../sources/images/ProductDatailsPage/productProductDetails/productIcon.png'
 import ServiceImg from '../../../../sources/images/ProductDatailsPage/productProductDetails/productIcon2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -19,8 +20,6 @@ import {
   faPinterest,
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons'
-
-import classnames from 'classnames'
 import Slider from 'react-slick'
 import PhotoList from '../PhotoList'
 import Modal from '../Modal/index'
@@ -125,9 +124,8 @@ const NewProductDetails = observer(() => {
 
   useEffect(() => {
     if (product) {
-      const defaultText: string | undefined = product.aboutProductLi.find(
-        item => item.text
-      )?.text
+      const defaultText: string | undefined =
+      product.aboutProductLi.find(item => item.text)?.text
       setaboutProductText(defaultText)
     }
   }, [product])
@@ -137,7 +135,6 @@ const NewProductDetails = observer(() => {
       setCouter(prev => prev - 1)
     }
   }
-
   const incrementProducts = () => {
     setCouter(prev => prev + 1)
   }

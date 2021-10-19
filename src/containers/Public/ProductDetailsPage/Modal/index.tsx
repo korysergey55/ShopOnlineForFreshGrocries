@@ -23,12 +23,10 @@ const Modal: React.FC = ({ children }) => {
       productStore.setModal()
     }
   }
-
   const handleBackdropClick = (evt: any) => {
     if (evt.target !== evt.currentTarget) return
     productStore.setModal()
   }
-
   const taggleModal = () => {
     productStore.setModal()
   }

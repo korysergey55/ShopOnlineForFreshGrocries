@@ -78,8 +78,8 @@ const Header = observer(() => {
                 Blog{' '}
               </a>
             </li>
-            <li className={styles.item}>
-              <a className={styles.link} href="/">
+            <li className={styles.item} onClick={()=> history.push('/contact')}>
+              <a className={styles.link}>
                 Contact{' '}
               </a>
             </li>

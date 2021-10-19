@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import styles from './styles.module.scss'
 import IProduct from '../../../../models/product'
-import { useStore } from 'stores'
-import ProductComponent from 'containers/Public/Main/ProductComponent'
+import styles from './styles.module.scss'
 import relatedProductsJSON from '../../../../sources/products/relatedProducts'
+import ProductComponent from 'containers/Public/Main/ProductComponent'
+import { useStore } from 'stores'
 import { observer } from 'mobx-react'
 
 const RelatedProducts = observer(() => {

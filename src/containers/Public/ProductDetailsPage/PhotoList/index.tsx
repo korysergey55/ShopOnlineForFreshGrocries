@@ -1,6 +1,6 @@
 import React from 'react'
-import { useStore } from 'stores'
 import styles from './styles.module.scss'
+import { useStore } from 'stores'
 
 interface IProps {
   item?: string

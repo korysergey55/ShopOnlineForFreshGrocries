@@ -12,7 +12,7 @@ const TrandingItem: React.FC<IProps> = ({ item }) => {
   const history = useHistory()
   return (
     <>
-      <li className={styles.item} onClick={()=>history.push(`/${item.id}`)}>
+      <li className={styles.item} onClick={()=>history.push(`/product/${item.id}`)}>
         <div className={styles.imgContainer}>
           <img className={styles.img} src={item.img} alt="img" />
         </div>

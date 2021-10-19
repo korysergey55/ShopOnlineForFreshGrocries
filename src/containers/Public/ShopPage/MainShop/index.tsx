@@ -1,23 +1,23 @@
 import React, { useEffect, useState } from 'react'
 import styles from './styles.module.scss'
-import classnames from 'classnames'
-import TrandingItem from '../TrandingItem'
-import ProductComponent from 'containers/Public/Main/ProductComponent'
-import relatedProductsJSON from 'sources/products/relatedProducts'
-import { checkboxJSON } from 'sources/products/checkbox'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTh, faListUl, faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import classnames from 'classnames'
+import relatedProductsJSON from 'sources/products/relatedProducts'
+import { checkboxJSON } from 'sources/products/checkbox'
+import ProductComponent from 'containers/Public/Main/ProductComponent'
+import TrandingItem from '../TrandingItem'
 import { Checkbox, Select, Input, Slider, Switch } from 'antd'
-import { toJS } from 'mobx'
 import { useStore } from 'stores'
 import { observer } from 'mobx-react'
+import { toJS } from 'mobx'
+
 const { Option } = Select
 const { Search } = Input
 
 const MainShop = observer(() => {
   const { productStore, productStoreAPI } = useStore()
   const [checkbox, setCheckbox] = useState<string>('')
-  const [product, setProduct] = useState<any>([])
   const [range, setRange] = useState<number[]>([10, 90])
   const [activeClass, setActiveClass] = useState<boolean>(false)
 
@@ -27,7 +27,6 @@ const MainShop = observer(() => {
   // console.log('allProductsAPI', toJS(productStoreAPI.allProductsAPI))
   // console.log('productsAPI', toJS(productStoreAPI.productsAPI))
 
-  
   useEffect(() => {}, [productStore.filteredProducts])
 
   const onFilterSearch = (value: string) => {
@@ -43,9 +42,7 @@ const MainShop = observer(() => {
   const onChangeCategoriesCheckbox = (evt: any) => {
     const { name, checked } = evt.target
     setCheckbox((prev: any) => ({ ...prev, [name]: checked }))
-    console.log(name, checked)
   }
-
   const changeStyle = (data: boolean) => {
     setActiveClass(data)
   }
