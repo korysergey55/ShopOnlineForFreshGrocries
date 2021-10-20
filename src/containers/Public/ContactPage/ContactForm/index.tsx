@@ -1,19 +1,34 @@
-import * as React from 'react'
+import React, { useState } from 'react'
 import styles from './styles.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMapMarkerAlt,faMobileAlt } from '@fortawesome/free-solid-svg-icons'
-import { faEnvelope} from '@fortawesome/free-regular-svg-icons'
-import { Form, Input, InputNumber, Button } from 'antd'
+import { faMapMarkerAlt, faMobileAlt } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import { Form, Input, InputNumber, Button, Row, Col } from 'antd'
+import { toJS } from 'mobx'
+import { useStore } from 'stores'
+
+const validateMessages = {
+  required: '${label} is required!',
+  types: {
+    email: '${label} is not a valid email!',
+    number: '${label} is not a valid number!',
+  },
+}
+const initialState = { name: '', email: '', tel: '', address: '', message: '' }
 
 const ContactForm = () => {
-  const validateMessages = {
-    required: '${label} is required!',
-    types: {
-      email: '${label} is not a valid email!',
-      number: '${label} is not a valid number!',
-    },
-  }
+  const { productStore } = useStore()
+  const [formData, setFormData] = useState({ ...initialState })
 
+  const inputChange = (e: any) => {
+    const value: string = e.target.value
+    const name: string = e.target.name
+    setFormData(prev => ({ ...prev, [name]: value }))
+  }
+  const submitForm = () => {
+    productStore.setFormData(formData)
+    console.log(toJS(productStore.formData))
+  }
   return (
     <>
       <section className={styles.contactForm}>
@@ -21,32 +36,69 @@ const ContactForm = () => {
           <div className={styles.wripper}>
             <div className={styles.formWripper}>
               <h2 className={styles.formTitle}>Get In Touch</h2>
-              <Form name="contactForm" validateMessages={validateMessages}>
-                <div className={styles.inputWripper}>
-                  <Form.Item name={['Name']} rules={[{ required: true }]}>
-                    <Input placeholder="Name" className={styles.input} />
-                  </Form.Item>
-                  <Form.Item
-                    name={['Email']}
-                    rules={[{ type: 'email', required: true }]}
-                  >
-                    <Input placeholder="Email" className={styles.input} />
-                  </Form.Item>
-                  <Form.Item
-                    name={['number']}
-                    rules={[{ message: 'Please input your phone number!' }]}
-                  >
-                    <Input placeholder="Phone" className={styles.input} />
-                  </Form.Item>
-                  <Form.Item name={['Address']}>
-                    <Input placeholder="Address" className={styles.input} />
-                  </Form.Item>
-                </div>
+
+              <Form
+                name="contactForm"
+                validateMessages={validateMessages}
+                onFinish={submitForm}
+              >
+                <Row gutter={18}>
+                  <Col span={12}>
+                    <Form.Item name={['Name']} rules={[{ required: true }]}>
+                      <Input
+                        name="name"
+                        placeholder="Name"
+                        className={styles.input}
+                        onChange={inputChange}
+                      />
+                    </Form.Item>
+                  </Col>
+                  <Col span={12}>
+                    <Form.Item
+                      name={['email']}
+                      rules={[{ type: 'email', required: true }]}
+                    >
+                      <Input
+                        name="email"
+                        placeholder="Email"
+                        className={styles.input}
+                        onChange={inputChange}
+                      />
+                    </Form.Item>
+                  </Col>
+                </Row>
+                <Row gutter={18}>
+                  <Col span={12}>
+                    <Form.Item
+                      name={['tel']}
+                      rules={[{ message: 'Please input your phone number!' }]}
+                    >
+                      <Input
+                        name="tel"
+                        placeholder="Phone"
+                        className={styles.input}
+                        onChange={inputChange}
+                      />
+                    </Form.Item>
+                  </Col>
+                  <Col span={12}>
+                    <Form.Item name={['address']}>
+                      <Input
+                        name="address"
+                        placeholder="Address"
+                        className={styles.input}
+                        onChange={inputChange}
+                      />
+                    </Form.Item>
+                  </Col>
+                </Row>
 
                 <Input.TextArea
-                  placeholder="Message"
+                  name="message"
+                  placeholder="message"
                   className={styles.textarea}
                   style={{ height: 181 }}
+                  onChange={inputChange}
                 />
                 <Form.Item>
                   <Button
@@ -66,7 +118,11 @@ const ContactForm = () => {
               </p>
               <ul className={styles.list}>
                 <li className={styles.item}>
-                  <FontAwesomeIcon icon={faMapMarkerAlt} color="#ffffff"  size="3x"/>
+                  <FontAwesomeIcon
+                    icon={faMapMarkerAlt}
+                    color="#ffffff"
+                    size="3x"
+                  />
                   <div className={styles.liContainer}>
                     <p className={styles.subtitle}>Location</p>
                     <p className={styles.text}>
@@ -75,7 +131,11 @@ const ContactForm = () => {
                   </div>
                 </li>
                 <li className={styles.item}>
-                  <FontAwesomeIcon icon={faMobileAlt} color="#ffffff"  size="3x" />
+                  <FontAwesomeIcon
+                    icon={faMobileAlt}
+                    color="#ffffff"
+                    size="3x"
+                  />
                   <div className={styles.liContainer}>
                     <p className={styles.subtitle}>Phone</p>
                     <p className={styles.text}>
@@ -86,12 +146,15 @@ const ContactForm = () => {
                   </div>
                 </li>
                 <li className={styles.item}>
-                  <FontAwesomeIcon icon={faEnvelope} color="#ffffff"  size="3x" />
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    color="#ffffff"
+                    size="3x"
+                  />
                   <div className={styles.liContainer}>
                     <p className={styles.subtitle}>Email</p>
                     <p className={styles.text}>
-                      Groxistore@gmail.com 
-                      info@groxistore.com
+                      Groxistore@gmail.com info@groxistore.com
                     </p>
                   </div>
                 </li>

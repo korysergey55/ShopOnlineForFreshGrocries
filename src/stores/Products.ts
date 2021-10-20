@@ -21,6 +21,7 @@ class Products {
   @observable cart: IProduct[] = localStorage.getItem('cart')
     ? JSON.parse(localStorage.getItem('cart') as string)
     : []
+  @observable formData: object[] = []
 
   @observable filter: string = ''
   @observable filteredProducts: IProduct[] = []
@@ -32,13 +33,16 @@ class Products {
     //   _ => console.log(toJS(this.bestProducts))
     // )
   }
+  @action setFormData(formValue: any){
+    this.formData = [...this.formData, formValue ]
+  }
   @action setCarts(arr: any[]) {
     this.cart = [...arr]
     localStorage.setItem('cart', JSON.stringify(this.cart))
   }
   @action addtoCart(product: any) {
     this.setCarts([...this.cart, product])
-    
+
     // const id = this.cart.find(el => el.id === product.id);
     // if (!id) {
     //   this.cart = [...this.cart, product]
