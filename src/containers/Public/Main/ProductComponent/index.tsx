@@ -30,7 +30,7 @@ const ProductComponent: React.FC<IProductProps> = ({
     if (location.pathname === '/cart') {
       setBtnRemoveFromCart(true)
     }
-  })
+  },[location.pathname])
 
   const productsDetails = () => {
     history.push({
@@ -78,6 +78,7 @@ const ProductComponent: React.FC<IProductProps> = ({
             e.stopPropagation()
             setLike()
           }}
+          href='/'
         >
           <FontAwesomeIcon icon={faHeart} className={styles.icon} />
         </a>

@@ -26,7 +26,7 @@ import Modal from '../Modal/index'
 import { observer } from 'mobx-react'
 import { useHistory, useLocation, useParams } from 'react-router'
 import { useStore } from 'stores'
-import { toJS } from 'mobx'
+// import { toJS } from 'mobx'
 
 interface IProductProps {
   product: IProduct

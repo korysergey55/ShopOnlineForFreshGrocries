@@ -12,7 +12,7 @@ const VideoContent = () => {
             url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
             width="100%"
             height="643px"
-            playIcon={<img src={playStyleIcon}/>}
+            playIcon={<img src={playStyleIcon} alt="playerIcon" />}
           />
         </div>
       </section>

@@ -2,11 +2,11 @@ import {
   makeAutoObservable,
   observable,
   action,
-  computed,
+  // computed,
   // configure,
   // reaction,
   // runInAction,
-  toJS,
+  // toJS,
 } from 'mobx'
 import IProduct from '../models/product'
 
@@ -33,14 +33,14 @@ class Products {
     //   _ => console.log(toJS(this.bestProducts))
     // )
   }
-  @action setFormData(formValue: any){
+  @action setFormData(formValue: {}){
     this.formData = [...this.formData, formValue ]
   }
-  @action setCarts(arr: any[]) {
+  @action setCarts(arr: IProduct[]) {
     this.cart = [...arr]
     localStorage.setItem('cart', JSON.stringify(this.cart))
   }
-  @action addtoCart(product: any) {
+  @action addtoCart(product: IProduct) {
     this.setCarts([...this.cart, product])
 
     // const id = this.cart.find(el => el.id === product.id);
@@ -54,12 +54,14 @@ class Products {
       this.setCarts([...this.cart.filter(item => item.id !== elementId.id)])
     }
   }
+
   @action setLike(product: any) {
     this.likes = [...this.likes, product]
   }
   @action removeLike(id: any) {
     this.likes = this.likes.filter(like => like !== id)
   }
+
   @action setAllProducts(product: any) {
     this.allProducts = product
   }

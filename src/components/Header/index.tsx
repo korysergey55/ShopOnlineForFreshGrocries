@@ -10,14 +10,13 @@ import {
   faShoppingCart,
 } from '@fortawesome/free-solid-svg-icons'
 import { useStore } from 'stores'
-import { useHistory, useLocation, useParams, useRouteMatch } from 'react-router'
+import { useHistory, useLocation } from 'react-router'
 import { observer } from 'mobx-react'
 
 const Header = observer(() => {
   const { productStore } = useStore()
   const [colorHeader, setColorHeader] = useState(false)
   const history = useHistory()
-  const location = useLocation<any>()
   const { pathname } = useLocation()
 
   const scrollHeader = () => {
@@ -35,7 +34,7 @@ const Header = observer(() => {
       window.removeEventListener('scroll', scrollHeader)
     }
   }, [])
-  
+
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [pathname])
@@ -78,10 +77,11 @@ const Header = observer(() => {
                 Blog{' '}
               </a>
             </li>
-            <li className={styles.item} onClick={()=> history.push('/contact')}>
-              <a className={styles.link}>
-                Contact{' '}
-              </a>
+            <li
+              className={styles.item}
+              onClick={() => history.push('/contact')}
+            >
+              <a className={styles.link} href="/contact">Contact </a>
             </li>
           </ul>
           <ul className={styles.sotialList}>
@@ -104,7 +104,7 @@ const Header = observer(() => {
               </a>
             </li>
             <li className={styles.item} onClick={() => history.push('/likes')}>
-              <a className={styles.link}>
+              <a className={styles.link} href="/likes">
                 <FontAwesomeIcon
                   icon={faHeart}
                   color="#9fcb22"
@@ -113,7 +113,7 @@ const Header = observer(() => {
               </a>
             </li>
             <li className={styles.item} onClick={() => history.push('/cart')}>
-              <a className={styles.linkCart}>
+              <a className={styles.linkCart} href="/cart">
                 <FontAwesomeIcon
                   icon={faShoppingCart}
                   color="#9fcb22"
@@ -122,12 +122,12 @@ const Header = observer(() => {
               </a>
             </li>
             <li>
-              <a className={styles.linkCartLength}>
+              <a className={styles.linkCartLength} href="/cart">
                 {productStore.cart.length}
               </a>
             </li>
             <li>
-              <a className={styles.linkLikeLength}>
+              <a className={styles.linkLikeLength} href="/likes">
                 {productStore.likes.length}
               </a>
             </li>

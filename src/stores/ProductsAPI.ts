@@ -9,7 +9,7 @@ import {
   // toJS,
 } from 'mobx'
 import IProduct from '../models/product'
-import axios from 'axios'
+// import axios from 'axios'
 
 class ProductsAPI {
   @observable allProductsAPI: any = []
