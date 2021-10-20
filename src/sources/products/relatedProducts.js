@@ -9,7 +9,7 @@ import { faStar as StarIconRegular } from '@fortawesome/free-regular-svg-icons'
 
 const relatedProductsJSON = [
   {
-    "id": uuidv4(),
+    "id": "21",
     "hot": "Hot",
     "img": BeefImg,
     "imgArr": [BeefImg, BrocaliImg, StrawberriesImg, HoneyImg, HoneyImg],
@@ -38,7 +38,7 @@ const relatedProductsJSON = [
     ]
   },
   {
-    "id": uuidv4(),
+    "id": "22",
     "hot": null,
     "img": BrocaliImg,
     "imgArr": [BeefImg, BrocaliImg, StrawberriesImg, HoneyImg, HoneyImg],
@@ -67,7 +67,7 @@ const relatedProductsJSON = [
     ]
   },
   {
-    "id": uuidv4(),
+    "id": "23",
     "hot": null,
     "img": StrawberriesImg,
     "imgArr": [BeefImg, BrocaliImg, StrawberriesImg, HoneyImg, HoneyImg],
@@ -96,7 +96,7 @@ const relatedProductsJSON = [
     ]
   },
   {
-    "id": uuidv4(),
+    "id": "24",
     "hot": null,
     "img": HoneyImg,
     "imgArr": [BeefImg, BrocaliImg, StrawberriesImg, HoneyImg, HoneyImg],

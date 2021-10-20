@@ -21,7 +21,7 @@
         max-width: 700px;
         min-height: 660px;
         // margin-bottom: 20px;
-        padding: 78px 40px;
+        padding: 80px 40px;
         background-color: #f6fafb;
 
         .formTitle {
@@ -36,7 +36,7 @@
         width: 100%;
         max-width: 380px;
         min-height: 660px;
-        padding: 62px 45px;
+        padding: 50px 45px;
         background-color: #9fcc22;
 
         .title {
@@ -78,6 +78,8 @@
                 color: #f6fafb;
               }
               .text {
+                display: block;
+                max-width: 190px;
                 margin-bottom: 10px;
                 font-family: Barlow;
                 font-size: 20px;

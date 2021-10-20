@@ -17,9 +17,11 @@ class Products {
   @observable relatedProducts: IProduct[] = []
   @observable photo: string | undefined = ''
   @observable modal: boolean = false
-  @observable likes: string[] = []
   @observable cart: IProduct[] = localStorage.getItem('cart')
     ? JSON.parse(localStorage.getItem('cart') as string)
+    : []
+  @observable likes: string[] = localStorage.getItem('likes')
+    ? JSON.parse(localStorage.getItem('likes') as string)
     : []
   @observable formData: object[] = []
 
@@ -33,16 +35,15 @@ class Products {
     //   _ => console.log(toJS(this.bestProducts))
     // )
   }
-  @action setFormData(formValue: {}){
-    this.formData = [...this.formData, formValue ]
+  @action setFormData(formValue: {}) {
+    this.formData = [...this.formData, formValue]
   }
-  @action setCarts(arr: IProduct[]) {
+  @action setAddToCart(arr: IProduct[]) {
     this.cart = [...arr]
     localStorage.setItem('cart', JSON.stringify(this.cart))
   }
   @action addtoCart(product: IProduct) {
-    this.setCarts([...this.cart, product])
-
+    this.setAddToCart([...this.cart, product])
     // const id = this.cart.find(el => el.id === product.id);
     // if (!id) {
     //   this.cart = [...this.cart, product]
@@ -51,15 +52,17 @@ class Products {
   @action removeFromCart(productId: string) {
     const elementId = this.cart.find(el => el.id === productId)
     if (elementId) {
-      this.setCarts([...this.cart.filter(item => item.id !== elementId.id)])
+      this.setAddToCart([...this.cart.filter(item => item.id !== elementId.id)])
     }
   }
 
-  @action setLike(product: any) {
-    this.likes = [...this.likes, product]
+  @action setLike(likeId: string) {
+    this.likes = [...this.likes, likeId]
+    localStorage.setItem('likes', JSON.stringify(this.likes))
   }
-  @action removeLike(id: any) {
-    this.likes = this.likes.filter(like => like !== id)
+  @action removeLike(likeId: string) {
+    this.likes = this.likes.filter(like => like !== likeId)
+    localStorage.setItem('likes', JSON.stringify(this.likes))
   }
 
   @action setAllProducts(product: any) {

@@ -4,14 +4,14 @@ import OrangeImg from '../images/Main/bestSellers/orange.png';
 import AggsImg from '../images/Main/bestSellers/eggs.png';
 import OilImg from '../images/Main/bestSellers/oil.png';
 import BodyLotionImg from '../images/Main/bestSellers/bodyLotion.png';
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { faStar as StarIconRegular } from '@fortawesome/free-regular-svg-icons'
 
 
 const bestSellerProductsJSON = [
   {
-    "id": uuidv4(),
+    "id": "10",
     "hot": "Hot",
     "img": BreadImg,
     "imgArr": [BreadImg, PepperImg, OrangeImg, AggsImg, OilImg],
@@ -23,7 +23,7 @@ const bestSellerProductsJSON = [
     "overview": 'Fresh Bread - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.'
   },
   {
-    "id": uuidv4(),
+    "id": "11",
     "hot": null,
     "img": PepperImg,
     "imgArr": [BreadImg, PepperImg, OrangeImg, AggsImg, OilImg],
@@ -52,7 +52,7 @@ const bestSellerProductsJSON = [
     ]
   },
   {
-    "id": uuidv4(),
+    "id": "12",
     "hot": "Hot",
     "img": OrangeImg,
     "imgArr": [BreadImg, PepperImg, OrangeImg, AggsImg, OilImg],
@@ -81,7 +81,7 @@ const bestSellerProductsJSON = [
     ]
   },
   {
-    "id": uuidv4(),
+    "id": "13",
     "hot": null,
     "img": AggsImg,
     "imgArr": [BreadImg, PepperImg, OrangeImg, AggsImg, OilImg],
@@ -110,7 +110,7 @@ const bestSellerProductsJSON = [
     ]
   },
   {
-    "id": uuidv4(),
+    "id": "14",
     "hot": "Hot",
     "img": OilImg,
     "imgArr": [BreadImg, PepperImg, OrangeImg, AggsImg, OilImg],
@@ -139,7 +139,7 @@ const bestSellerProductsJSON = [
     ]
   },
   {
-    "id": uuidv4(),
+    "id": "15",
     "hot": null,
     "img": BodyLotionImg,
     "imgArr": [BreadImg, PepperImg, OrangeImg, AggsImg, OilImg],

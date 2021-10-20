@@ -12,6 +12,7 @@ interface IProductProps {
   product: IProduct
   width?: boolean
   colorItem?: boolean
+  likeStyle?: boolean
   key?: string
 }
 
@@ -19,18 +20,19 @@ const ProductComponent: React.FC<IProductProps> = ({
   product,
   width,
   colorItem,
+  likeStyle = false,
 }) => {
   const history = useHistory()
   const location = useLocation()
   const { productStore } = useStore()
-  const [activeClass, setActive] = useState(false)
+  const [activeClass, setActive] = useState(likeStyle)
   const [btnRemoveFromCart, setBtnRemoveFromCart] = useState(false)
 
   useEffect(() => {
     if (location.pathname === '/cart') {
       setBtnRemoveFromCart(true)
     }
-  },[location.pathname])
+  }, [location.pathname])
 
   const productsDetails = () => {
     history.push({
@@ -78,7 +80,7 @@ const ProductComponent: React.FC<IProductProps> = ({
             e.stopPropagation()
             setLike()
           }}
-          href='/'
+          href="/"
         >
           <FontAwesomeIcon icon={faHeart} className={styles.icon} />
         </a>
@@ -128,17 +130,19 @@ const ProductComponent: React.FC<IProductProps> = ({
         <p className={styles.text}>{product.text}</p>
         <p className={styles.oldPrice}>${product.oldPrice}</p>
         <p className={styles.price}>${product.price}</p>
-        <button
-          className={styles.button}
-          type="button"
-          onClick={e => {
-            e.preventDefault()
-            e.stopPropagation()
-            addToCart()
-          }}
-        >
-          Add to cart
-        </button>
+        {!btnRemoveFromCart && (
+          <button
+            className={styles.button}
+            type="button"
+            onClick={e => {
+              e.preventDefault()
+              e.stopPropagation()
+              addToCart()
+            }}
+          >
+            Add to cart
+          </button>
+        )}
         <button
           className={classnames({
             [styles.buttonNone]: true,

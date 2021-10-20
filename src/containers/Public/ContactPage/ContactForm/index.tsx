@@ -151,9 +151,7 @@ const ContactForm = () => {
                   <div className={styles.liContainer}>
                     <p className={styles.subtitle}>Phone</p>
                     <a className={styles.text} href="tel: +0-589-96369-95823">
-                      0-589-96369-95823,
-                      {/* <br></br> */}
-                      0-825-63596-471254
+                      0-589-96369-95823, 0-825-63596-471254
                     </a>
                   </div>
                 </li>
@@ -171,7 +169,8 @@ const ContactForm = () => {
                       className={styles.text}
                       href="mailto:info@groxistore.com"
                     >
-                      Groxistore@gmail.com, info@groxistore.com
+                      Groxistore@gmail.com,
+                      info@groxistore.com
                     </a>
                   </div>
                 </li>

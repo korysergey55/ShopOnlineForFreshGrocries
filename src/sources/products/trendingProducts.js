@@ -5,14 +5,14 @@ import HoneyImg from '../images/Main/trendingProducts/honey.png';
 import MilkImg from '../images/Main/trendingProducts/milk.png';
 import MangoImg from '../images/Main/trendingProducts/mango.png';
 
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { faStar as StarIconRegular } from '@fortawesome/free-regular-svg-icons'
 
 
 const trendingProductsJSON = [
   {
-    "id": uuidv4(),
+    "id": "1",
     "hot": "Hot",
     "img": BeefImg,
     "imgArr": [BeefImg, BrocaliImg, StrawberriesImg, HoneyImg, MangoImg],
@@ -41,7 +41,7 @@ const trendingProductsJSON = [
     ]
   },
   {
-    "id": uuidv4(),
+    "id": "2",
     "hot": null,
     "img": BrocaliImg,
     "imgArr": [BeefImg, BrocaliImg, StrawberriesImg, HoneyImg, MangoImg],
@@ -70,7 +70,7 @@ const trendingProductsJSON = [
     ]
   },
   {
-    "id": uuidv4(),
+    "id": "3",
     "hot": null,
     "img": StrawberriesImg,
     "imgArr": [BeefImg, BrocaliImg, StrawberriesImg, HoneyImg, MangoImg],
@@ -99,7 +99,7 @@ const trendingProductsJSON = [
     ]
   },
   {
-    "id": uuidv4(),
+    "id": "4",
     "hot": null,
     "img": HoneyImg,
     "imgArr": [BeefImg, BrocaliImg, StrawberriesImg, HoneyImg, MangoImg],
@@ -128,7 +128,7 @@ const trendingProductsJSON = [
     ]
   },
   {
-    "id": uuidv4(),
+    "id": "5",
     "hot": null,
     "img": MilkImg,
     "imgArr": [BeefImg, BrocaliImg, StrawberriesImg, HoneyImg, MangoImg],
@@ -157,7 +157,7 @@ const trendingProductsJSON = [
     ]
   },
   {
-    "id": uuidv4(),
+    "id": "6",
     "hot": null,
     "img": MangoImg,
     "imgArr": [BeefImg, BrocaliImg, StrawberriesImg, HoneyImg, MangoImg],

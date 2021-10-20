@@ -136,7 +136,7 @@
     }
   }
 }
-.buttonNone{
+.buttonNone {
   display: none;
 }
 .buttonRemuve {
@@ -185,14 +185,11 @@
     margin-left: 91px;
   }
   .button {
-    margin-bottom: 37px;
+    margin-bottom: 30px;
   }
 }
 .colorItem {
   background-color: #ffffff;
-  // .like {
-  //   background-color: #f6fafb;
-  // }
 }
 
 @media screen and (min-width: 768px) {
@@ -219,7 +216,6 @@
     }
     .button {
       margin-bottom: 10px;
-     
     }
   }
 }
