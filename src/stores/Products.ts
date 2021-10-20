@@ -24,7 +24,7 @@ class Products {
     ? JSON.parse(localStorage.getItem('likes') as string)
     : []
   @observable formData: object[] = []
-
+  
   @observable filter: string = ''
   @observable filteredProducts: IProduct[] = []
 
@@ -43,11 +43,13 @@ class Products {
     localStorage.setItem('cart', JSON.stringify(this.cart))
   }
   @action addtoCart(product: IProduct) {
-    this.setAddToCart([...this.cart, product])
-    // const id = this.cart.find(el => el.id === product.id);
-    // if (!id) {
-    //   this.cart = [...this.cart, product]
-    // } else {}
+    // this.setAddToCart([...this.cart, product])
+    const id = this.cart.find(el => el.id === product.id)
+    if (!id) {
+      this.setAddToCart([...this.cart, product])
+    } else {
+      console.log('already exist')
+    }
   }
   @action removeFromCart(productId: string) {
     const elementId = this.cart.find(el => el.id === productId)
@@ -55,16 +57,16 @@ class Products {
       this.setAddToCart([...this.cart.filter(item => item.id !== elementId.id)])
     }
   }
-
-  @action setLike(likeId: string) {
-    this.likes = [...this.likes, likeId]
+  @action setAddLike(arr: string[]) {
+    this.likes = [...arr]
     localStorage.setItem('likes', JSON.stringify(this.likes))
+  }
+  @action addLike(likeId: string) {
+    this.setAddLike([...this.likes, likeId])
   }
   @action removeLike(likeId: string) {
-    this.likes = this.likes.filter(like => like !== likeId)
-    localStorage.setItem('likes', JSON.stringify(this.likes))
+    this.setAddLike(this.likes.filter(like => like !== likeId))
   }
-
   @action setAllProducts(product: any) {
     this.allProducts = product
   }

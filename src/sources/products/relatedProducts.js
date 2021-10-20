@@ -124,6 +124,6 @@ const relatedProductsJSON = [
       },
     ]
   },
-  
+
 ];
 export default relatedProductsJSON;

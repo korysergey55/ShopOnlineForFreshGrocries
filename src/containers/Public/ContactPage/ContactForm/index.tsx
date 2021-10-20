@@ -20,14 +20,16 @@ const ContactForm = () => {
   const { productStore } = useStore()
   const [formData, setFormData] = useState({ ...initialState })
 
-  const inputChange = (e: any) => {
-    const value: string = e.target.value
-    const name: string = e.target.name
+  const inputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const value = e.target.value
+    const name = e.target.name
     setFormData(prev => ({ ...prev, [name]: value }))
   }
   const submitForm = () => {
     productStore.setFormData(formData)
-    console.log(toJS(productStore.formData))
+    console.log('productStore.formData', toJS(productStore.formData))
   }
   return (
     <>
@@ -169,8 +171,7 @@ const ContactForm = () => {
                       className={styles.text}
                       href="mailto:info@groxistore.com"
                     >
-                      Groxistore@gmail.com,
-                      info@groxistore.com
+                      Groxistore@gmail.com, info@groxistore.com
                     </a>
                   </div>
                 </li>

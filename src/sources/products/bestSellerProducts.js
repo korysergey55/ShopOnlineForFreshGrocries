@@ -20,9 +20,27 @@ const bestSellerProductsJSON = [
     "price": 12,
     "star": faStar,
     "starRegular": StarIconRegular,
-    "overview": 'Fresh Bread - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.'
+    "overview": 'Fresh Bread - Neque porro quisquam est aui dolorem iesum ruia sit amet consectetur, adipisci velit sed quia non numeius modi tempora incidunt ut labore et dolore magnavolutatem exercitationem ullam.',
+    "aboutProductLi": [
+      {
+        id: 1,
+        title: 'Description',
+        text: 'Description Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 2,
+        title: 'Additional Information',
+        text: 'Additional Information Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+      {
+        id: 3,
+        title: 'Reviews',
+        text: 'Reviews Ratione volurtatem serui nesciunt neaue porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem Ut enim ad minima veniam corporis  suscipit laboriosam nisi ut aliquid ex ea commodi consequatur',
+      },
+    ]
   },
   {
+
     "id": "11",
     "hot": null,
     "img": PepperImg,
@@ -52,6 +70,7 @@ const bestSellerProductsJSON = [
     ]
   },
   {
+
     "id": "12",
     "hot": "Hot",
     "img": OrangeImg,

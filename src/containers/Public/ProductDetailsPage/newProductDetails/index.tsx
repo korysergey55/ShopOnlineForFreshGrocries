@@ -23,8 +23,8 @@ import {
 import Slider from 'react-slick'
 import PhotoList from '../PhotoList'
 import Modal from '../Modal/index'
-import { observer } from 'mobx-react'
 import { useHistory, useLocation, useParams } from 'react-router'
+import { observer } from 'mobx-react'
 import { useStore } from 'stores'
 // import { toJS } from 'mobx'
 
@@ -90,7 +90,7 @@ const NewProductDetails = observer(() => {
   const history = useHistory()
   const location = useLocation<any>()
   const params = useParams()
-  const { id }: any = params
+  const { id:paramsId }: any = params
   const { productStore } = useStore()
 
   const [couter, setCouter] = useState<number>(0)
@@ -99,8 +99,8 @@ const NewProductDetails = observer(() => {
 
   const [product, setProduct] = useState<IProduct | undefined>(() => {
     const getProductWithId =
-      productStore.trendingProducts.find((item: IProduct) => item.id === id) ||
-      productStore.bestProducts.find((item: IProduct) => item.id === id)
+      productStore.trendingProducts.find((item: IProduct) => item.id === paramsId) ||
+      productStore.bestProducts.find((item: IProduct) => item.id === paramsId)
     return getProductWithId
   })
 
@@ -115,12 +115,12 @@ const NewProductDetails = observer(() => {
   useEffect(() => {
     const findProduct = () => {
       const getProductWithId = productStore.relatedProducts.find(
-        (item: IProduct) => item.id === id
+        (item: IProduct) => item.id === paramsId
       )
       getProductWithId && setProduct(getProductWithId)
     }
     findProduct()
-  }, [id, productStore])
+  }, [paramsId, productStore])
 
   useEffect(() => {
     if (product) {

@@ -47,7 +47,7 @@ const ProductComponent: React.FC<IProductProps> = ({
     if (productStore.likes.includes(product.id)) {
       productStore.removeLike(product.id)
     } else {
-      productStore.setLike(product.id)
+      productStore.addLike(product.id)
     }
     console.log('likes', toJS(productStore.likes))
   }
