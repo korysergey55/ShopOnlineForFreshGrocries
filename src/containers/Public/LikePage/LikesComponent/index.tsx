@@ -4,16 +4,15 @@ import styles from './styles.module.scss'
 import ProductComponent from 'containers/Public/Main/ProductComponent'
 import { useStore } from 'stores'
 import { observer } from 'mobx-react'
-import { toJS } from 'mobx'
-import { allProductsJSON } from 'sources/products/allProducts'
+// import { toJS } from 'mobx'
 
 const LikesComponent = observer(() => {
   const { productStore } = useStore()
-  const [likesProducts, setLikesProducts] = useState<IProduct[]>()
-
-  useEffect(() => {
-    productStore.setAllProducts(allProductsJSON)
-  }, [productStore])
+  const [likesProducts, setLikesProducts] = useState<IProduct[]>(() => {
+    let filtered: IProduct[] = productStore.allProducts.filter(product =>
+      productStore.likes.includes(product.id))
+      return filtered
+  })
 
   useEffect(() => {
     const findLike = () => {

@@ -1,0 +1,48 @@
+.btnContainer {
+  display: block;
+  margin-top: 10px;
+  margin-left: 78px;
+  .btn {
+    width: 23px;
+    height: 23px;
+    margin-bottom: 10px;
+    border: 1px solid #deecf0;
+    background-color: #f6fafb;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .btn_text {
+    display: inline-block;
+    width: 50px;
+    height: 23px;
+    margin-bottom: 0;
+    font-weight: 500;
+    border: 1px solid #deecf0;
+    background-color: #f6fafb;
+  }
+}
+.btnContainerProdDetails {
+  display: inline-block;
+  margin-left: 0;
+  .btn {
+    width: 43px;
+    height: 43px;
+    margin-bottom: 10px;
+    border: 1px solid #deecf0;
+    background-color: #f6fafb;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .btn_text {
+    display: inline-block;
+    width: 70px;
+    height: 43px;
+    margin-bottom: 0;
+    border: 1px solid #deecf0;
+    background-color: #f6fafb;
+  }
+}

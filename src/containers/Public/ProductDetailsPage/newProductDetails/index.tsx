@@ -26,6 +26,7 @@ import Modal from '../Modal/index'
 import { useHistory, useLocation, useParams } from 'react-router'
 import { observer } from 'mobx-react'
 import { useStore } from 'stores'
+import ButtonComponent from 'containers/Public/ButtonComponent'
 // import { toJS } from 'mobx'
 
 interface IProductProps {
@@ -90,16 +91,18 @@ const NewProductDetails = observer(() => {
   const history = useHistory()
   const location = useLocation<any>()
   const params = useParams()
-  const { id:paramsId }: any = params
+  const { id: paramsId }: any = params
   const { productStore } = useStore()
 
-  const [couter, setCouter] = useState<number>(0)
+  const [couter, setCouter] = useState<number>(1)
   const [activeClass, setActiveClass] = useState<number>(1)
   const [aboutProductText, setaboutProductText] = useState<string | undefined>()
 
   const [product, setProduct] = useState<IProduct | undefined>(() => {
     const getProductWithId =
-      productStore.trendingProducts.find((item: IProduct) => item.id === paramsId) ||
+      productStore.trendingProducts.find(
+        (item: IProduct) => item.id === paramsId
+      ) ||
       productStore.bestProducts.find((item: IProduct) => item.id === paramsId)
     return getProductWithId
   })
@@ -124,8 +127,9 @@ const NewProductDetails = observer(() => {
 
   useEffect(() => {
     if (product) {
-      const defaultText: string | undefined =
-      product.aboutProductLi.find(item => item.text)?.text
+      const defaultText: string | undefined = product.aboutProductLi.find(
+        item => item.text
+      )?.text
       setaboutProductText(defaultText)
     }
   }, [product])
@@ -152,8 +156,12 @@ const NewProductDetails = observer(() => {
   const openImgModal = () => {
     productStore.setModal()
   }
-  const addToCart = (product: any) => {
-    productStore.addtoCart(product)
+  const addToCart = (product: string) => {
+    const productArr: string[] = []
+    for (let i = 0; i < couter; i += 1) {
+      productArr.push(product)
+    }
+    productStore.addtoCart(productArr)
   }
   return (
     <>
@@ -230,25 +238,16 @@ const NewProductDetails = observer(() => {
                 <p className={styles.oldPrice}>$ {product.oldPrice}</p>
                 <p className={styles.price}>$ {product.price}</p>
                 <div className={styles.btnContainer}>
-                  <button
-                    className={styles.btn}
-                    type="button"
-                    onClick={() => incrementProducts()}
-                  >
-                    +
-                  </button>
-                  <button className={styles.btn_text}>{couter}</button>
-                  <button
-                    className={styles.btn}
-                    type="button"
-                    onClick={() => decrimentProducts()}
-                  >
-                    -
-                  </button>
+                  <ButtonComponent
+                    value={couter}
+                    width={true}
+                    incrementProduct={incrementProducts}
+                    decrimentProduct={decrimentProducts}
+                  />
                   <button
                     className={styles.btnAddToCart}
                     type="button"
-                    onClick={() => addToCart(product)}
+                    onClick={() => addToCart(product.id)}
                   >
                     Add to cart
                   </button>

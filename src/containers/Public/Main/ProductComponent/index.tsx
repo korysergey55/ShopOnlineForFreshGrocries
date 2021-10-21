@@ -1,19 +1,22 @@
 import React, { useState, useEffect } from 'react'
+import IProduct from '../../../../models/product'
 import styles from './styles.module.scss'
+import classnames from 'classnames'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
-import IProduct from '../../../../models/product'
+import ButtonComponent from 'containers/Public/ButtonComponent'
 import { useHistory, useLocation } from 'react-router'
-import classnames from 'classnames'
 import { useStore } from 'stores'
 import { toJS } from 'mobx'
 
 interface IProductProps {
   product: IProduct
+  key?: string
   width?: boolean
   colorItem?: boolean
   likeStyle?: boolean
-  key?: string
+  useQantity?: boolean
+  btnRemoveFromCart?: boolean
 }
 
 const ProductComponent: React.FC<IProductProps> = ({
@@ -21,18 +24,12 @@ const ProductComponent: React.FC<IProductProps> = ({
   width,
   colorItem,
   likeStyle = false,
+  btnRemoveFromCart,
 }) => {
   const history = useHistory()
   const location = useLocation()
   const { productStore } = useStore()
   const [activeClass, setActive] = useState(likeStyle)
-  const [btnRemoveFromCart, setBtnRemoveFromCart] = useState(false)
-
-  useEffect(() => {
-    if (location.pathname === '/cart') {
-      setBtnRemoveFromCart(true)
-    }
-  }, [location.pathname])
 
   const productsDetails = () => {
     history.push({
@@ -41,7 +38,6 @@ const ProductComponent: React.FC<IProductProps> = ({
     })
     localStorage.setItem('product', JSON.stringify(product))
   }
-
   const setLike = () => {
     setActive(!activeClass)
     if (productStore.likes.includes(product.id)) {
@@ -49,15 +45,19 @@ const ProductComponent: React.FC<IProductProps> = ({
     } else {
       productStore.addLike(product.id)
     }
-    console.log('likes', toJS(productStore.likes))
   }
-
   const addToCart = () => {
-    productStore.addtoCart(product)
+    productStore.addtoCart(product.id)
     console.log('cart', toJS(productStore.cart))
   }
-  const removeFromCart = (id: any) => {
-    productStore.removeFromCart(id)
+  const removeFromCart = () => {
+    productStore.removeAllFromCart(product.id)
+  }
+  const incrementProduct = () => {
+    addToCart()
+  }
+  const decrimentProduct = () => {
+    productStore.remuveOneFromCart(product.id)
   }
   return (
     <>
@@ -152,11 +152,18 @@ const ProductComponent: React.FC<IProductProps> = ({
           onClick={e => {
             e.preventDefault()
             e.stopPropagation()
-            removeFromCart(product.id)
+            removeFromCart()
           }}
         >
           Remove from cart
         </button>
+        {btnRemoveFromCart ? (
+          <ButtonComponent
+            value={product.qantity}
+            incrementProduct={incrementProduct}
+            decrimentProduct={decrimentProduct}
+          />
+        ) : null}
       </li>
     </>
   )

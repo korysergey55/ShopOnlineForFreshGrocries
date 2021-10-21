@@ -1,9 +1,7 @@
-import React, { useEffect } from 'react'
-import styles from './styles.module.scss'
+import React from 'react'
 import IProduct from 'models/product'
+import styles from './styles.module.scss'
 import ProductComponent from '../ProductComponent'
-import bestSellerProductsJSON from '../../../../sources/products/bestSellerProducts'
-
 import { useStore } from 'stores'
 import { observer } from 'mobx-react'
 
@@ -11,9 +9,6 @@ const BestSeller = observer(() => {
   const { productStore } = useStore()
   const { bestProducts } = productStore
 
-  useEffect(() => {
-    productStore.setBestProduct(bestSellerProductsJSON)
-  }, [productStore])
   return (
     <>
       <section className={styles.bestSeller}>

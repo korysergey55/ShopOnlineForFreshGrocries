@@ -134,27 +134,6 @@ section {
     color: #9fcb22;
   }
   .btnContainer {
-    margin-bottom: 25px;
-    .btn {
-      width: 43px;
-      height: 43px;
-      margin-bottom: 10px;
-      border: 1px solid #deecf0;
-      background-color: #f6fafb;
-
-      &:hover {
-        cursor: pointer;
-      }
-    }
-
-    .btn_text {
-      display: inline-block;
-      width: 70px;
-      height: 43px;
-      margin-bottom: 0;
-      border: 1px solid #deecf0;
-      background-color: #f6fafb;
-    }
     .btnAddToCart {
       width: 156px;
       height: 43px;

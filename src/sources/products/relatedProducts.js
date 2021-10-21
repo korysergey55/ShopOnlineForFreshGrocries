@@ -2,7 +2,7 @@ import BeefImg from '../images/Main/trendingProducts/beef.png';
 import BrocaliImg from '../images/Main/trendingProducts/brocali-removebg-preview.png';
 import StrawberriesImg from '../images/Main/trendingProducts/strawberries-removebg-preview.png';
 import HoneyImg from '../images/Main/trendingProducts/honey.png';
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { faStar as StarIconRegular } from '@fortawesome/free-regular-svg-icons'
 

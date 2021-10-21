@@ -9,22 +9,26 @@ import {
   // toJS,
 } from 'mobx'
 import IProduct from '../models/product'
+import { allProductsJSON } from 'sources/products/allProducts'
+import trendingProductsJSON from 'sources/products/trendingProducts'
+import bestSellerProductsJSON from 'sources/products/bestSellerProducts'
+import relatedProductsJSON from 'sources/products/relatedProducts'
 
 class Products {
-  @observable allProducts: IProduct[] = []
-  @observable trendingProducts: IProduct[] = []
-  @observable bestProducts: IProduct[] = []
-  @observable relatedProducts: IProduct[] = []
+  @observable allProducts: IProduct[] = [...allProductsJSON]
+  @observable trendingProducts: IProduct[] = [...trendingProductsJSON]
+  @observable bestProducts: IProduct[] = [...bestSellerProductsJSON]
+  @observable relatedProducts: IProduct[] = [...relatedProductsJSON]
   @observable photo: string | undefined = ''
   @observable modal: boolean = false
-  @observable cart: IProduct[] = localStorage.getItem('cart')
+  @observable cart: string[] = localStorage.getItem('cart')
     ? JSON.parse(localStorage.getItem('cart') as string)
     : []
   @observable likes: string[] = localStorage.getItem('likes')
     ? JSON.parse(localStorage.getItem('likes') as string)
     : []
   @observable formData: object[] = []
-  
+
   @observable filter: string = ''
   @observable filteredProducts: IProduct[] = []
 
@@ -35,26 +39,30 @@ class Products {
     //   _ => console.log(toJS(this.bestProducts))
     // )
   }
-  @action setFormData(formValue: {}) {
-    this.formData = [...this.formData, formValue]
-  }
-  @action setAddToCart(arr: IProduct[]) {
+  @action setAddToCart(arr: string[]) {
     this.cart = [...arr]
     localStorage.setItem('cart', JSON.stringify(this.cart))
   }
-  @action addtoCart(product: IProduct) {
-    // this.setAddToCart([...this.cart, product])
-    const id = this.cart.find(el => el.id === product.id)
-    if (!id) {
-      this.setAddToCart([...this.cart, product])
+  @action addtoCart(data: string | string[]) {
+    console.log({ data })
+    if (typeof data === 'string') {
+      this.setAddToCart([...this.cart, data])
     } else {
-      console.log('already exist')
+      if (Array.isArray(data)) {
+        this.setAddToCart([...this.cart, ...data])
+      }
     }
   }
-  @action removeFromCart(productId: string) {
-    const elementId = this.cart.find(el => el.id === productId)
-    if (elementId) {
-      this.setAddToCart([...this.cart.filter(item => item.id !== elementId.id)])
+  @action removeAllFromCart(productId: string) {
+    this.setAddToCart(this.cart.filter(item => item !== productId))
+  }
+  @action remuveOneFromCart(productId: string) {
+    const finded = this.cart.filter(item => item == productId)
+    console.log('finded', finded)
+    if (finded.length > 0) {
+      const remuved = finded.slice(0, finded.length - 1)
+      this.setAddToCart(remuved)
+      console.log('findedAfterFilter', finded)
     }
   }
   @action setAddLike(arr: string[]) {
@@ -67,17 +75,8 @@ class Products {
   @action removeLike(likeId: string) {
     this.setAddLike(this.likes.filter(like => like !== likeId))
   }
-  @action setAllProducts(product: any) {
-    this.allProducts = product
-  }
-  @action setTrendingProduct(product: any) {
-    this.trendingProducts = product
-  }
-  @action setBestProduct(product: any) {
-    this.bestProducts = product
-  }
-  @action setRelatedProduct(product: any) {
-    this.relatedProducts = product
+  @action setFormData(formValue: {}) {
+    this.formData = [...this.formData, formValue]
   }
   @action setPhoto(photo: string | undefined) {
     this.photo = photo
@@ -118,7 +117,27 @@ class Products {
     )
     this.filteredProducts = felteredByRange
   }
-
+  // cartObj
+  // @action setAddToCart(arr: IProduct[]) {
+  //   this.cart = [...arr]
+  //   localStorage.setItem('cart', JSON.stringify(this.cart))
+  // }
+  // @action addtoCart(product: IProduct) {
+  //   // this.setAddToCart([...this.cart, product])
+  //   const id = this.cart.find(el => el.id === product.id)
+  //   if (!id) {
+  //     this.setAddToCart([...this.cart, product])
+  //   } else {
+  //     console.log('already exist')
+  //   }
+  // }
+  // @action removeFromCart(productId: string) {
+  //   const elementId = this.cart.find(el => el.id === productId)
+  //   if (elementId) {
+  //     this.setAddToCart([...this.cart.filter(item => item.id !== elementId.id)])
+  //   }
+  // }
+  // computed
   // @action updateFilter(value: string) {
   //   this.filter = value
   // }

@@ -1,17 +1,12 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import IProduct from '../../../../models/product'
 import styles from './styles.module.scss'
-import relatedProductsJSON from '../../../../sources/products/relatedProducts'
 import ProductComponent from 'containers/Public/Main/ProductComponent'
 import { useStore } from 'stores'
 import { observer } from 'mobx-react'
 
 const RelatedProducts = observer(() => {
   const { productStore } = useStore()
-
-  useEffect(() => {
-    productStore.setRelatedProduct(relatedProductsJSON)
-  }, [productStore])
   return (
     <>
       <section className={styles.section}>

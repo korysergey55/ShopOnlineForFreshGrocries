@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import IProduct from 'models/product'
 import styles from './styles.module.scss'
 import BunnerImg from '../../../../sources/images/Main/trendingProducts/bunner.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-import trendingProductsJSON from '../../../../sources/products/trendingProducts'
 import ProductComponent from '../ProductComponent/index'
 import { useStore } from 'stores'
 import { observer } from 'mobx-react'
@@ -12,10 +11,6 @@ import { observer } from 'mobx-react'
 const TrendingProducts = observer(() => {
   const { productStore } = useStore()
   const { trendingProducts } = productStore
-
-  useEffect(() => {
-    productStore.setTrendingProduct(trendingProductsJSON)
-  }, [productStore])
 
   return (
     <>

@@ -11,6 +11,7 @@ export default interface IProduct {
   overview?: string
   onClick?: () => void
   aboutProductLi: Product[]
+  qantity?: number
 }
 
 export interface Product {
