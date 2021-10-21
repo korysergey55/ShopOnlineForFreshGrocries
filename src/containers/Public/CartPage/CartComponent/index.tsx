@@ -29,7 +29,7 @@ const CartComponent = observer(() => {
     setCartProducts(findProductCart())
   }, [productStore.cart, productStore.allProducts])
   
-  console.log(toJS(productStore.cart))
+  console.log("cart",toJS(productStore.cart))
   return (
     <>
       <div className={styles.container}>

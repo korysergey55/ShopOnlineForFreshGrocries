@@ -44,7 +44,6 @@ class Products {
     localStorage.setItem('cart', JSON.stringify(this.cart))
   }
   @action addtoCart(data: string | string[]) {
-    console.log({ data })
     if (typeof data === 'string') {
       this.setAddToCart([...this.cart, data])
     } else {
@@ -57,12 +56,11 @@ class Products {
     this.setAddToCart(this.cart.filter(item => item !== productId))
   }
   @action remuveOneFromCart(productId: string) {
-    const finded = this.cart.filter(item => item == productId)
-    console.log('finded', finded)
+    const productsToAdd = this.cart.filter(item => item !== productId)
+    const finded = this.cart.filter(item => item === productId)
     if (finded.length > 0) {
       const remuved = finded.slice(0, finded.length - 1)
-      this.setAddToCart(remuved)
-      console.log('findedAfterFilter', finded)
+      this.setAddToCart([ ...productsToAdd, ...remuved])
     }
   }
   @action setAddLike(arr: string[]) {

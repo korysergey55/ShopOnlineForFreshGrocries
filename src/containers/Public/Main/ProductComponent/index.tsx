@@ -53,12 +53,13 @@ const ProductComponent: React.FC<IProductProps> = ({
   const removeFromCart = () => {
     productStore.removeAllFromCart(product.id)
   }
-  const incrementProduct = () => {
+  const onIncrement = () => {
     addToCart()
   }
-  const decrimentProduct = () => {
+  const onDecriment = () => {
     productStore.remuveOneFromCart(product.id)
   }
+
   return (
     <>
       <li
@@ -157,11 +158,24 @@ const ProductComponent: React.FC<IProductProps> = ({
         >
           Remove from cart
         </button>
+        <button
+          className={classnames({
+            [styles.buttonNone]: true,
+            [styles.btnBay]: btnRemoveFromCart,
+          })}
+          type="button"
+          onClick={e => {
+            e.preventDefault()
+            e.stopPropagation()
+          }}
+        >
+          Bay
+        </button>
         {btnRemoveFromCart ? (
           <ButtonComponent
             value={product.qantity}
-            incrementProduct={incrementProduct}
-            decrimentProduct={decrimentProduct}
+            incrementProduct={onIncrement}
+            decrimentProduct={onDecriment}
           />
         ) : null}
       </li>
