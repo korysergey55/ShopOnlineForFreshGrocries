@@ -93,24 +93,24 @@
   }
   .linkCartLength {
     position: absolute;
-    top: -36%;
-    left: 88%;
+    top: -9px;
+    left: 15px;
     width: 15px;
     height: 15px;
-    padding-left: 4px;
-    padding-bottom: 20px;
+    font-size: 10px;
+    text-align: center;
     background-color: #10472e;
     color: white;
     border-radius: 50%;
   }
   .linkLikeLength {
     position: absolute;
-    top: -36%;
-    left: 63%;
+    top: -9px;
+    left: 15px;
     width: 15px;
     height: 15px;
-    padding-left: 4px;
-    padding-bottom: 20px;
+    font-size: 10px;
+    text-align: center;
     background-color: #10472e;
     color: white;
     border-radius: 50%;
@@ -164,18 +164,18 @@
       }
     }
     .linkCartLength {
-      top: -10%;
-      left: 88%;
-      width: 20px;
-      height: 20px;
-      padding-left: 7px;
+      top: -8px;
+      left: 28px;
+      min-width: 22px;
+      height: 22px;
+      font-size: 13px;
     }
     .linkLikeLength {
-      top: -10%;
-      left: 63%;
-      width: 20px;
-      height: 20px;
-      padding-left: 7px;
+      top: -8px;
+      left: 28px;
+      width: 22px;
+      height: 22px;
+      font-size: 13px;
     }
   }
 }

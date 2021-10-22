@@ -15,7 +15,6 @@ interface IProductProps {
   width?: boolean
   colorItem?: boolean
   likeStyle?: boolean
-  useQantity?: boolean
   btnRemoveFromCart?: boolean
 }
 
@@ -24,8 +23,8 @@ const ProductComponent: React.FC<IProductProps> = ({
   width,
   colorItem,
   likeStyle = false,
-  btnRemoveFromCart,
-}) => {
+  btnRemoveFromCart = false
+ }) => {
   const history = useHistory()
   const location = useLocation()
   const { productStore } = useStore()

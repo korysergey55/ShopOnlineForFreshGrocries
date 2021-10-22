@@ -81,7 +81,9 @@ const Header = observer(() => {
               className={styles.item}
               onClick={() => history.push('/contact')}
             >
-              <a className={styles.link} href="">Contact </a>
+              <a className={styles.link} href="">
+                Contact{' '}
+              </a>
             </li>
           </ul>
           <ul className={styles.sotialList}>
@@ -111,6 +113,9 @@ const Header = observer(() => {
                   className={styles.icon}
                 />
               </a>
+              <a className={styles.linkLikeLength} href="">
+                {productStore.likes.length}
+              </a>
             </li>
             <li className={styles.item} onClick={() => history.push('/cart')}>
               <a className={styles.linkCart} href="">
@@ -120,15 +125,8 @@ const Header = observer(() => {
                   className={styles.icon}
                 />
               </a>
-            </li>
-            <li>
               <a className={styles.linkCartLength} href="">
                 {productStore.cart.length}
-              </a>
-            </li>
-            <li>
-              <a className={styles.linkLikeLength} href="">
-                {productStore.likes.length}
               </a>
             </li>
           </ul>

@@ -30,17 +30,14 @@ class ProductsAPI {
       },
       body: JSON.stringify(product),
     }
-    await fetch(`${BASE_URL}`, options)
-      .then(res => res.json())
-      .then(res => {
-        this.setAllProductsAPI(res)
-      })
-
+    const response = await fetch(`${BASE_URL}`, options)
+    const res = await response.json()
+    this.setAllProductsAPI(res)
     // await axios.post(`${BASE_URL}${product}`).then(res => {
     //   this.setAllProductApi(res)
     // })
   }
-  
+
   @action.bound setProductsAPI(products: any) {
     this.productsAPI = products
   }

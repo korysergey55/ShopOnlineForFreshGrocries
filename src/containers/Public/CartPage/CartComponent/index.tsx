@@ -17,7 +17,8 @@ const CartComponent = observer(() => {
       if (item) {
         cartArr.push({
           ...item,
-          qantity: productStore.cart.filter(k => k === item.id).length,
+          qantity: productStore.cart.filter(product => product === item.id)
+            .length,
         })
       }
     })
@@ -28,8 +29,8 @@ const CartComponent = observer(() => {
   useEffect(() => {
     setCartProducts(findProductCart())
   }, [productStore.cart, productStore.allProducts])
-  
-  console.log("cart",toJS(productStore.cart))
+
+  console.log('cart', toJS(productStore.cart))
   return (
     <>
       <div className={styles.container}>
@@ -41,7 +42,6 @@ const CartComponent = observer(() => {
                   product={product}
                   width={true}
                   key={product.id}
-                  useQantity={true}
                   btnRemoveFromCart={true}
                 />
               ))

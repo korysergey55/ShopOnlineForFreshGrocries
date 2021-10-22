@@ -13,12 +13,19 @@ import { allProductsJSON } from 'sources/products/allProducts'
 import trendingProductsJSON from 'sources/products/trendingProducts'
 import bestSellerProductsJSON from 'sources/products/bestSellerProducts'
 import relatedProductsJSON from 'sources/products/relatedProducts'
+import cloneDeep from 'lodash/cloneDeep'
+const allProducts = cloneDeep(allProductsJSON)
+const trendingProducts = cloneDeep(trendingProductsJSON)
+const bestSellerProducts = cloneDeep(bestSellerProductsJSON)
+const relatedProducts = cloneDeep(relatedProductsJSON)
+// import _ from "lodash";
+// const allProducts = _.cloneDeep(allProductsJSON);
 
 class Products {
-  @observable allProducts: IProduct[] = [...allProductsJSON]
-  @observable trendingProducts: IProduct[] = [...trendingProductsJSON]
-  @observable bestProducts: IProduct[] = [...bestSellerProductsJSON]
-  @observable relatedProducts: IProduct[] = [...relatedProductsJSON]
+  @observable allProducts: IProduct[] = [...allProducts]
+  @observable trendingProducts: IProduct[] = [...trendingProducts]
+  @observable bestProducts: IProduct[] = [...bestSellerProducts]
+  @observable relatedProducts: IProduct[] = [...relatedProducts]
   @observable photo: string | undefined = ''
   @observable modal: boolean = false
   @observable cart: string[] = localStorage.getItem('cart')
@@ -56,12 +63,18 @@ class Products {
     this.setAddToCart(this.cart.filter(item => item !== productId))
   }
   @action remuveOneFromCart(productId: string) {
-    const productsToAdd = this.cart.filter(item => item !== productId)
-    const finded = this.cart.filter(item => item === productId)
-    if (finded.length > 0) {
-      const remuved = finded.slice(0, finded.length - 1)
-      this.setAddToCart([ ...productsToAdd, ...remuved])
+    const arr = [...this.cart]
+    const i = arr.indexOf(productId)
+    if (i !== -1) {
+      arr.splice(i, 1)
+      this.setAddToCart([...arr])
     }
+    // const productsToAdd = this.cart.filter(item => item !== productId)
+    // const finded = this.cart.filter(item => item === productId)
+    // if (finded.length > 0) {
+    //   const remuved = finded.slice(0, finded.length - 1)
+    //   this.setAddToCart([...productsToAdd, ...remuved])
+    // }
   }
   @action setAddLike(arr: string[]) {
     this.likes = [...arr]
