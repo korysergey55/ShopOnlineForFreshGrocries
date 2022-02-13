@@ -1,4 +1,8 @@
 import React, { useState, useEffect } from 'react'
+import { useStore } from 'stores'
+import { useHistory, useLocation } from 'react-router'
+import { observer } from 'mobx-react'
+
 import styles from './styles.module.scss'
 import classnames from 'classnames'
 import LogoImg from '../../sources/images/Logo.png'
@@ -9,9 +13,6 @@ import {
   faHeart,
   faShoppingCart,
 } from '@fortawesome/free-solid-svg-icons'
-import { useStore } from 'stores'
-import { useHistory, useLocation } from 'react-router'
-import { observer } from 'mobx-react'
 
 const Header = observer(() => {
   const { productStore } = useStore()
